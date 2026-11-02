@@ -48,7 +48,9 @@ jobs:
             ls -R vendor/xpsdk_extract
             exit 1
           fi
-          XPSDK_ROOT=$(dirname "$CHDR")
+          # Absolute path: CMake resolves a relative XPSDK_DIR against plugin/,
+          # not the repo root. pwd -W gives D:/a/... on Windows (Git Bash).
+          XPSDK_ROOT=$(cd "$(dirname "$CHDR")" && { pwd -W 2>/dev/null || pwd; })
           echo "XPSDK_DIR=$XPSDK_ROOT" >> "$GITHUB_ENV"
           rm -f xpsdk.zip
 
