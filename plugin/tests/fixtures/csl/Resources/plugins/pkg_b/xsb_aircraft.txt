@@ -1,0 +1,19 @@
+EXPORT_NAME __TestBoeing
+
+# AIRLINE directive: tokens[1] is still the ICAO type
+OBJ8_AIRCRAFT B738_SFP
+OBJ8 SOLID YES __TestBoeing:B738/B738.obj
+VERT_OFFSET 3.5
+AIRLINE B738 DAL
+
+# MATCHES directive with wildcards
+OBJ8_AIRCRAFT B763_SFP
+OBJ8 SOLID YES __TestBoeing:B763/B763.obj
+VERT_OFFSET 4.0
+MATCHES B763 - -
+
+# Path whose first element is not a known package: dropped (XPMP2)
+OBJ8_AIRCRAFT B744_SFP
+OBJ8 SOLID YES B744/B744.obj
+VERT_OFFSET 5.0
+ICAO B744

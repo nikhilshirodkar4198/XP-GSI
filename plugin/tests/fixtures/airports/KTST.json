@@ -1,0 +1,21 @@
+{
+  "icao": "KTST",
+  "schema": 1,
+  "source": "test fixture",
+  "samples": 120,
+  "airport_type": "large_airport",
+  "airlines": { "SWA": 0.6, "DAL": 0.3, "AAL": 0.1 },
+  "types": {
+    "SWA": { "B737": 0.5, "B738": 0.5 },
+    "DAL": { "A321": 0.7, "B77W": 0.3 },
+    "AAL": { "A321": 1.0 },
+    "BAW": { "B77W": 0.8, "A320": 0.2 }
+  },
+  "excluded": { "cargo": 40 },
+  "clusters": [
+    { "lat": 39.80000, "lon": -86.29000, "n": 10,
+      "airlines": { "BAW": 10 }, "types": { "BAW": { "B77W": 10 } } },
+    { "lat": 39.80500, "lon": -86.29000, "n": 12,
+      "airlines": { "SWA": 12 }, "types": { "SWA": { "B738": 12 } } }
+  ]
+}

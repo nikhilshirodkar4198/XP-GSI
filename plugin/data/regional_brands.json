@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "description": "Airlines that fly only in a partner's paint (US regionals; Air Arabia Abu Dhabi in Air Arabia paint; BA's own UK domestic callsign 'Shuttle', QantasLink's Network Aviation, Air Canada Express's PAL, Jetstar Japan). A static of one of these operators is drawn in a partner brand's livery (the paint's brand from csl_livery_overrides.json 'brands', or the partner's own code on that type), never in a livery of its own. Which partner: weighted by how much each brand serves the airport (the Wikipedia brand entries, plus a quarter of the partner's own share of the airport mix); equal if neither says. 'brand_articles' maps the Wikipedia brand articles to the partner code. 'airport_partners': hand-set partner weights for an operator at one airport, where it flies almost entirely for one partner though other partners park around it (they replace the mix of partners parked near the stand).",
+  "operators": {
+    "SKW": ["UAL", "DAL", "AAL", "ASA"],
+    "RPA": ["UAL", "AAL", "DAL"],
+    "ENY": ["AAL"],
+    "PDT": ["AAL"],
+    "JIA": ["AAL"],
+    "AWI": ["AAL"],
+    "EDV": ["DAL"],
+    "GJS": ["UAL"],
+    "ASH": ["UAL"],
+    "UCA": ["UAL"],
+    "QXE": ["ASA"],
+    "CPZ": ["DAL", "AAL"],
+    "ASQ": ["UAL"],
+    "CHQ": ["AAL", "UAL", "DAL"],
+    "ADY": ["ABY"],
+    "SHT": ["BAW"],
+    "NWK": ["QFA"],
+    "PVL": ["ACA"],
+    "JJP": ["JST"]
+  },
+  "brand_articles": {
+    "brand:United Express": "UAL",
+    "brand:Delta Connection": "DAL",
+    "brand:American Eagle (airline brand)": "AAL",
+    "brand:Alaska Airlines": "ASA"
+  },
+  "airport_partners": {
+    "KSLC": {"SKW": {"DAL": 0.88, "UAL": 0.07, "AAL": 0.05},
+             "_note": "Delta's hub and SkyWest's home: SkyWest is nearly all Delta Connection here (adsb.lol puts 25-48 % United / American mainline around its stands)"},
+    "KDEN": {"SKW": {"UAL": 0.85, "DAL": 0.08, "AAL": 0.04, "ASA": 0.03},
+             "_note": "United's hub and SkyWest's largest United Express base"}
+  }
+}

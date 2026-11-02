@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "description": "Aircraft types an airline no longer flies, whatever the adsb.lol data (aircraft-database labels lag) or the CSL library offers: removed from that airline's type mixes and never drawn for it, also not as a look-alike. Hand-maintained.",
+  "airlines": {
+    "DLH": { "A346": "A340-600 retired" }
+  }
+}

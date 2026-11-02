@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "description": "How XP-GSI reads the scratchpad of the user's CDU/MCDU for arrival gate reservation (entries typed as G<stand>, e.g. GB12, on the ground). The first enabled adapter whose 'match' conditions all hold is used. 'read.dataref' must be a byte/string dataref; its text up to the first NUL is the scratchpad. A '{n}' in it reads lines 0..15 and uses the first line holding a G entry. The adapter chosen for an aircraft is logged in XP-GSI.log; a G entry naming no stand is logged as ignored. Changes take effect on the next aircraft load or plugin reload.",
+  "adapters": [
+    {
+      "name": "Zibo / LevelUp 737",
+      "enabled": true,
+      "match": { "requires_dataref": "laminar/B738/fmc1/Line_entry" },
+      "read": { "dataref": "laminar/B738/fmc1/Line_entry", "bytes": 128 },
+      "note": "Verified 2026-10-26 in LevelUp 737NG (a Zibo fork) plugins/xlua/scripts (B738.a_fms.lua, line 4340): create_dataref(\"laminar/B738/fmc1/Line_entry\", \"string\"). Matched by that dataref existing, because Zibo and Laminar's 737 both use b738.acf."
+    },
+    {
+      "name": "ToLiss A319 / A320 / A321 / A340 / A346",
+      "enabled": false,
+      "match": { "requires_dataref": "AirbusFBW/MCDU1spw" },
+      "read": { "dataref": "AirbusFBW/MCDU1spw", "bytes": 64 },
+      "note": "MCDU 1 scratchpad (white text). NOT verified in the sim yet; matched only when the dataref exists, so a wrong name falls through to the default adapter."
+    },
+    {
+      "name": "X-Plane CDU (default aircraft; any add-on that mirrors its screen)",
+      "enabled": false,
+      "match": { "requires_dataref": "sim/cockpit2/radios/indicators/fms_cdu1_text_line0" },
+      "read": { "dataref": "sim/cockpit2/radios/indicators/fms_cdu1_text_line{n}", "bytes": 96 },
+      "note": "Dataref names verified in X-Plane 11 DataRefs.txt (fms_cdu1_text_line0..15, byte[96]). Which line is the scratchpad is not verified, so every line is read; only a line that is G plus an existing stand name reserves. Exists in every sim: the fallback for aircraft without their own adapter."
+    }
+  ]
+}

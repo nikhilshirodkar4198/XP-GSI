@@ -1,0 +1,66 @@
+XP-GSI - data sources and attribution
+=====================================
+
+The tables in the data/ folder are derived from the open data sources below.
+Each file states its source and license in its "source" / "license" fields.
+Data under different licenses is kept in separate files; the plugin combines
+them only at runtime.
+
+Open Database License (ODbL) 1.0
+  https://opendatacommons.org/licenses/odbl/1.0/
+  The following files are Derivative Databases under the ODbL 1.0 and are
+  made available under the same license:
+
+  data/airports/*.json       Parking statistics per airport (airlines and
+                             aircraft types parked per stand area), derived
+                             from adsb.lol globe_history data
+                             (https://adsb.lol, https://github.com/adsblol).
+                             The "terminals" and "osm_stands" fields contain
+                             terminal outlines and gate positions from
+                             OpenStreetMap.
+  data/airline_fleets.json   Airline fleets and brand splits, derived from
+                             adsb.lol globe_history data. Fleet counts are
+                             blended with the number of aircraft per type
+                             listed in airline articles on Wikipedia (facts).
+  data/terminal_assignments.json
+                             Terminal zones from OpenStreetMap.
+
+  Contains information from adsb.lol, made available under the ODbL 1.0.
+  Any rights in individual contents of these databases are licensed under
+  the Database Contents License, https://opendatacommons.org/licenses/dbcl/1.0/
+  Map data (c) OpenStreetMap contributors, https://www.openstreetmap.org/copyright
+
+Creative Commons Attribution-ShareAlike (CC BY-SA) 4.0
+  https://creativecommons.org/licenses/by-sa/4.0/
+  The following files are adaptations of text from English Wikipedia
+  (https://en.wikipedia.org), by Wikipedia contributors, and are made
+  available under CC BY-SA 4.0:
+
+  data/wiki_airlines.json    Airline shares per airport, computed from the
+                             "Airlines and destinations" section of each
+                             airport's article (the article is named in the
+                             file's "article" field per airport).
+  data/terminal_airlines.json
+                             Airlines per terminal, from the same lists,
+                             split by terminal by hand-written rules.
+
+CC0 1.0 (public domain dedication)
+  Wikidata (https://www.wikidata.org): airline ICAO codes, countries and hubs
+  used to build the files above.
+
+Public domain
+  OurAirports (https://ourairports.com/data/): airport types in
+  data/airports_eligible.json.
+
+Facts
+  data/major_hubs.json lists airports by annual passenger numbers (ACI World
+  and FAA figures as reported on Wikipedia). Only airport codes are used.
+
+Our own data
+  data/csl_livery_overrides.json, data/regional_brands.json,
+  data/related_types.json, data/retired_types.json,
+  data/stand_overrides.json, data/cdu_adapters.json: hand-written by the
+  XP-GSI authors. No CSL model, texture or text is included in XP-GSI.
+
+Airport stand positions are never shipped: XP-GSI reads them from the
+scenery installed in your X-Plane.

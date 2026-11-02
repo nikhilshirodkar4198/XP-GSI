@@ -1,0 +1,40 @@
+I
+800
+OBJ
+
+TEXTURE
+POINT_COUNTS 12 0 0 15
+
+# 0-3 fuselage box, nose tip at z -10, tail at z +10
+VT	0.000	2.000	-10.000	0 1 0 0 0
+VT	0.000	4.000	10.000	0 1 0 0 0
+VT	1.500	1.000	0.000	0 1 0 0 0
+VT	-1.500	1.000	0.000	0 1 0 0 0
+# 4-6 nose gear: tyre contact z -7.2 .. -6.8 at y 0, strut top at y 1.5
+VT	0.200	0.000	-7.200	0 1 0 0 0
+VT	-0.200	0.000	-6.800	0 1 0 0 0
+VT	0.000	1.500	-7.000	0 1 0 0 0
+# 7-9 left main gear (off centreline)
+VT	-2.500	0.000	1.000	0 1 0 0 0
+VT	-2.300	0.000	1.400	0 1 0 0 0
+VT	-2.400	1.500	1.200	0 1 0 0 0
+# 10-11 centreline vertex outside any gear animation (belly antenna)
+VT	0.000	-0.500	-9.000	0 1 0 0 0
+VT	0.000	-0.400	-8.500	0 1 0 0 0
+
+IDX10	0	1	2	0	2	3	4	5	6	7
+IDX	8
+IDX	9
+IDX	10
+IDX	11
+IDX	10
+
+TRIS	0	6
+ANIM_begin
+ANIM_hide	-1.0	0.0	libxplanemp/controls/gear_ratio
+TRIS	6	6
+ANIM_end
+ANIM_begin
+ANIM_rotate	1 0 0	0 30	0 1	libxplanemp/controls/flap_ratio
+TRIS	12	3
+ANIM_end

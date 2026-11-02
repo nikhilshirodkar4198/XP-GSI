@@ -1,0 +1,31 @@
+# Builds
+build*/
+out/
+release/
+*.xpl
+*.pdb
+*.dSYM/
+
+# Created by the plugin at runtime
+cache/
+logs/
+*.log
+settings.json
+
+# X-Plane SDK: download per vendor/XPSDK/README.md
+vendor/XPSDK/*
+!vendor/XPSDK/README.md
+vendor/xpsdk_extract/
+
+# Raw data and downloads
+work/
+*.osm.pbf
+*.csv
+
+# IDE / OS
+.vscode/
+.idea/
+.vs/
+CMakeUserPresets.json
+.DS_Store
+__pycache__/

@@ -1,0 +1,31 @@
+XP-GSI - third-party software
+=============================
+
+XP-GSI includes or is built with the following software. Full license texts
+are in this folder.
+
+Dear ImGui (v1.91.9)
+  https://github.com/ocornut/imgui
+  MIT License, Copyright (c) 2014-2025 Omar Cornut
+  Compiled into the plugin. License text: imgui-LICENSE.txt
+
+JSON for Modern C++ (nlohmann/json)
+  https://github.com/nlohmann/json
+  MIT License, Copyright (c) 2013-2022 Niels Lohmann
+  Compiled into the plugin. License text: nlohmann_json-LICENSE.txt
+
+XPMP2 (reference only, no code linked)
+  https://github.com/TwinFan/XPMP2
+  MIT License, Copyright (c) 2020 Birger Hoppe
+  The rules for reading CSL xsb_aircraft.txt files were re-implemented from
+  XPMP2, and the list of CSL animation dataref names is taken from it.
+  License text: XPMP2-LICENSE.txt
+
+X-Plane SDK
+  https://developer.x-plane.com/sdk/
+  Laminar Research. The plugin is built against the SDK headers and links
+  to X-Plane's own XPLM library at runtime; no SDK file is shipped.
+
+doctest (unit tests only, not part of the plugin)
+  https://github.com/doctest/doctest
+  MIT License, Copyright (c) 2016-2023 Viktor Kirilov

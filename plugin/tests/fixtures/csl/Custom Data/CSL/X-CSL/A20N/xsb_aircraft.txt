@@ -1,0 +1,40 @@
+EXPORT_NAME A20N
+
+# X-CSL style: two objects, colon and backslash package forms
+OBJ8_AIRCRAFT A20N_A20NAAF
+OBJ8 SOLID YES A20N:A20NCFMfan.obj
+OBJ8 SOLID YES A20N\A20NCFM_AAF.obj
+VERT_OFFSET 0.0
+AIRLINE A20N AAF
+
+# Slash form plus an object from another package (global EXPORT_NAME map)
+OBJ8_AIRCRAFT A20N_SHARED
+OBJ8 SOLID YES A20N/A20NCFM_AAF.obj
+OBJ8 SOLID YES SharedParts:wheels.obj
+VERT_OFFSET 1.5
+ICAO A20N
+
+# Unknown package and missing file: both lines dropped, so the model is dropped
+OBJ8_AIRCRAFT A20N_BROKEN
+OBJ8 SOLID YES NoSuchPkg:x.obj
+OBJ8 SOLID YES A20N:missing.obj
+ICAO A20N
+
+# No VERT_OFFSET: derived from the OBJ's lowest vertex
+OBJ8_AIRCRAFT A20N_NOVO
+OBJ8 SOLID YES A20N:lowpoint.obj
+ICAO A20N
+
+# Alternate livery: numbered code = special scheme
+OBJ8_AIRCRAFT A20N_A20NAAF2
+OBJ8 SOLID YES A20N:A20NCFMfan.obj
+OBJ8 SOLID YES A20N\A20NCFM_AAF.obj
+VERT_OFFSET 0.0
+LIVERY A20N AAF 2
+
+# Standard livery on another airframe variant (winglets): not special
+OBJ8_AIRCRAFT A20N_A20NAAFWL
+OBJ8 SOLID YES A20N:A20NCFMfan.obj
+OBJ8 SOLID YES A20N\A20NCFM_AAF.obj
+VERT_OFFSET 0.0
+LIVERY A20N AAF WL

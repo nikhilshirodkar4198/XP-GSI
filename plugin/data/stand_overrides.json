@@ -1,0 +1,834 @@
+{
+  "schema": 1,
+  "description": "Hand-checked corrections for particular stands (plugin data/StandOverrides). Stands are chosen by 'stands' (a regex on the stand name in the airport's apt.dat) and / or 'near' ([lat, lon, radius in m], whatever the scenery names them), or by area: 'anchors' ([[lat, lon], ...], today's gate positions in the area; a stand takes the area of its nearest anchor within 'max_m', default 120 m, so older layouts with other gate names fit too). 'airlines' replaces the scenery's airline list, as a list or with weights ({\"ASA\": 0.66, ...}); 'brand' is the paint a regional flies in there; 'types' limits the aircraft types; 'op': 'none' leaves the stands empty.",
+  "airports": {
+    "KLAX": [
+      {
+        "stands": "^52[A-Z]$",
+        "near": [
+          33.9422,
+          -118.3934,
+          120
+        ],
+        "airlines": [
+          "SKW",
+          "ENY",
+          "JIA",
+          "PDT",
+          "RPA"
+        ],
+        "brand": "AAL",
+        "types": [
+          "CRJ2",
+          "CRJ7",
+          "CRJ9",
+          "CRJX",
+          "E135",
+          "E145",
+          "E45X",
+          "E170",
+          "E175",
+          "E75S",
+          "E75L"
+        ],
+        "note": "Gates 52A-52I (east of Terminal 8): American Eagle regional jets only. adsb.lol agrees: 263 SkyWest stays there (E175 169, CRJ700 94), no United or Delta. 'near' is the centre of those stays (2026-10-27), so the rule also works where the scenery names the stands differently."
+      }
+    ],
+    "KSFO": [
+      {
+        "area": "Harvey Milk T1, Boarding Area B north (B1-B12)",
+        "anchors": [
+          [
+            37.613948,
+            -122.384323
+          ],
+          [
+            37.613656,
+            -122.384031
+          ],
+          [
+            37.613274,
+            -122.383884
+          ],
+          [
+            37.612643,
+            -122.384034
+          ],
+          [
+            37.612323,
+            -122.384241
+          ],
+          [
+            37.612693,
+            -122.385444
+          ]
+        ],
+        "airlines": {
+          "ASA": 0.66,
+          "SKW": 0.2,
+          "QXE": 0.07,
+          "HAL": 0.07
+        },
+        "brand": "ASA",
+        "note": "Alaska (since the Hawaiian merger also Hawaiian's A321neos); SkyWest and Horizon E175s fly as Alaska. airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Harvey Milk T1, Boarding Area B centre (B13-B17)",
+        "anchors": [
+          [
+            37.611999,
+            -122.384457
+          ],
+          [
+            37.611619,
+            -122.384702
+          ],
+          [
+            37.611287,
+            -122.384897
+          ],
+          [
+            37.611943,
+            -122.385934
+          ]
+        ],
+        "airlines": {
+          "FFT": 0.45,
+          "ASA": 0.35,
+          "HAL": 0.1,
+          "JBU": 0.05,
+          "AAL": 0.05
+        },
+        "brand": "ASA",
+        "note": "Frontier, Alaska; Hawaiian's A330s to Honolulu. airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Harvey Milk T1, Boarding Area B south (B18-B27)",
+        "anchors": [
+          [
+            37.610958,
+            -122.385116
+          ],
+          [
+            37.610622,
+            -122.385339
+          ],
+          [
+            37.610331,
+            -122.385629
+          ],
+          [
+            37.610123,
+            -122.386089
+          ],
+          [
+            37.61025,
+            -122.386586
+          ],
+          [
+            37.610577,
+            -122.38695
+          ],
+          [
+            37.611082,
+            -122.386492
+          ],
+          [
+            37.611467,
+            -122.38624
+          ]
+        ],
+        "airlines": {
+          "AAL": 0.7,
+          "JBU": 0.2,
+          "SKW": 0.1
+        },
+        "brand": "AAL",
+        "note": "American and JetBlue; SkyWest E175s here fly as American Eagle. airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Harvey Milk T1, Boarding Area C (C2-C11; Global Airports names them 40-48)",
+        "anchors": [
+          [
+            37.61472,
+            -122.383076
+          ],
+          [
+            37.614492,
+            -122.382645
+          ],
+          [
+            37.614404,
+            -122.38232
+          ],
+          [
+            37.614874,
+            -122.381923
+          ],
+          [
+            37.614635,
+            -122.381976
+          ],
+          [
+            37.615088,
+            -122.382078
+          ],
+          [
+            37.615188,
+            -122.382381
+          ],
+          [
+            37.615425,
+            -122.382819
+          ],
+          [
+            37.614935,
+            -122.383623
+          ]
+        ],
+        "airlines": {
+          "DAL": 0.86,
+          "WJA": 0.07,
+          "ACA": 0.04,
+          "SKW": 0.03
+        },
+        "brand": "DAL",
+        "note": "Delta, with WestJet and Air Canada; SkyWest as Delta Connection. airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Terminal 2, Boarding Area D south (Global Airports 50-52)",
+        "anchors": [
+          [
+            37.616623,
+            -122.380838
+          ],
+          [
+            37.616663,
+            -122.381196
+          ],
+          [
+            37.616895,
+            -122.381631
+          ],
+          [
+            37.616976,
+            -122.382184
+          ]
+        ],
+        "airlines": {
+          "SWA": 0.9,
+          "UAL": 0.1
+        },
+        "note": "Southwest. airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Terminal 2, Boarding Area D centre (Global Airports 53-54A)",
+        "anchors": [
+          [
+            37.617147,
+            -122.380547
+          ],
+          [
+            37.616833,
+            -122.380669
+          ]
+        ],
+        "airlines": {
+          "SWA": 0.55,
+          "UAL": 0.45
+        },
+        "note": "Southwest's northernmost gates next to United's. airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Terminal 2, Boarding Area D north (Global Airports 54B-59)",
+        "anchors": [
+          [
+            37.617634,
+            -122.382769
+          ],
+          [
+            37.617913,
+            -122.382098
+          ],
+          [
+            37.618222,
+            -122.381902
+          ],
+          [
+            37.618452,
+            -122.381627
+          ],
+          [
+            37.618385,
+            -122.381253
+          ],
+          [
+            37.618232,
+            -122.380989
+          ],
+          [
+            37.617848,
+            -122.380798
+          ],
+          [
+            37.617591,
+            -122.380504
+          ]
+        ],
+        "airlines": {
+          "UAL": 0.8,
+          "ACA": 0.16,
+          "SWA": 0.04
+        },
+        "note": "United's Terminal 2 gates; Air Canada; its Jazz CRJ900s count as Air Canada mainline (X-CSL has Jazz only on the CRJ200, in the pre-2011 'Air Canada Jazz' paint, a type Jazz no longer flies). airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Terminal 3, Boarding Area E (Global Airports 61-68)",
+        "anchors": [
+          [
+            37.619211,
+            -122.384757
+          ],
+          [
+            37.619539,
+            -122.384679
+          ],
+          [
+            37.619766,
+            -122.384446
+          ],
+          [
+            37.619637,
+            -122.383954
+          ],
+          [
+            37.6194,
+            -122.38371
+          ],
+          [
+            37.619045,
+            -122.383864
+          ],
+          [
+            37.618667,
+            -122.384128
+          ],
+          [
+            37.618278,
+            -122.384413
+          ]
+        ],
+        "airlines": {
+          "UAL": 0.95,
+          "SKW": 0.05
+        },
+        "brand": "UAL",
+        "note": "United; SkyWest as United Express. airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Terminal 3, Boarding Area F south (Global Airports 69-71)",
+        "anchors": [
+          [
+            37.618781,
+            -122.385781
+          ],
+          [
+            37.618703,
+            -122.385119
+          ],
+          [
+            37.618824,
+            -122.38645
+          ]
+        ],
+        "airlines": {
+          "UAL": 0.7,
+          "SKW": 0.3
+        },
+        "brand": "UAL",
+        "note": "United and United Express. airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Terminal 3, Boarding Area F regional gates (Global Airports 76-79)",
+        "anchors": [
+          [
+            37.62007,
+            -122.386947
+          ],
+          [
+            37.620306,
+            -122.386875
+          ],
+          [
+            37.620631,
+            -122.386573
+          ],
+          [
+            37.62088,
+            -122.386562
+          ],
+          [
+            37.621002,
+            -122.387023
+          ]
+        ],
+        "airlines": {
+          "SKW": 0.85,
+          "UAL": 0.15
+        },
+        "brand": "UAL",
+        "note": "United Express regional jets (SkyWest E175, CRJ200/700). airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Terminal 3, Boarding Area F (Global Airports 80-90)",
+        "anchors": [
+          [
+            37.621087,
+            -122.389357
+          ],
+          [
+            37.621345,
+            -122.390429
+          ],
+          [
+            37.621023,
+            -122.390533
+          ],
+          [
+            37.620723,
+            -122.390444
+          ],
+          [
+            37.620546,
+            -122.389909
+          ],
+          [
+            37.620307,
+            -122.389324
+          ],
+          [
+            37.620085,
+            -122.388773
+          ],
+          [
+            37.619859,
+            -122.388191
+          ],
+          [
+            37.621412,
+            -122.390064
+          ],
+          [
+            37.620615,
+            -122.387822
+          ],
+          [
+            37.6209,
+            -122.388552
+          ]
+        ],
+        "airlines": {
+          "UAL": 0.96,
+          "SKW": 0.04
+        },
+        "brand": "UAL",
+        "note": "United, mainline incl. 757s and 777s. airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "International Terminal, Boarding Area G (G91-G102)",
+        "anchors": [
+          [
+            37.617145,
+            -122.390786
+          ],
+          [
+            37.617546,
+            -122.391612
+          ],
+          [
+            37.617837,
+            -122.392331
+          ],
+          [
+            37.618157,
+            -122.393124
+          ],
+          [
+            37.61842,
+            -122.393692
+          ],
+          [
+            37.619091,
+            -122.393443
+          ],
+          [
+            37.618807,
+            -122.392682
+          ],
+          [
+            37.61848,
+            -122.391904
+          ],
+          [
+            37.618164,
+            -122.391147
+          ],
+          [
+            37.617857,
+            -122.39041
+          ],
+          [
+            37.617544,
+            -122.389679
+          ],
+          [
+            37.618756,
+            -122.393869
+          ]
+        ],
+        "airlines": {
+          "UAL": 0.82,
+          "DLH": 0.06,
+          "ANA": 0.05,
+          "EVA": 0.03,
+          "AIC": 0.02,
+          "SKW": 0.02
+        },
+        "brand": "UAL",
+        "note": "United's international gates with Star Alliance partners (Lufthansa 747-8/A380/A350, ANA 777). airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "International Terminal, Boarding Area A (A1-A15)",
+        "anchors": [
+          [
+            37.613598,
+            -122.388394
+          ],
+          [
+            37.613857,
+            -122.387729
+          ],
+          [
+            37.613729,
+            -122.389354
+          ],
+          [
+            37.613193,
+            -122.389638
+          ],
+          [
+            37.612599,
+            -122.390037
+          ],
+          [
+            37.611233,
+            -122.389654
+          ],
+          [
+            37.611068,
+            -122.389911
+          ],
+          [
+            37.611674,
+            -122.389595
+          ],
+          [
+            37.611577,
+            -122.3907
+          ],
+          [
+            37.61136,
+            -122.39023
+          ],
+          [
+            37.612024,
+            -122.390422
+          ],
+          [
+            37.612315,
+            -122.389188
+          ],
+          [
+            37.612901,
+            -122.388814
+          ]
+        ],
+        "airlines": {
+          "AMX": 0.09,
+          "EVA": 0.09,
+          "ASA": 0.07,
+          "SIA": 0.06,
+          "CPA": 0.06,
+          "JAL": 0.06,
+          "AFR": 0.05,
+          "JBU": 0.05,
+          "CAL": 0.05,
+          "CMP": 0.04,
+          "BAW": 0.04,
+          "PAL": 0.04,
+          "AIC": 0.03,
+          "AVA": 0.03,
+          "KAL": 0.03,
+          "FBU": 0.03,
+          "HVN": 0.03,
+          "KLM": 0.03,
+          "CSN": 0.02,
+          "ITY": 0.02,
+          "QFA": 0.02,
+          "THY": 0.01,
+          "CES": 0.01,
+          "TAI": 0.01
+        },
+        "note": "Foreign airlines (and Alaska / JetBlue international). airlines: adsb.lol 2026-07..10 parking (hours on the ground) per area, with neighbouring piers' spill-over dropped; regional brands by who they fly for there (2026-10-28)."
+      },
+      {
+        "area": "Gates 72-75: no aircraft parked there in 30 days of 2026 data",
+        "anchors": [
+          [
+            37.618447,
+            -122.387528
+          ],
+          [
+            37.618539,
+            -122.388008
+          ],
+          [
+            37.618135,
+            -122.387991
+          ],
+          [
+            37.617854,
+            -122.388367
+          ],
+          [
+            37.617574,
+            -122.388761
+          ]
+        ],
+        "max_m": 80,
+        "op": "none"
+      },
+      {
+        "area": "Maintenance, GA, corporate and cargo ramps the scenery marks for airlines",
+        "anchors": [
+          [
+            37.63526,
+            -122.392057
+          ],
+          [
+            37.635616,
+            -122.391534
+          ],
+          [
+            37.635058,
+            -122.389956
+          ],
+          [
+            37.636354,
+            -122.394876
+          ],
+          [
+            37.634286,
+            -122.394233
+          ],
+          [
+            37.632297,
+            -122.393467
+          ],
+          [
+            37.632492,
+            -122.392918
+          ],
+          [
+            37.618189,
+            -122.395904
+          ],
+          [
+            37.618101,
+            -122.396264
+          ],
+          [
+            37.629013,
+            -122.388718
+          ],
+          [
+            37.628416,
+            -122.382819
+          ],
+          [
+            37.628533,
+            -122.382736
+          ],
+          [
+            37.627728,
+            -122.384992
+          ],
+          [
+            37.628123,
+            -122.384154
+          ],
+          [
+            37.627961,
+            -122.384257
+          ],
+          [
+            37.627741,
+            -122.384387
+          ],
+          [
+            37.627279,
+            -122.383908
+          ],
+          [
+            37.627604,
+            -122.383675
+          ],
+          [
+            37.627962,
+            -122.383406
+          ],
+          [
+            37.628138,
+            -122.383334
+          ],
+          [
+            37.628432,
+            -122.383095
+          ],
+          [
+            37.629133,
+            -122.381729
+          ],
+          [
+            37.628524,
+            -122.382141
+          ],
+          [
+            37.628183,
+            -122.382364
+          ],
+          [
+            37.627051,
+            -122.383111
+          ],
+          [
+            37.626855,
+            -122.383264
+          ],
+          [
+            37.628101,
+            -122.380349
+          ],
+          [
+            37.627351,
+            -122.380816
+          ],
+          [
+            37.628651,
+            -122.380929
+          ],
+          [
+            37.62806,
+            -122.381324
+          ],
+          [
+            37.627458,
+            -122.381722
+          ],
+          [
+            37.626867,
+            -122.382118
+          ],
+          [
+            37.627809,
+            -122.378603
+          ],
+          [
+            37.628749,
+            -122.377931
+          ],
+          [
+            37.62648,
+            -122.379452
+          ]
+        ],
+        "max_m": 80,
+        "op": "none"
+      },
+      {
+        "area": "Remote stands west of Boarding Area G (Global Airports 'Ramp Start'): hardly used",
+        "anchors": [
+          [
+            37.616547,
+            -122.393033
+          ],
+          [
+            37.616842,
+            -122.393758
+          ],
+          [
+            37.617136,
+            -122.394485
+          ]
+        ],
+        "max_m": 60,
+        "op": "none"
+      }
+    ],
+    "KSMF": [
+      {
+        "area": "Remote stands 51-60 (cargo)",
+        "anchors": [
+          [
+            38.69311,
+            -121.59672
+          ],
+          [
+            38.69346,
+            -121.59617
+          ],
+          [
+            38.69374,
+            -121.59588
+          ],
+          [
+            38.69405,
+            -121.59548
+          ],
+          [
+            38.69347,
+            -121.59354
+          ],
+          [
+            38.69319,
+            -121.5939
+          ],
+          [
+            38.6929,
+            -121.59424
+          ],
+          [
+            38.69237,
+            -121.59495
+          ],
+          [
+            38.69263,
+            -121.5946
+          ],
+          [
+            38.69176,
+            -121.59553
+          ]
+        ],
+        "max_m": 40,
+        "op": "cargo",
+        "note": "Remote stands 51-60 south-west of Terminal B: cargo only, no passenger aircraft. adsb.lol: a few Southwest stays in 30 days, freighters and feeders otherwise. By position (X-Plane 12 Global Airports stand points) and by name for other layouts."
+      },
+      {
+        "stands": "^(Gate |Stand )?(5[1-9]|60)$",
+        "op": "cargo",
+        "note": "Same stands by name."
+      }
+    ]
+  }
+}

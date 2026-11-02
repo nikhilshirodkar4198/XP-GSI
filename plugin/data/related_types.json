@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "description": "Look-alike aircraft types, for a type the data names but the CSL library lacks (adsb.lol reports the E175 as E75L; X-CSL files it as E175). 'aliases': the same airframe under another designator, tried first. 'groups': families ordered by size; the nearest member the library has is used, the smaller one on a tie. Hand-written from the ICAO type designators (Doc 8643). The 717 (B712) has no group: its operators retired their MD-80s long ago, so a library without a 717 gives the stand to the airline's other types rather than an MD-80.",
+  "aliases": {
+    "E75L": "E175", "E75S": "E175", "E45X": "E145", "E35L": "E135",
+    "CRJX": "CRJ9", "B38M": "B738", "B39M": "B739", "B37M": "B737", "B3XM": "B739",
+    "A19N": "A319", "A20N": "A320", "A21N": "A321", "A338": "A332", "A339": "A333",
+    "B77L": "B772", "B74S": "B744", "B748": "B744", "A35K": "A359", "BCS3": "BCS1"
+  },
+  "groups": [
+    ["A318", "A319", "A19N", "A320", "A20N", "A321", "A21N"],
+    ["B732", "B733", "B734", "B735", "B736", "B737", "B37M", "B738", "B38M", "B739", "B39M", "B3XM"],
+    ["CRJ1", "CRJ2", "CRJ7", "CRJ9", "CRJX"],
+    ["E170", "E175", "E75S", "E75L", "E190", "E195", "E290", "E295"],
+    ["E135", "E35L", "E145", "E45X"],
+    ["BCS1", "BCS3"],
+    ["A332", "A338", "A333", "A339"],
+    ["A342", "A343", "A345", "A346"],
+    ["A359", "A35K"],
+    ["B752", "B753"],
+    ["B762", "B763", "B764"],
+    ["B772", "B77L", "B773", "B77W", "B778", "B779"],
+    ["B788", "B789", "B78X"],
+    ["B744", "B74S", "B748"],
+    ["A306", "A30B", "A310"],
+    ["DC93", "DC95", "MD81", "MD82", "MD83", "MD87", "MD88", "MD90"],
+    ["F70", "F100"],
+    ["B461", "RJ70", "B462", "RJ85", "B463", "RJ1H"],
+    ["AT43", "AT45", "AT46", "AT72", "AT73", "AT75", "AT76"],
+    ["DH8A", "DH8B", "DH8C", "DH8D"],
+    ["SF34", "SB20"],
+    ["JS31", "JS32", "JS41"]
+  ]
+}

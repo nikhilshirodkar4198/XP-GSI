@@ -1,0 +1,6190 @@
+{
+ "schema": 2,
+ "description": "What the livery audit (pipeline/livery_audit) found in the common CSL libraries: how current each audited paint is, the brand a regional's paint shows, and special schemes. Entries apply only to the identical texture (tex_bytes). Built 2026-10-27 by build_overrides.py; edit the decisions files, not this file.",
+ "defunct_airlines": [
+  "AWE",
+  "AZA",
+  "BEE",
+  "BER",
+  "BMA",
+  "BMR",
+  "COA",
+  "GWI",
+  "JAI",
+  "JKK",
+  "KFR",
+  "MAH",
+  "MON",
+  "MXA",
+  "NWA",
+  "PAA",
+  "TCX",
+  "TRS",
+  "TWA",
+  "USA",
+  "VRD",
+  "WOW"
+ ],
+ "defunct_airline_notes": {
+  "AWE": "US Airways (America West code), merged into American 2015",
+  "USA": "US Airways / USAir",
+  "NWA": "Northwest, merged into Delta 2010",
+  "COA": "Continental, merged into United 2012",
+  "TRS": "AirTran, merged into Southwest 2014",
+  "VRD": "Virgin America, merged into Alaska 2018",
+  "AZA": "Alitalia, ceased 2021 (ITA Airways is ITY)",
+  "BER": "Air Berlin, ceased 2017",
+  "JAI": "Jet Airways, ceased 2019",
+  "MON": "Monarch, ceased 2017",
+  "BEE": "Flybe, ceased 2020 and again 2023",
+  "TCX": "Thomas Cook Airlines, ceased 2019",
+  "WOW": "WOW air, ceased 2019",
+  "MAH": "Malév, ceased 2012",
+  "JKK": "Spanair, ceased 2012",
+  "MXA": "Mexicana, ceased 2010",
+  "BMA": "bmi British Midland, ceased 2012",
+  "BMR": "bmi regional, ceased 2019",
+  "KFR": "Kingfisher Airlines, ceased 2012",
+  "GWI": "Germanwings, ceased 2020",
+  "PAA": "Pan Am, ceased 1991",
+  "TWA": "TWA, merged into American 2001"
+ },
+ "old_livery_tags": [
+  "OLD"
+ ],
+ "state_code_prefixes": [
+  "@"
+ ],
+ "cargo_airlines": [
+  "ABW",
+  "ABX",
+  "ADB",
+  "AHK",
+  "AJT",
+  "ATN",
+  "BBD",
+  "BCS",
+  "BDA",
+  "BOX",
+  "CAO",
+  "CJT",
+  "CKK",
+  "CKS",
+  "CLX",
+  "CSS",
+  "CWC",
+  "DAE",
+  "DHK",
+  "DHX",
+  "FDX",
+  "GEC",
+  "GTI",
+  "ICL",
+  "ICV",
+  "KYE",
+  "LCO",
+  "LTG",
+  "MAA",
+  "MNB",
+  "MPH",
+  "MSX",
+  "MTN",
+  "NCA",
+  "NCR",
+  "PAC",
+  "RCH",
+  "SOO",
+  "SQC",
+  "SRR",
+  "SWN",
+  "TAY",
+  "TPA",
+  "UPS",
+  "VDA",
+  "WGN",
+  "YZR"
+ ],
+ "cargo_livery_tags": [
+  "CRG",
+  "CARGO",
+  "BCF",
+  "PCF",
+  "P2F",
+  "FRT",
+  "F"
+ ],
+ "cargo_name_parts": [
+  "crg",
+  "cargo"
+ ],
+ "entries": {
+  "BB_Airbus/A306/A306_CES.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 443093,
+   "tex_ext": ".png",
+   "note": "CES A306; China Eastern pre-2014 striped scheme / retired type"
+  },
+  "BB_Airbus/A306/A306_CSN.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 416621,
+   "tex_ext": ".png",
+   "note": "CSN A306; China Southern A300 (retired)"
+  },
+  "BB_Airbus/A306/A306_DLH.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 401785,
+   "tex_ext": ".png",
+   "note": "DLH A306; Lufthansa yellow-circle tail, retired type"
+  },
+  "BB_Airbus/A306/A306_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 539241,
+   "tex_ext": ".png",
+   "note": "ETD A306; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Airbus/A306/A306_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 438879,
+   "tex_ext": ".png",
+   "note": "JAL A306; JAL 'arc of the sun' scheme"
+  },
+  "BB_Airbus/A306/A306_KAL.obj": {
+   "status": "outdated",
+   "year": 1984,
+   "tex_bytes": 428566,
+   "tex_ext": ".png",
+   "note": "KAL A306; Korean retired type"
+  },
+  "BB_Airbus/A306/A306_QTR.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 728143,
+   "tex_ext": ".png",
+   "note": "QTR A306; Qatar retired type"
+  },
+  "BB_Airbus/A306/A306_RJA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 394575,
+   "tex_ext": ".png",
+   "note": "RJA A306; Royal Jordanian A300 (retired)"
+  },
+  "BB_Airbus/A306/A306_SVA.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 453956,
+   "tex_ext": ".png",
+   "note": "SVA A306; Saudi Arabian Airlines 1996 scheme (rebranded Saudia 2012)"
+  },
+  "BB_Airbus/A306/A306_THA.obj": {
+   "status": "outdated",
+   "year": 1985,
+   "tex_bytes": 442677,
+   "tex_ext": ".png",
+   "note": "THA A306; Thai A300 (retired)"
+  },
+  "BB_Airbus/A306/A306_THY.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 375750,
+   "tex_ext": ".png",
+   "note": "THY A306; Turkish A300 freighter (retired)"
+  },
+  "BB_Airbus/A306/A306_UAE.obj": {
+   "status": "outdated",
+   "year": 1985,
+   "tex_bytes": 416771,
+   "tex_ext": ".png",
+   "note": "UAE A306; Emirates A300 (retired)"
+  },
+  "BB_Airbus/A310/A310_AIC.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 425092,
+   "tex_ext": ".png",
+   "note": "AIC A310; Air India retired type"
+  },
+  "BB_Airbus/A310/A310_FDX.obj": {
+   "status": "outdated",
+   "year": 1994,
+   "tex_bytes": 418814,
+   "tex_ext": ".png",
+   "note": "FDX A310; FedEx retired type"
+  },
+  "BB_Airbus/A310/A310_KLM.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 445026,
+   "tex_ext": ".png",
+   "note": "KLM A310; KLM A310 (retired)"
+  },
+  "BB_Airbus/A310/A310_TAP.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 365856,
+   "tex_ext": ".png",
+   "note": "TAP A310; TAP A310 (retired)"
+  },
+  "BB_Airbus/A318/A318_AVA.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 439726,
+   "tex_ext": ".png",
+   "note": "AVA A318; Avianca 2013 red-belly scheme"
+  },
+  "BB_Airbus/A318/A318_BAW.obj": {
+   "status": "outdated",
+   "year": 1997,
+   "tex_bytes": 483723,
+   "tex_ext": ".png",
+   "note": "BAW A318; BA retired type"
+  },
+  "BB_Airbus/A319/A319_AAY.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 375262,
+   "tex_ext": ".png",
+   "note": "AAY A319; Allegiant pre-sunset scheme"
+  },
+  "BB_Airbus/A319/A319_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 515085,
+   "tex_ext": ".png",
+   "note": "ACA A319; Air Canada 2004 teal scheme"
+  },
+  "BB_Airbus/A319/A319_AEE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 298559,
+   "tex_ext": ".png",
+   "note": "AEE A319; Aegean white-tail scheme"
+  },
+  "BB_Airbus/A319/A319_AUA.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 305476,
+   "tex_ext": ".png",
+   "note": "AUA A319; Austrian pre-2018 scheme"
+  },
+  "BB_Airbus/A319/A319_AVA.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 454090,
+   "tex_ext": ".png",
+   "note": "AVA A319; Avianca 2013 red-belly scheme"
+  },
+  "BB_Airbus/A319/A319_AXB.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 460598,
+   "tex_ext": ".png",
+   "note": "AXB A319; Air India Express tail-art scheme"
+  },
+  "BB_Airbus/A319/A319_BEL.obj": {
+   "status": "legacy",
+   "year": 2017,
+   "tex_bytes": 396189,
+   "tex_ext": ".png",
+   "note": "BEL A319; Brussels Airlines pre-2021 scheme"
+  },
+  "BB_Airbus/A319/A319_CEB.obj": {
+   "status": "outdated",
+   "year": 2008,
+   "tex_bytes": 575888,
+   "tex_ext": ".png",
+   "note": "CEB A319; Cebu Pacific 'AIR.COM' scheme"
+  },
+  "BB_Airbus/A319/A319_CES.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 373115,
+   "tex_ext": ".png",
+   "note": "CES A319; China Eastern pre-2014 striped scheme / retired type"
+  },
+  "BB_Airbus/A319/A319_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 473064,
+   "tex_ext": ".png",
+   "note": "DLH A319; Lufthansa yellow-circle tail"
+  },
+  "BB_Airbus/A319/A319_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 301084,
+   "tex_ext": ".png",
+   "note": "EIN A319; Aer Lingus green-roof scheme"
+  },
+  "BB_Airbus/A319/A319_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 386166,
+   "tex_ext": ".png",
+   "note": "ETD A319; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Airbus/A319/A319_EWG.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 603473,
+   "tex_ext": ".png",
+   "note": "EWG A319; Eurowings pre-2015 scheme"
+  },
+  "BB_Airbus/A319/A319_EZS.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 337715,
+   "tex_ext": ".png",
+   "note": "EZS A319; easyJet Switzerland '.com' scheme"
+  },
+  "BB_Airbus/A319/A319_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 376869,
+   "tex_ext": ".png",
+   "note": "FFT A319; Frontier grey-title scheme"
+  },
+  "BB_Airbus/A319/A319_GFA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 362883,
+   "tex_ext": ".png",
+   "note": "GFA A319; Gulf Air pre-2023 gold-belly scheme"
+  },
+  "BB_Airbus/A319/A319_IBE.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 408546,
+   "tex_ext": ".png",
+   "note": "IBE A319; Iberia 1977 scheme"
+  },
+  "BB_Airbus/A319/A319_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 342017,
+   "tex_ext": ".png",
+   "note": "SAS A319; SAS 1998 scheme"
+  },
+  "BB_Airbus/A319/A319_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 409218,
+   "tex_ext": ".png",
+   "note": "TAM A319; TAM, rebranded LATAM 2016"
+  },
+  "BB_Airbus/A319/A319_UAL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 391018,
+   "tex_ext": ".png",
+   "note": "UAL A319; United 2004 blue/grey tulip scheme"
+  },
+  "BB_Airbus/A319/A319_VLG.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 345230,
+   "tex_ext": ".png",
+   "note": "VLG A319; Vueling 'vueling.com' scheme"
+  },
+  "BB_Airbus/A320/A320_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 517074,
+   "tex_ext": ".png",
+   "note": "ACA A320; Air Canada 2004 teal scheme"
+  },
+  "BB_Airbus/A320/A320_AEE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 304600,
+   "tex_ext": ".png",
+   "note": "AEE A320; Aegean white-tail scheme"
+  },
+  "BB_Airbus/A320/A320_AFR.obj": {
+   "status": "outdated",
+   "year": 1976,
+   "tex_bytes": 417039,
+   "tex_ext": ".png",
+   "note": "AFR A320; Air France pre-2009 titles"
+  },
+  "BB_Airbus/A320/A320_AIC.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 366356,
+   "tex_ext": ".png",
+   "note": "AIC A320; Air India Konark-wheel scheme"
+  },
+  "BB_Airbus/A320/A320_AIQ.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 461378,
+   "tex_ext": ".png",
+   "note": "AIQ A320; AirAsia '.com' titles"
+  },
+  "BB_Airbus/A320/A320_ARG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 327655,
+   "tex_ext": ".png",
+   "note": "ARG A320; Aerolíneas Argentinas pre-2010 dark-blue scheme"
+  },
+  "BB_Airbus/A320/A320_AUA.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 264401,
+   "tex_ext": ".png",
+   "note": "AUA A320; Austrian pre-2018 scheme"
+  },
+  "BB_Airbus/A320/A320_AVA.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 337782,
+   "tex_ext": ".png",
+   "note": "AVA A320; Avianca 2013 red-belly scheme"
+  },
+  "BB_Airbus/A320/A320_AXM.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 322418,
+   "tex_ext": ".png",
+   "note": "AXM A320; AirAsia 'Now Everyone Can Fly' titles"
+  },
+  "BB_Airbus/A320/A320_BEL.obj": {
+   "status": "legacy",
+   "year": 2017,
+   "tex_bytes": 313454,
+   "tex_ext": ".png",
+   "note": "BEL A320; Brussels Airlines pre-2021 scheme"
+  },
+  "BB_Airbus/A320/A320_CFG.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 362266,
+   "tex_ext": ".png",
+   "note": "CFG A320; Condor Thomas Cook-era scheme"
+  },
+  "BB_Airbus/A320/A320_CTV.obj": {
+   "status": "outdated",
+   "year": 2014,
+   "tex_bytes": 318388,
+   "tex_ext": ".png",
+   "note": "CTV A320; Citilink old green scheme"
+  },
+  "BB_Airbus/A320/A320_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 310713,
+   "tex_ext": ".png",
+   "note": "DLH A320; Lufthansa yellow-circle tail"
+  },
+  "BB_Airbus/A320/A320_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 361005,
+   "tex_ext": ".png",
+   "note": "EIN A320; Aer Lingus green-roof scheme"
+  },
+  "BB_Airbus/A320/A320_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 377628,
+   "tex_ext": ".png",
+   "note": "ETD A320; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Airbus/A320/A320_EZS.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 319137,
+   "tex_ext": ".png",
+   "note": "EZS A320; easyJet Switzerland '.com' scheme"
+  },
+  "BB_Airbus/A320/A320_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 462804,
+   "tex_ext": ".png",
+   "note": "FFT A320; Frontier grey-title scheme"
+  },
+  "BB_Airbus/A320/A320_GFA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 385068,
+   "tex_ext": ".png",
+   "note": "GFA A320; Gulf Air pre-2023 gold-belly scheme / retired type"
+  },
+  "BB_Airbus/A320/A320_JST.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 389800,
+   "tex_ext": ".png",
+   "note": "JST A320; Jetstar '.com' titles"
+  },
+  "BB_Airbus/A320/A320_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 327795,
+   "tex_ext": ".png",
+   "note": "SAS A320; SAS 1998 scheme"
+  },
+  "BB_Airbus/A320/A320_SVA.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 311917,
+   "tex_ext": ".png",
+   "note": "SVA A320; Saudi Arabian Airlines 1996 scheme (rebranded Saudia 2012)"
+  },
+  "BB_Airbus/A320/A320_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 267520,
+   "tex_ext": ".png",
+   "note": "TAM A320; TAM, rebranded LATAM 2016"
+  },
+  "BB_Airbus/A320/A320_THA.obj": {
+   "status": "defunct",
+   "tex_bytes": 403187,
+   "tex_ext": ".png",
+   "note": "THA A320; Thai Smile (merged into Thai 2024)"
+  },
+  "BB_Airbus/A320/A320_TOM.obj": {
+   "status": "defunct",
+   "tex_bytes": 315020,
+   "tex_ext": ".png",
+   "note": "TOM A320; Thomson / First Choice (rebranded TUI 2017)"
+  },
+  "BB_Airbus/A320/A320_TVS.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 350788,
+   "tex_ext": ".png",
+   "note": "TVS A320; Travel Service pre-2018 scheme"
+  },
+  "BB_Airbus/A320/A320_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 310423,
+   "tex_ext": ".png",
+   "note": "UAL A320; United 2010 globe scheme"
+  },
+  "BB_Airbus/A320/A320_VIV.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 259777,
+   "tex_ext": ".png",
+   "note": "VIV A320; 'vivaaerobus.com' scheme"
+  },
+  "BB_Airbus/A320/A320_VLG.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 369678,
+   "tex_ext": ".png",
+   "note": "VLG A320; Vueling 'vueling.com' scheme"
+  },
+  "BB_Airbus/A320/A320_WZZ.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 336027,
+   "tex_ext": ".png",
+   "note": "WZZ A320; Wizz Air pre-2015 purple scheme"
+  },
+  "BB_Airbus/A321/A321_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 506277,
+   "tex_ext": ".png",
+   "note": "ACA A321; Air Canada 2004 teal scheme"
+  },
+  "BB_Airbus/A321/A321_AEE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 362748,
+   "tex_ext": ".png",
+   "note": "AEE A321; Aegean white-tail scheme"
+  },
+  "BB_Airbus/A321/A321_AIC.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 416594,
+   "tex_ext": ".png",
+   "note": "AIC A321; Air India Konark-wheel scheme"
+  },
+  "BB_Airbus/A321/A321_AUA.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 360290,
+   "tex_ext": ".png",
+   "note": "AUA A321; Austrian pre-2018 scheme"
+  },
+  "BB_Airbus/A321/A321_AXB.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 458896,
+   "tex_ext": ".png",
+   "note": "AXB A321; Air India Express tail-art scheme"
+  },
+  "BB_Airbus/A321/A321_CFG.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 426519,
+   "tex_ext": ".png",
+   "note": "CFG A321; Condor Thomas Cook-era scheme"
+  },
+  "BB_Airbus/A321/A321_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 369222,
+   "tex_ext": ".png",
+   "note": "DLH A321; Lufthansa yellow-circle tail"
+  },
+  "BB_Airbus/A321/A321_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 308955,
+   "tex_ext": ".png",
+   "note": "EIN A321; Aer Lingus green-roof scheme"
+  },
+  "BB_Airbus/A321/A321_EZY.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 703969,
+   "tex_ext": ".png",
+   "note": "EZY A321; easyJet '.com' scheme"
+  },
+  "BB_Airbus/A321/A321_GFA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 412045,
+   "tex_ext": ".png",
+   "note": "GFA A321; Gulf Air pre-2023 gold-belly scheme / retired type"
+  },
+  "BB_Airbus/A321/A321_IBE.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 428550,
+   "tex_ext": ".png",
+   "note": "IBE A321; Iberia 1977 scheme"
+  },
+  "BB_Airbus/A321/A321_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 361811,
+   "tex_ext": ".png",
+   "note": "SAS A321; SAS 1998 scheme"
+  },
+  "BB_Airbus/A321/A321_SVA.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 368897,
+   "tex_ext": ".png",
+   "note": "SVA A321; Saudi Arabian Airlines 1996 scheme (rebranded Saudia 2012)"
+  },
+  "BB_Airbus/A321/A321_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 337759,
+   "tex_ext": ".png",
+   "note": "TAM A321; TAM, rebranded LATAM 2016"
+  },
+  "BB_Airbus/A332/A332_AEA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 435577,
+   "tex_ext": ".png",
+   "note": "AEA A332; Air Europa pre-2015 scheme"
+  },
+  "BB_Airbus/A332/A332_AUA.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 382369,
+   "tex_ext": ".png",
+   "note": "AUA A332; Austrian retired type"
+  },
+  "BB_Airbus/A332/A332_BEL.obj": {
+   "status": "legacy",
+   "year": 2017,
+   "tex_bytes": 395233,
+   "tex_ext": ".png",
+   "note": "BEL A332; Brussels Airlines pre-2021 scheme"
+  },
+  "BB_Airbus/A332/A332_CES.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 439217,
+   "tex_ext": ".png",
+   "note": "CES A332; China Eastern pre-2014 striped scheme / retired type"
+  },
+  "BB_Airbus/A332/A332_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 571542,
+   "tex_ext": ".png",
+   "note": "EIN A332; Aer Lingus green-roof scheme"
+  },
+  "BB_Airbus/A332/A332_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 446020,
+   "tex_ext": ".png",
+   "note": "ETD A332; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Airbus/A332/A332_GFA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 451353,
+   "tex_ext": ".png",
+   "note": "GFA A332; Gulf Air pre-2023 gold-belly scheme / retired type"
+  },
+  "BB_Airbus/A332/A332_JST.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 623597,
+   "tex_ext": ".png",
+   "note": "JST A332; Jetstar '.com' titles"
+  },
+  "BB_Airbus/A332/A332_QFA.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 390880,
+   "tex_ext": ".png",
+   "note": "QFA A332; Qantas 2007 kangaroo"
+  },
+  "BB_Airbus/A332/A332_QTR.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 371048,
+   "tex_ext": ".png",
+   "note": "QTR A332; Qatar retired type"
+  },
+  "BB_Airbus/A332/A332_RJA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 366332,
+   "tex_ext": ".png",
+   "note": "RJA A332; Royal Jordanian retired type"
+  },
+  "BB_Airbus/A332/A332_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 353768,
+   "tex_ext": ".png",
+   "note": "TAM A332; TAM, rebranded LATAM 2016"
+  },
+  "BB_Airbus/A332/A332_UAE.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 421383,
+   "tex_ext": ".png",
+   "note": "UAE A332; Emirates retired type"
+  },
+  "BB_Airbus/A332/A332_VOZ.obj": {
+   "status": "outdated",
+   "year": 2011,
+   "tex_bytes": 339087,
+   "tex_ext": ".png",
+   "note": "VOZ A332; Virgin Australia retired type"
+  },
+  "BB_Airbus/A333/A333_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 494323,
+   "tex_ext": ".png",
+   "note": "ACA A333; Air Canada 2004 teal scheme"
+  },
+  "BB_Airbus/A333/A333_AEA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 436943,
+   "tex_ext": ".png",
+   "note": "AEA A333; Air Europa pre-2015 scheme"
+  },
+  "BB_Airbus/A333/A333_BEL.obj": {
+   "status": "legacy",
+   "year": 2017,
+   "tex_bytes": 375715,
+   "tex_ext": ".png",
+   "note": "BEL A333; Brussels Airlines pre-2021 scheme"
+  },
+  "BB_Airbus/A333/A333_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 403139,
+   "tex_ext": ".png",
+   "note": "DLH A333; Lufthansa yellow-circle tail"
+  },
+  "BB_Airbus/A333/A333_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 455039,
+   "tex_ext": ".png",
+   "note": "ETD A333; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Airbus/A333/A333_QFA.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 405021,
+   "tex_ext": ".png",
+   "note": "QFA A333; Qantas 2007 kangaroo"
+  },
+  "BB_Airbus/A333/A333_QTR.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 380339,
+   "tex_ext": ".png",
+   "note": "QTR A333; Qatar retired type"
+  },
+  "BB_Airbus/A333/A333_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 464653,
+   "tex_ext": ".png",
+   "note": "SAS A333; SAS 1998 scheme"
+  },
+  "BB_Airbus/A333/A333_SVA.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 397177,
+   "tex_ext": ".png",
+   "note": "SVA A333; Saudi Arabian Airlines 1996 scheme (rebranded Saudia 2012)"
+  },
+  "BB_Airbus/A342/A342_AUA.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 398949,
+   "tex_ext": ".png",
+   "note": "AUA A342; Austrian retired type"
+  },
+  "BB_Airbus/A342/A342_MSR.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 406667,
+   "tex_ext": ".png",
+   "note": "MSR A342; EgyptAir A340 (retired)"
+  },
+  "BB_Airbus/A342/A342_RJA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 412835,
+   "tex_ext": ".png",
+   "note": "RJA A342; Royal Jordanian retired type"
+  },
+  "BB_Airbus/A343/A343_ACA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 507934,
+   "tex_ext": ".png",
+   "note": "ACA A343; Air Canada retired type"
+  },
+  "BB_Airbus/A343/A343_AFR.obj": {
+   "status": "outdated",
+   "year": 2009,
+   "tex_bytes": 469423,
+   "tex_ext": ".png",
+   "note": "AFR A343; Air France A340 (retired 2020)"
+  },
+  "BB_Airbus/A343/A343_ARG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 415880,
+   "tex_ext": ".png",
+   "note": "ARG A343; Aerolíneas Argentinas retired type"
+  },
+  "BB_Airbus/A343/A343_CAL.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 442114,
+   "tex_ext": ".png",
+   "note": "CAL A343; China Airlines retired type"
+  },
+  "BB_Airbus/A343/A343_CES.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 466052,
+   "tex_ext": ".png",
+   "note": "CES A343; China Eastern pre-2014 striped scheme / retired type"
+  },
+  "BB_Airbus/A343/A343_CPA.obj": {
+   "status": "outdated",
+   "year": 1994,
+   "tex_bytes": 499022,
+   "tex_ext": ".png",
+   "note": "CPA A343; Cathay retired type"
+  },
+  "BB_Airbus/A343/A343_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 545010,
+   "tex_ext": ".png",
+   "note": "DLH A343; Lufthansa yellow-circle tail"
+  },
+  "BB_Airbus/A343/A343_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 606611,
+   "tex_ext": ".png",
+   "note": "ETD A343; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Airbus/A343/A343_FIN.obj": {
+   "status": "outdated",
+   "year": 2010,
+   "tex_bytes": 544689,
+   "tex_ext": ".png",
+   "note": "FIN A343; Finnair A340 (retired)"
+  },
+  "BB_Airbus/A343/A343_GFA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 457697,
+   "tex_ext": ".png",
+   "note": "GFA A343; Gulf Air pre-2023 gold-belly scheme / retired type"
+  },
+  "BB_Airbus/A343/A343_IBE.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 455298,
+   "tex_ext": ".png",
+   "note": "IBE A343; Iberia 1977 scheme"
+  },
+  "BB_Airbus/A343/A343_PAL.obj": {
+   "status": "outdated",
+   "year": 1986,
+   "tex_bytes": 402699,
+   "tex_ext": ".png",
+   "note": "PAL A343; Philippine Airlines retired type"
+  },
+  "BB_Airbus/A343/A343_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 403782,
+   "tex_ext": ".png",
+   "note": "SAS A343; SAS 1998 scheme"
+  },
+  "BB_Airbus/A343/A343_TAP.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 449701,
+   "tex_ext": ".png",
+   "note": "TAP A343; TAP A340 (retired)"
+  },
+  "BB_Airbus/A343/A343_THY.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 438244,
+   "tex_ext": ".png",
+   "note": "THY A343; Turkish A340 (retired)"
+  },
+  "BB_Airbus/A343/A343_UAE.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 454644,
+   "tex_ext": ".png",
+   "note": "UAE A343; Emirates retired type"
+  },
+  "BB_Airbus/A345/A345_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 485202,
+   "tex_ext": ".png",
+   "note": "ETD A345; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Airbus/A345/A345_SIA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 422870,
+   "tex_ext": ".png",
+   "note": "SIA A345; Singapore retired type"
+  },
+  "BB_Airbus/A345/A345_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 417640,
+   "tex_ext": ".png",
+   "note": "TAM A345; TAM, rebranded LATAM 2016"
+  },
+  "BB_Airbus/A345/A345_UAE.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 444289,
+   "tex_ext": ".png",
+   "note": "UAE A345; Emirates retired type"
+  },
+  "BB_Airbus/A346/A346_CES.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 453044,
+   "tex_ext": ".png",
+   "note": "CES A346; China Eastern pre-2014 striped scheme / retired type"
+  },
+  "BB_Airbus/A346/A346_CPA.obj": {
+   "status": "outdated",
+   "year": 1994,
+   "tex_bytes": 439871,
+   "tex_ext": ".png",
+   "note": "CPA A346; Cathay retired type"
+  },
+  "BB_Airbus/A346/A346_DLH.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 408744,
+   "tex_ext": ".png",
+   "note": "DLH A346; Lufthansa yellow-circle tail, retired type"
+  },
+  "BB_Airbus/A346/A346_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 488918,
+   "tex_ext": ".png",
+   "note": "ETD A346; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Airbus/A346/A346_IBE.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 466925,
+   "tex_ext": ".png",
+   "note": "IBE A346; Iberia 1977 scheme"
+  },
+  "BB_Airbus/A346/A346_QTR.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 671683,
+   "tex_ext": ".png",
+   "note": "QTR A346; Qatar retired type"
+  },
+  "BB_Airbus/A346/A346_THA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 427803,
+   "tex_ext": ".png",
+   "note": "THA A346; Thai retired type"
+  },
+  "BB_Airbus/A388/A388_AFR.obj": {
+   "status": "outdated",
+   "year": 2009,
+   "tex_bytes": 748700,
+   "tex_ext": ".png",
+   "note": "AFR A388; Air France A380 (retired 2020)"
+  },
+  "BB_Airbus/A388/A388_CSN.obj": {
+   "status": "outdated",
+   "year": 2011,
+   "tex_bytes": 670256,
+   "tex_ext": ".png",
+   "note": "CSN A388; China Southern A380 (retired)"
+  },
+  "BB_Airbus/A388/A388_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 872734,
+   "tex_ext": ".png",
+   "note": "DLH A388; Lufthansa yellow-circle tail"
+  },
+  "BB_Airbus/A388/A388_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 928968,
+   "tex_ext": ".png",
+   "note": "ETD A388; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Airbus/A388/A388_MAS.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 897807,
+   "tex_ext": ".png",
+   "note": "MAS A388; Malaysia A380 (retired)"
+  },
+  "BB_Airbus/A388/A388_QFA.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 690695,
+   "tex_ext": ".png",
+   "note": "QFA A388; Qantas 2007 kangaroo"
+  },
+  "BB_Airbus/A388/A388_THA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 600625,
+   "tex_ext": ".png",
+   "note": "THA A388; Thai A380 (retired)"
+  },
+  "BB_Airbus/A388/A388_UAE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 745742,
+   "tex_ext": ".png",
+   "note": "UAE A388; Emirates pre-2023 scheme"
+  },
+  "BB_Boeing/B717/B717_VOE.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 715001,
+   "tex_ext": ".png",
+   "note": "VOE B712; Volotea 717 (retired)"
+  },
+  "BB_Boeing/B733/B733_BAW.obj": {
+   "status": "outdated",
+   "year": 1997,
+   "tex_bytes": 505103,
+   "tex_ext": ".png",
+   "note": "BAW B733; BA retired type"
+  },
+  "BB_Boeing/B733/B733_BEL.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 487310,
+   "tex_ext": ".png",
+   "note": "BEL B733; Brussels Airlines retired type"
+  },
+  "BB_Boeing/B733/B733_BTI.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 550008,
+   "tex_ext": ".png",
+   "note": "BTI B733; airBaltic retired type"
+  },
+  "BB_Boeing/B733/B733_DLH.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 409211,
+   "tex_ext": ".png",
+   "note": "DLH B733; Lufthansa yellow-circle tail, retired type"
+  },
+  "BB_Boeing/B733/B733_EXS.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 645342,
+   "tex_ext": ".png",
+   "note": "EXS B733; Jet2 737-300 (retired)"
+  },
+  "BB_Boeing/B733/B733_NAX.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 556376,
+   "tex_ext": ".png",
+   "note": "NOZ B733; Norwegian 737-300 (retired)"
+  },
+  "BB_Boeing/B733/B733_RAM.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 436612,
+   "tex_ext": ".png",
+   "note": "RAM B733; Royal Air Maroc 737-300 (retired)"
+  },
+  "BB_Boeing/B733/B733_SWA.obj": {
+   "status": "outdated",
+   "year": 2001,
+   "tex_bytes": 521706,
+   "tex_ext": ".png",
+   "note": "SWA B733; Southwest Canyon Blue (2001-2014)"
+  },
+  "BB_Boeing/B733/B733_UAL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 540684,
+   "tex_ext": ".png",
+   "note": "UAL B733; United 2004 tulip 737-300"
+  },
+  "BB_Boeing/B734/B734_ASA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 683600,
+   "tex_ext": ".png",
+   "note": "ASA B734; Alaska pre-2016 scheme"
+  },
+  "BB_Boeing/B734/B734_BAW.obj": {
+   "status": "outdated",
+   "year": 1997,
+   "tex_bytes": 488408,
+   "tex_ext": ".png",
+   "note": "BAW B734; BA retired type"
+  },
+  "BB_Boeing/B734/B734_KLM.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 548961,
+   "tex_ext": ".png",
+   "note": "KLM B734; KLM 737-400 (retired)"
+  },
+  "BB_Boeing/B734/B734_LOT.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 590946,
+   "tex_ext": ".png",
+   "note": "LOT B734; LOT retired type"
+  },
+  "BB_Boeing/B737/B737_ASA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 673512,
+   "tex_ext": ".png",
+   "note": "ASA B737; Alaska pre-2016 scheme"
+  },
+  "BB_Boeing/B737/B737_AUA.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 485288,
+   "tex_ext": ".png",
+   "note": "AUA B737; Austrian retired type"
+  },
+  "BB_Boeing/B737/B737_SWA.obj": {
+   "status": "outdated",
+   "year": 2001,
+   "tex_bytes": 512338,
+   "tex_ext": ".png",
+   "note": "SWA B737; Southwest Canyon Blue (2001-2014)"
+  },
+  "BB_Boeing/B737/B737_WJA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 601070,
+   "tex_ext": ".png",
+   "note": "WJA B737; WestJet 2004 teal tail"
+  },
+  "BB_Boeing/B738/B738_AEA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 451338,
+   "tex_ext": ".png",
+   "note": "AEA B738; Air Europa pre-2015 scheme"
+  },
+  "BB_Boeing/B738/B738_ASA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 583903,
+   "tex_ext": ".png",
+   "note": "ASA B738; Alaska pre-2016 scheme"
+  },
+  "BB_Boeing/B738/B738_AUA.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 354213,
+   "tex_ext": ".png",
+   "note": "AUA B738; Austrian retired type"
+  },
+  "BB_Boeing/B738/B738_AXB.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 485128,
+   "tex_ext": ".png",
+   "note": "AXB B738; Air India Express tail-art scheme"
+  },
+  "BB_Boeing/B738/B738_EXS.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 360713,
+   "tex_ext": ".png",
+   "note": "EXS B738; Jet2 'jet2.com' scheme"
+  },
+  "BB_Boeing/B738/B738_GLO.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 801201,
+   "tex_ext": ".png",
+   "note": "GLO B738; GOL '%' tail scheme"
+  },
+  "BB_Boeing/B738/B738_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 362243,
+   "tex_ext": ".png",
+   "note": "JAL B738; JAL 'arc of the sun' scheme"
+  },
+  "BB_Boeing/B738/B738_PGT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 344585,
+   "tex_ext": ".png",
+   "note": "PGT B738; Pegasus pre-2016 orange-tail scheme"
+  },
+  "BB_Boeing/B738/B738_QFA.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 473015,
+   "tex_ext": ".png",
+   "note": "QFA B738; Qantas 2007 kangaroo"
+  },
+  "BB_Boeing/B738/B738_SAS.obj": {
+   "status": "outdated",
+   "year": 1998,
+   "tex_bytes": 529529,
+   "tex_ext": ".png",
+   "note": "SAS B738; SAS retired type"
+  },
+  "BB_Boeing/B738/B738_SWA.obj": {
+   "status": "outdated",
+   "year": 2001,
+   "tex_bytes": 388571,
+   "tex_ext": ".png",
+   "note": "SWA B738; Southwest Canyon Blue (2001-2014)"
+  },
+  "BB_Boeing/B738/B738_SXS.obj": {
+   "status": "legacy",
+   "year": 2009,
+   "tex_bytes": 567589,
+   "tex_ext": ".png",
+   "note": "SXS B738; SunExpress blue sunburst scheme"
+  },
+  "BB_Boeing/B738/B738_THY.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 487239,
+   "tex_ext": ".png",
+   "note": "THY B738; Turkish 1990s scheme 737"
+  },
+  "BB_Boeing/B738/B738_TOM.obj": {
+   "status": "defunct",
+   "tex_bytes": 408821,
+   "tex_ext": ".png",
+   "note": "TOM B738; Thomson / First Choice (rebranded TUI 2017)"
+  },
+  "BB_Boeing/B738/B738_TVS.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 409730,
+   "tex_ext": ".png",
+   "note": "TVS B738; Travel Service pre-2018 scheme"
+  },
+  "BB_Boeing/B738/B738_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 343237,
+   "tex_ext": ".png",
+   "note": "UAL B738; United 2010 globe scheme"
+  },
+  "BB_Boeing/B738/B738_VOZ.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 369627,
+   "tex_ext": ".png",
+   "note": "VOZ B738; Virgin Blue scheme"
+  },
+  "BB_Boeing/B738/B738_WJA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 439596,
+   "tex_ext": ".png",
+   "note": "WJA B738; WestJet 2004 teal tail"
+  },
+  "BB_Boeing/B739/B739_ASA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 551551,
+   "tex_ext": ".png",
+   "note": "ASA B739; Alaska pre-2016 scheme"
+  },
+  "BB_Boeing/B739/B739_BTK.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 563573,
+   "tex_ext": ".png",
+   "note": "BTK B739; Batik Air early scheme"
+  },
+  "BB_Boeing/B739/B739_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 396248,
+   "tex_ext": ".png",
+   "note": "UAL B739; United 2010 globe scheme"
+  },
+  "BB_Boeing/B744/B744_AAR.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 519809,
+   "tex_ext": ".png",
+   "note": "AAR B744; retired type (Asiana, Air China)"
+  },
+  "BB_Boeing/B744/B744_ACA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 392521,
+   "tex_ext": ".png",
+   "note": "ACA B744; Air Canada retired type"
+  },
+  "BB_Boeing/B744/B744_AFR.obj": {
+   "status": "outdated",
+   "year": 1976,
+   "tex_bytes": 487168,
+   "tex_ext": ".png",
+   "note": "AFR B744; Air France 747 (retired)"
+  },
+  "BB_Boeing/B744/B744_AIC.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 516388,
+   "tex_ext": ".png",
+   "note": "AIC B744; Air India retired type"
+  },
+  "BB_Boeing/B744/B744_ANA.obj": {
+   "status": "outdated",
+   "year": 1983,
+   "tex_bytes": 529513,
+   "tex_ext": ".png",
+   "note": "ANA B744; ANA 747 (retired)"
+  },
+  "BB_Boeing/B744/B744_ANZ.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 491388,
+   "tex_ext": ".png",
+   "note": "ANZ B744; Air New Zealand teal-tail scheme"
+  },
+  "BB_Boeing/B744/B744_ARG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 629095,
+   "tex_ext": ".png",
+   "note": "ARG B744; Aerolíneas Argentinas retired type"
+  },
+  "BB_Boeing/B744/B744_BAW.obj": {
+   "status": "outdated",
+   "year": 1997,
+   "tex_bytes": 408537,
+   "tex_ext": ".png",
+   "note": "BAW B744; BA retired type"
+  },
+  "BB_Boeing/B744/B744_CAL.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 427311,
+   "tex_ext": ".png",
+   "note": "CAL B744; China Airlines retired type"
+  },
+  "BB_Boeing/B744/B744_CCA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 540619,
+   "tex_ext": ".png",
+   "note": "CCA B744; retired type (Asiana, Air China)"
+  },
+  "BB_Boeing/B744/B744_CPA.obj": {
+   "status": "outdated",
+   "year": 1994,
+   "tex_bytes": 526184,
+   "tex_ext": ".png",
+   "note": "CPA B744; Cathay retired type"
+  },
+  "BB_Boeing/B744/B744_DAL.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 337317,
+   "tex_ext": ".png",
+   "note": "DAL B744; Delta 747-400 (retired 2017)"
+  },
+  "BB_Boeing/B744/B744_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 525243,
+   "tex_ext": ".png",
+   "note": "DLH B744; Lufthansa yellow-circle tail"
+  },
+  "BB_Boeing/B744/B744_ELY.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 882178,
+   "tex_ext": ".png",
+   "note": "ELY B744; El Al 747 (retired)"
+  },
+  "BB_Boeing/B744/B744_EVA.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 526451,
+   "tex_ext": ".png",
+   "note": "EVA B744; EVA retired type"
+  },
+  "BB_Boeing/B744/B744_GIA.obj": {
+   "status": "outdated",
+   "year": 2009,
+   "tex_bytes": 372165,
+   "tex_ext": ".png",
+   "note": "GIA B744; Garuda 747 (retired)"
+  },
+  "BB_Boeing/B744/B744_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 586855,
+   "tex_ext": ".png",
+   "note": "JAL B744; JAL 'arc of the sun' scheme"
+  },
+  "BB_Boeing/B744/B744_KAL.obj": {
+   "status": "outdated",
+   "year": 1984,
+   "tex_bytes": 380925,
+   "tex_ext": ".png",
+   "note": "KAL B744; Korean retired type"
+  },
+  "BB_Boeing/B744/B744_KLM.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 397581,
+   "tex_ext": ".png",
+   "note": "KLM B744; KLM retired type"
+  },
+  "BB_Boeing/B744/B744_MAS.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 395363,
+   "tex_ext": ".png",
+   "note": "MAS B744; Malaysia retired type"
+  },
+  "BB_Boeing/B744/B744_PAL.obj": {
+   "status": "outdated",
+   "year": 1986,
+   "tex_bytes": 329075,
+   "tex_ext": ".png",
+   "note": "PAL B744; Philippine Airlines retired type"
+  },
+  "BB_Boeing/B744/B744_QFA.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 431880,
+   "tex_ext": ".png",
+   "note": "QFA B744; Qantas retired type"
+  },
+  "BB_Boeing/B744/B744_RAM.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 354471,
+   "tex_ext": ".png",
+   "note": "RAM B744; Royal Air Maroc retired type"
+  },
+  "BB_Boeing/B744/B744_SIA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 456878,
+   "tex_ext": ".png",
+   "note": "SIA B744; Singapore retired type"
+  },
+  "BB_Boeing/B744/B744_SVA.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 664797,
+   "tex_ext": ".png",
+   "note": "SVA B744; Saudi Arabian Airlines 1996 scheme (rebranded Saudia 2012)"
+  },
+  "BB_Boeing/B744/B744_THA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 487043,
+   "tex_ext": ".png",
+   "note": "THA B744; Thai retired type"
+  },
+  "BB_Boeing/B744/B744_UAL.obj": {
+   "status": "outdated",
+   "year": 2010,
+   "tex_bytes": 387276,
+   "tex_ext": ".png",
+   "note": "UAL B744; United 747 (retired 2017)"
+  },
+  "BB_Boeing/B74F/B74F_AAR.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 349038,
+   "tex_ext": ".png",
+   "note": "AAR B744 CARGO; retired type (Asiana, Air China)"
+  },
+  "BB_Boeing/B74F/B74F_AFR.obj": {
+   "status": "outdated",
+   "year": 1976,
+   "tex_bytes": 344365,
+   "tex_ext": ".png",
+   "note": "AFR B744 CARGO; Air France 747 (retired)"
+  },
+  "BB_Boeing/B74F/B74F_CSN.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 392715,
+   "tex_ext": ".png",
+   "note": "CSN B744; China Southern retired type"
+  },
+  "BB_Boeing/B74F/B74F_ELY.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 282651,
+   "tex_ext": ".png",
+   "note": "ELY B744 CARGO; El Al retired type"
+  },
+  "BB_Boeing/B74F/B74F_EVA.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 356091,
+   "tex_ext": ".png",
+   "note": "EVA B744 CARGO; EVA retired type"
+  },
+  "BB_Boeing/B74F/B74F_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 434700,
+   "tex_ext": ".png",
+   "note": "JAL B744 CARGO; JAL 'arc of the sun' scheme"
+  },
+  "BB_Boeing/B74F/B74F_KLM.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 366794,
+   "tex_ext": ".png",
+   "note": "KLM B744 CARGO; KLM retired type"
+  },
+  "BB_Boeing/B74F/B74F_MAS.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 427629,
+   "tex_ext": ".png",
+   "note": "MAS B744 CARGO; Malaysia retired type"
+  },
+  "BB_Boeing/B74F/B74F_SVA.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 315342,
+   "tex_ext": ".png",
+   "note": "SVA B744 CARGO; Saudi Arabian Airlines 1996 scheme (rebranded Saudia 2012)"
+  },
+  "BB_Boeing/B74F/B74F_UAE.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 367405,
+   "tex_ext": ".png",
+   "note": "UAE B744; Emirates retired type"
+  },
+  "BB_Boeing/B752/B752_AAL.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 500732,
+   "tex_ext": ".png",
+   "note": "AAL B752; American polished-silver scheme"
+  },
+  "BB_Boeing/B752/B752_AAY.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 425131,
+   "tex_ext": ".png",
+   "note": "AAY B752; Allegiant pre-sunset scheme"
+  },
+  "BB_Boeing/B752/B752_AMX.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 467720,
+   "tex_ext": ".png",
+   "note": "AMX B752; Aeromexico retired type"
+  },
+  "BB_Boeing/B752/B752_AVA.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 364551,
+   "tex_ext": ".png",
+   "note": "AVA B752; Avianca 2013 red-belly scheme"
+  },
+  "BB_Boeing/B752/B752_BTI.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 406144,
+   "tex_ext": ".png",
+   "note": "BTI B752; airBaltic retired type"
+  },
+  "BB_Boeing/B752/B752_CFG.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 557760,
+   "tex_ext": ".png",
+   "note": "CFG B752; Condor Thomas Cook-era scheme"
+  },
+  "BB_Boeing/B752/B752_CSN.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 386561,
+   "tex_ext": ".png",
+   "note": "CSN B752; China Southern retired type"
+  },
+  "BB_Boeing/B752/B752_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 365394,
+   "tex_ext": ".png",
+   "note": "EIN B752; Aer Lingus green-roof scheme"
+  },
+  "BB_Boeing/B752/B752_ELY.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 415804,
+   "tex_ext": ".png",
+   "note": "ELY B752; El Al retired type"
+  },
+  "BB_Boeing/B752/B752_EXS.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 543183,
+   "tex_ext": ".png",
+   "note": "EXS B752; Jet2 'jet2.com' scheme"
+  },
+  "BB_Boeing/B752/B752_FIN.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 382863,
+   "tex_ext": ".png",
+   "note": "FIN B752; Finnair 757 (retired)"
+  },
+  "BB_Boeing/B752/B752_IBE.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 373374,
+   "tex_ext": ".png",
+   "note": "IBE B752; Iberia 1977 scheme"
+  },
+  "BB_Boeing/B752/B752_ICE.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 394304,
+   "tex_ext": ".png",
+   "note": "ICE B752; Icelandair pre-2021 757 scheme"
+  },
+  "BB_Boeing/B752/B752_SXS.obj": {
+   "status": "outdated",
+   "year": 2009,
+   "tex_bytes": 367180,
+   "tex_ext": ".png",
+   "note": "SXS B752; SunExpress 757 (retired)"
+  },
+  "BB_Boeing/B752/B752_TOM.obj": {
+   "status": "defunct",
+   "tex_bytes": 386162,
+   "tex_ext": ".png",
+   "note": "TOM B752; Thomson / First Choice (rebranded TUI 2017)"
+  },
+  "BB_Boeing/B752/B752_TRA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 400864,
+   "tex_ext": ".png",
+   "note": "TRA B752; Transavia 757 (retired)"
+  },
+  "BB_Boeing/B752/B752_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 414500,
+   "tex_ext": ".png",
+   "note": "UAL B752; United 2010 globe scheme"
+  },
+  "BB_Boeing/B752/B752_UPS.obj": {
+   "status": "outdated",
+   "year": 1961,
+   "tex_bytes": 356796,
+   "tex_ext": ".png",
+   "note": "UPS B752; UPS brown shield scheme"
+  },
+  "BB_Boeing/B763/B763_AAR.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 508984,
+   "tex_ext": ".png",
+   "note": "AAR B763; retired type (Asiana, Air China)"
+  },
+  "BB_Boeing/B763/B763_ACA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 530054,
+   "tex_ext": ".png",
+   "note": "ACA B763; Air Canada retired type"
+  },
+  "BB_Boeing/B763/B763_AEA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 577004,
+   "tex_ext": ".png",
+   "note": "AEA B763; Air Europa pre-2015 scheme"
+  },
+  "BB_Boeing/B763/B763_AFL.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 502176,
+   "tex_ext": ".png",
+   "note": "AFL B763; Aeroflot 767 (retired)"
+  },
+  "BB_Boeing/B763/B763_AMX.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 493033,
+   "tex_ext": ".png",
+   "note": "AMX B763; Aeromexico retired type"
+  },
+  "BB_Boeing/B763/B763_ANZ.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 549176,
+   "tex_ext": ".png",
+   "note": "ANZ B763; Air New Zealand teal-tail scheme"
+  },
+  "BB_Boeing/B763/B763_AUA.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 493419,
+   "tex_ext": ".png",
+   "note": "AUA B763; Austrian pre-2018 scheme"
+  },
+  "BB_Boeing/B763/B763_AVA.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 450416,
+   "tex_ext": ".png",
+   "note": "AVA B763; Avianca 2013 red-belly scheme"
+  },
+  "BB_Boeing/B763/B763_BAW.obj": {
+   "status": "outdated",
+   "year": 1997,
+   "tex_bytes": 472847,
+   "tex_ext": ".png",
+   "note": "BAW B763; BA 767 (retired)"
+  },
+  "BB_Boeing/B763/B763_CCA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 828091,
+   "tex_ext": ".png",
+   "note": "CCA B763; Air China 767 (retired)"
+  },
+  "BB_Boeing/B763/B763_CES.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 446896,
+   "tex_ext": ".png",
+   "note": "CES B763; China Eastern pre-2014 striped scheme / retired type"
+  },
+  "BB_Boeing/B763/B763_CFG.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 522740,
+   "tex_ext": ".png",
+   "note": "CFG B763; Condor Thomas Cook-era scheme"
+  },
+  "BB_Boeing/B763/B763_ELY.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 449931,
+   "tex_ext": ".png",
+   "note": "ELY B763; El Al retired type"
+  },
+  "BB_Boeing/B763/B763_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 512078,
+   "tex_ext": ".png",
+   "note": "ETD B763; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Boeing/B763/B763_ETH.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 475922,
+   "tex_ext": ".png",
+   "note": "ETH B763; Ethiopian 767 (retired)"
+  },
+  "BB_Boeing/B763/B763_GFA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 483117,
+   "tex_ext": ".png",
+   "note": "GFA B763; Gulf Traveller 767 (retired)"
+  },
+  "BB_Boeing/B763/B763_GIA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 452395,
+   "tex_ext": ".png",
+   "note": "GIA B763; Garuda 767 (retired)"
+  },
+  "BB_Boeing/B763/B763_HVN.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 477220,
+   "tex_ext": ".png",
+   "note": "HVN B763; Vietnam Airlines retired type"
+  },
+  "BB_Boeing/B763/B763_IBE.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 463925,
+   "tex_ext": ".png",
+   "note": "IBE B763; Iberia 1977 scheme"
+  },
+  "BB_Boeing/B763/B763_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 757760,
+   "tex_ext": ".png",
+   "note": "JAL B763; JAL 'arc of the sun' scheme"
+  },
+  "BB_Boeing/B763/B763_KLM.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 453762,
+   "tex_ext": ".png",
+   "note": "KLM B763; KLM retired type"
+  },
+  "BB_Boeing/B763/B763_LOT.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 461376,
+   "tex_ext": ".png",
+   "note": "LOT B763; LOT retired type"
+  },
+  "BB_Boeing/B763/B763_MSR.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 471812,
+   "tex_ext": ".png",
+   "note": "MSR B763; EgyptAir 1990s scheme 767"
+  },
+  "BB_Boeing/B763/B763_QFA.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 475899,
+   "tex_ext": ".png",
+   "note": "QFA B763; Qantas retired type"
+  },
+  "BB_Boeing/B763/B763_RAM.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 477522,
+   "tex_ext": ".png",
+   "note": "RAM B763; Royal Air Maroc retired type"
+  },
+  "BB_Boeing/B763/B763_ROU.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 492663,
+   "tex_ext": ".png",
+   "note": "ROU B763; Air Canada Rouge 767 (retired)"
+  },
+  "BB_Boeing/B763/B763_SAS.obj": {
+   "status": "outdated",
+   "year": 1998,
+   "tex_bytes": 494575,
+   "tex_ext": ".png",
+   "note": "SAS B763; SAS retired type"
+  },
+  "BB_Boeing/B763/B763_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 447016,
+   "tex_ext": ".png",
+   "note": "TAM B763; TAM, rebranded LATAM 2016"
+  },
+  "BB_Boeing/B763/B763_TOM.obj": {
+   "status": "defunct",
+   "tex_bytes": 504053,
+   "tex_ext": ".png",
+   "note": "TOM B763; Thomson / First Choice (rebranded TUI 2017)"
+  },
+  "BB_Boeing/B763/B763_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 461250,
+   "tex_ext": ".png",
+   "note": "UAL B763; United 2010 globe scheme"
+  },
+  "BB_Boeing/B772/B772_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 660231,
+   "tex_ext": ".png",
+   "note": "ACA B772; Air Canada 2004 teal scheme"
+  },
+  "BB_Boeing/B772/B772_AIC.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 461244,
+   "tex_ext": ".png",
+   "note": "AIC B772; Air India 777-200LR (retired)"
+  },
+  "BB_Boeing/B772/B772_ANZ.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 430833,
+   "tex_ext": ".png",
+   "note": "ANZ B772; Air New Zealand teal-tail scheme"
+  },
+  "BB_Boeing/B772/B772_AUA.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 421743,
+   "tex_ext": ".png",
+   "note": "AUA B772; Austrian pre-2018 scheme"
+  },
+  "BB_Boeing/B772/B772_CPA.obj": {
+   "status": "outdated",
+   "year": 1994,
+   "tex_bytes": 466415,
+   "tex_ext": ".png",
+   "note": "CPA B772; Cathay retired type"
+  },
+  "BB_Boeing/B772/B772_CSN.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 439479,
+   "tex_ext": ".png",
+   "note": "CSN B772; China Southern 777-200 (retired)"
+  },
+  "BB_Boeing/B772/B772_HVN.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 429567,
+   "tex_ext": ".png",
+   "note": "HVN B772; Vietnam Airlines retired type"
+  },
+  "BB_Boeing/B772/B772_MAS.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 396949,
+   "tex_ext": ".png",
+   "note": "MAS B772; Malaysia retired type"
+  },
+  "BB_Boeing/B772/B772_MSR.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 440416,
+   "tex_ext": ".png",
+   "note": "MSR B772; EgyptAir 777-200 (retired)"
+  },
+  "BB_Boeing/B772/B772_SVA.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 436241,
+   "tex_ext": ".png",
+   "note": "SVA B772; Saudi Arabian Airlines 1996 scheme (rebranded Saudia 2012)"
+  },
+  "BB_Boeing/B772/B772_THA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 473361,
+   "tex_ext": ".png",
+   "note": "THA B772; Thai retired type"
+  },
+  "BB_Boeing/B772/B772_UAE.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 444061,
+   "tex_ext": ".png",
+   "note": "UAE B772; Emirates retired type"
+  },
+  "BB_Boeing/B772/B772_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 428097,
+   "tex_ext": ".png",
+   "note": "UAL B772; United 2010 globe scheme"
+  },
+  "BB_Boeing/B773/B773_THA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 472999,
+   "tex_ext": ".png",
+   "note": "THA B773; Thai retired type"
+  },
+  "BB_Boeing/B773/B773_UAE.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 456939,
+   "tex_ext": ".png",
+   "note": "UAE B773; Emirates retired type"
+  },
+  "BB_Boeing/B77L/B77L_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 519870,
+   "tex_ext": ".png",
+   "note": "ACA B77L; Air Canada 2004 teal scheme"
+  },
+  "BB_Boeing/B77L/B77L_AIC.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 458693,
+   "tex_ext": ".png",
+   "note": "AIC B77L; Air India 777-200LR (retired)"
+  },
+  "BB_Boeing/B77L/B77L_DAL.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 402907,
+   "tex_ext": ".png",
+   "note": "DAL B77L; Delta 777-200LR (retired 2020)"
+  },
+  "BB_Boeing/B77L/B77L_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 472308,
+   "tex_ext": ".png",
+   "note": "ETD B77L; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Boeing/B77L/B77L_UAE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 427233,
+   "tex_ext": ".png",
+   "note": "UAE B77L; Emirates pre-2023 scheme"
+  },
+  "BB_Boeing/B77W/B77W_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 523643,
+   "tex_ext": ".png",
+   "note": "ACA B77W; Air Canada 2004 teal scheme"
+  },
+  "BB_Boeing/B77W/B77W_AIC.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 474311,
+   "tex_ext": ".png",
+   "note": "AIC B77W; Air India Konark-wheel scheme"
+  },
+  "BB_Boeing/B77W/B77W_ANZ.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 422467,
+   "tex_ext": ".png",
+   "note": "ANZ B77W; Air New Zealand teal-tail scheme"
+  },
+  "BB_Boeing/B77W/B77W_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 630718,
+   "tex_ext": ".png",
+   "note": "ETD B77W; Etihad 2003 flag-tail scheme"
+  },
+  "BB_Boeing/B77W/B77W_GFA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 454977,
+   "tex_ext": ".png",
+   "note": "GFA B77W; Gulf Air pre-2023 gold-belly scheme / retired type"
+  },
+  "BB_Boeing/B77W/B77W_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 453490,
+   "tex_ext": ".png",
+   "note": "JAL B77W; JAL 'arc of the sun' scheme"
+  },
+  "BB_Boeing/B77W/B77W_SVA.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 527602,
+   "tex_ext": ".png",
+   "note": "SVA B77W; Saudi Arabian Airlines 1996 scheme (rebranded Saudia 2012)"
+  },
+  "BB_Boeing/B77W/B77W_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 465871,
+   "tex_ext": ".png",
+   "note": "TAM B77W; TAM, rebranded LATAM 2016"
+  },
+  "BB_Boeing/B77W/B77W_UAE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 416585,
+   "tex_ext": ".png",
+   "note": "UAE B77W; Emirates pre-2023 scheme"
+  },
+  "BB_Boeing/B77W/B77W_VOZ.obj": {
+   "status": "outdated",
+   "year": 2011,
+   "tex_bytes": 688655,
+   "tex_ext": ".png",
+   "note": "VOZ B77W; Virgin Australia retired type"
+  },
+  "BB_Boeing/B788/B788_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1787463,
+   "tex_ext": ".png",
+   "note": "ACA B788; Air Canada 2004 teal scheme"
+  },
+  "BB_Boeing/B788/B788_AIC.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 2603847,
+   "tex_ext": ".png",
+   "note": "AIC B788; Air India Konark-wheel scheme"
+  },
+  "BB_Boeing/B788/B788_TOM.obj": {
+   "status": "defunct",
+   "tex_bytes": 1394605,
+   "tex_ext": ".png",
+   "note": "TOM B788; Thomson / First Choice (rebranded TUI 2017)"
+  },
+  "BB_Boeing/B788/B788_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 2419433,
+   "tex_ext": ".png",
+   "note": "UAL B788; United 2010 globe scheme"
+  },
+  "BB_Jets/CRJ2/CRJ2_ACA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 167418,
+   "tex_ext": ".png",
+   "note": "ACA CRJ2; Air Canada retired type"
+  },
+  "BB_Jets/CRJ2/CRJ2_AFR.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 225799,
+   "tex_ext": ".png",
+   "note": "AFR CRJ2; Brit Air (brand dropped)"
+  },
+  "BB_Jets/CRJ2/CRJ2_ANE.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 240189,
+   "tex_ext": ".png",
+   "note": "ANE CRJ2; Air Nostrum in Iberia 1977 scheme"
+  },
+  "BB_Jets/CRJ2/CRJ2_AUA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 340794,
+   "tex_ext": ".png",
+   "note": "AUA CRJ2; 'Austrian arrows' (brand dropped)"
+  },
+  "BB_Jets/CRJ2/CRJ2_DLA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 258838,
+   "tex_ext": ".png",
+   "note": "DLA CRJ2; Air Dolomiti CRJ (retired)"
+  },
+  "BB_Jets/CRJ2/CRJ2_DLH.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 235703,
+   "tex_ext": ".png",
+   "note": "DLH CRJ2; Lufthansa Regional (brand dropped)"
+  },
+  "BB_Jets/CRJ2/CRJ2_EWG.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 183325,
+   "tex_ext": ".png",
+   "note": "EWG CRJ2; Eurowings pre-2015 scheme"
+  },
+  "BB_Jets/CRJ2/CRJ2_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 244451,
+   "tex_ext": ".png",
+   "note": "FFT CRJ2; Frontier grey-title scheme"
+  },
+  "BB_Jets/CRJ2/CRJ2_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 180920,
+   "tex_ext": ".png",
+   "note": "JAL CRJ2; JAL 'arc of the sun' scheme"
+  },
+  "BB_Jets/CRJ2/CRJ2_JIA.obj": {
+   "status": "defunct",
+   "tex_bytes": 316942,
+   "tex_ext": ".png",
+   "note": "JIA CRJ2; PSA in US Airways Express paint"
+  },
+  "BB_Jets/CRJ2/CRJ2_JZA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 267818,
+   "tex_ext": ".png",
+   "note": "JZA CRJ2; Air Canada Jazz (brand dropped)"
+  },
+  "BB_Jets/CRJ2/CRJ2_QXE.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 251603,
+   "tex_ext": ".png",
+   "note": "QXE CRJ2; Horizon's own scheme"
+  },
+  "BB_Jets/CRJ2/CRJ2_SKW.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 294125,
+   "tex_ext": ".png",
+   "note": "SKW CRJ2; SkyWest's own scheme"
+  },
+  "BB_Jets/CRJ2/CRJ2_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 332149,
+   "tex_ext": ".png",
+   "note": "UAL CRJ2; United Express 2010 globe scheme"
+  },
+  "BB_Jets/CRJ7/CRJ7_AFR.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 344598,
+   "tex_ext": ".png",
+   "note": "AFR CRJ7; Brit Air (brand dropped)"
+  },
+  "BB_Jets/CRJ7/CRJ7_ASH.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 295923,
+   "tex_ext": ".png",
+   "note": "ASH CRJ7; United Express 2004 grey scheme"
+  },
+  "BB_Jets/CRJ7/CRJ7_DLH.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 294451,
+   "tex_ext": ".png",
+   "note": "DLH CRJ7; Lufthansa Regional (brand dropped)"
+  },
+  "BB_Jets/CRJ7/CRJ7_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 350036,
+   "tex_ext": ".png",
+   "note": "FFT CRJ7; Frontier grey-title scheme"
+  },
+  "BB_Jets/CRJ7/CRJ7_GJS.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 300773,
+   "tex_ext": ".png",
+   "note": "GJS CRJ7; United Express 2004 grey scheme"
+  },
+  "BB_Jets/CRJ7/CRJ7_JIA.obj": {
+   "status": "defunct",
+   "tex_bytes": 334205,
+   "tex_ext": ".png",
+   "note": "JIA CRJ7; PSA in US Airways Express paint"
+  },
+  "BB_Jets/CRJ7/CRJ7_SKW.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 301013,
+   "tex_ext": ".png",
+   "note": "SKW CRJ7; Alaska SkyWest CRJ700, pre-2016 Alaska scheme"
+  },
+  "BB_Jets/CRJ7/CRJ7_UAL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 106647,
+   "tex_ext": ".png",
+   "note": "UAL CRJ7; United Express 2004 grey scheme"
+  },
+  "BB_Jets/CRJ9/CRJ9_ASH.obj": {
+   "status": "defunct",
+   "tex_bytes": 319243,
+   "tex_ext": ".png",
+   "note": "ASH CRJ9; Mesa in US Airways Express paint"
+  },
+  "BB_Jets/CRJ9/CRJ9_JZA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 342177,
+   "tex_ext": ".png",
+   "note": "JZA CRJ9; Air Canada Express 2004 teal scheme"
+  },
+  "BB_Jets/CRJ9/CRJ9_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 323684,
+   "tex_ext": ".png",
+   "note": "SAS CRJ9; SAS 1998 scheme"
+  },
+  "BB_Jets/DC10/DC10_FDX.obj": {
+   "status": "outdated",
+   "year": 1994,
+   "tex_bytes": 541240,
+   "tex_ext": ".png",
+   "note": "FDX DC10; FedEx retired type"
+  },
+  "BB_Jets/E135/E135_LGL.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 324914,
+   "tex_ext": ".png",
+   "note": "LGL E135; Luxair ERJ-135 (retired)"
+  },
+  "BB_Jets/E145/E145_AMX.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 394395,
+   "tex_ext": ".png",
+   "note": "AMX E145; Aeromexico Connect ERJ-145 (retired)"
+  },
+  "BB_Jets/E145/E145_BEL.obj": {
+   "status": "defunct",
+   "tex_bytes": 296788,
+   "tex_ext": ".png",
+   "note": "BEL E145; bmi paint (bmi ceased)"
+  },
+  "BB_Jets/E145/E145_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 418122,
+   "tex_ext": ".png",
+   "note": "FFT E145; Frontier grey-title scheme"
+  },
+  "BB_Jets/E145/E145_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 395621,
+   "tex_ext": ".png",
+   "note": "UAL E145; United Express 2010 globe scheme"
+  },
+  "BB_Jets/E170/E170_AFR.obj": {
+   "status": "outdated",
+   "year": 2009,
+   "tex_bytes": 363577,
+   "tex_ext": ".png",
+   "note": "AFR E170; Air France 'by Régional' (brand dropped)"
+  },
+  "BB_Jets/E170/E170_MSR.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 442875,
+   "tex_ext": ".png",
+   "note": "MSR E170; EgyptAir Express (merged 2019)"
+  },
+  "BB_Jets/E170/E170_SVA.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 408986,
+   "tex_ext": ".png",
+   "note": "SVA E170; Saudi Arabian Airlines 1996 scheme (rebranded Saudia 2012)"
+  },
+  "BB_Jets/E170/E170_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 388813,
+   "tex_ext": ".png",
+   "note": "UAL E170; United Express 2010 globe scheme"
+  },
+  "BB_Jets/E190/E190_ACA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 480110,
+   "tex_ext": ".png",
+   "note": "ACA E190; Air Canada retired type"
+  },
+  "BB_Jets/E190/E190_CMP.obj": {
+   "status": "outdated",
+   "year": 2010,
+   "tex_bytes": 589967,
+   "tex_ext": ".png",
+   "note": "CMP E190; Copa E190 (retired)"
+  },
+  "BB_Jets/E190/E190_CSN.obj": {
+   "status": "outdated",
+   "year": 2010,
+   "tex_bytes": 635027,
+   "tex_ext": ".png",
+   "note": "CSN E190; China Southern E190 (retired)"
+  },
+  "BB_Jets/E190/E190_JBU.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 408575,
+   "tex_ext": ".png",
+   "note": "JBU E190; JetBlue E190 (retired)"
+  },
+  "BB_Jets/E195/E195_AEA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 458404,
+   "tex_ext": ".png",
+   "note": "AEA E195; Air Europa pre-2015 scheme"
+  },
+  "BB_Jets/F100/F100_AAL.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 415594,
+   "tex_ext": ".png",
+   "note": "AAL F100; American polished-silver scheme"
+  },
+  "BB_Jets/F100/F100_AFR.obj": {
+   "status": "outdated",
+   "year": 1976,
+   "tex_bytes": 332228,
+   "tex_ext": ".png",
+   "note": "AFR F100; Air France Fokker 100 (retired)"
+  },
+  "BB_Jets/F100/F100_AUA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 324545,
+   "tex_ext": ".png",
+   "note": "AUA F100; 'Austrian arrows' (brand dropped)"
+  },
+  "BB_Jets/F100/F100_AVA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 288685,
+   "tex_ext": ".png",
+   "note": "AVA F100; Avianca retired type"
+  },
+  "BB_Jets/F100/F100_KLM.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 258940,
+   "tex_ext": ".png",
+   "note": "KLM F100; KLM retired type"
+  },
+  "BB_Jets/F100/F100_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 307928,
+   "tex_ext": ".png",
+   "note": "TAM F100; TAM, rebranded LATAM 2016"
+  },
+  "BB_Jets/F28/F28_ARG.obj": {
+   "status": "outdated",
+   "year": 1975,
+   "tex_bytes": 285189,
+   "tex_ext": ".png",
+   "note": "ARG F28; Aerolíneas Argentinas F28 (retired)"
+  },
+  "BB_Jets/F28/F28_GIA.obj": {
+   "status": "outdated",
+   "year": 1975,
+   "tex_bytes": 372852,
+   "tex_ext": ".png",
+   "note": "GIA F28; Garuda F28 (retired)"
+  },
+  "BB_Jets/F70/F70_AUA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 426274,
+   "tex_ext": ".png",
+   "note": "AUA F70; 'Austrian arrows' (brand dropped)"
+  },
+  "BB_Jets/F70/F70_KLM.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 412237,
+   "tex_ext": ".png",
+   "note": "KLM F70; KLM retired type"
+  },
+  "BB_Jets/F70/F70_KLM_PH-NWC.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 478976,
+   "tex_ext": ".png",
+   "note": "KLM F70 PHNWC; KLM retired type"
+  },
+  "BB_Jets/MD83/MD83_AAL.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 493739,
+   "tex_ext": ".png",
+   "note": "AAL MD83; American polished-silver scheme"
+  },
+  "BB_Jets/MD83/MD83_ARG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 452577,
+   "tex_ext": ".png",
+   "note": "ARG MD83; Aerolíneas Argentinas retired type"
+  },
+  "BB_Jets/MD83/MD83_AVA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 461005,
+   "tex_ext": ".png",
+   "note": "AVA MD83; Avianca retired type"
+  },
+  "BB_Jets/MD83/MD83_SAS.obj": {
+   "status": "outdated",
+   "year": 1998,
+   "tex_bytes": 543189,
+   "tex_ext": ".png",
+   "note": "SAS MD83; SAS retired type"
+  },
+  "BB_Jets/MD90/MD90_DAL.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 424177,
+   "tex_ext": ".png",
+   "note": "DAL MD90; Delta MD-90 (retired 2020)"
+  },
+  "BB_Jets/MD90/MD90_EVA.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 460554,
+   "tex_ext": ".png",
+   "note": "EVA MD90; EVA retired type"
+  },
+  "BB_Jets/MD90/MD90_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 519491,
+   "tex_ext": ".png",
+   "note": "JAL MD90; JAL 'arc of the sun' scheme"
+  },
+  "BB_Props/AT42/AT42_SEH.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 976095,
+   "tex_ext": ".png",
+   "note": "SEH AT43; Sky Express early scheme"
+  },
+  "BB_Props/AT72/AT72_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 544303,
+   "tex_ext": ".png",
+   "note": "EIN AT72; Aer Lingus green-roof scheme"
+  },
+  "BB_Props/DH8D/DH8D_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 456620,
+   "tex_ext": ".png",
+   "note": "ACA DH8D; Air Canada Express 2004 teal scheme"
+  },
+  "BB_Props/DH8D/DH8D_ASA.obj": {
+   "status": "outdated",
+   "year": 2011,
+   "tex_bytes": 403392,
+   "tex_ext": ".png",
+   "note": "ASA DH8D; Alaska Horizon pre-2016 scheme"
+  },
+  "BB_Props/DH8D/DH8D_AUA.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 316327,
+   "tex_ext": ".png",
+   "note": "AUA DH8D; Austrian retired type"
+  },
+  "BB_Props/DH8D/DH8D_BEL.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 361469,
+   "tex_ext": ".png",
+   "note": "BEL DH8D; Brussels Airlines retired type"
+  },
+  "BB_Props/DH8D/DH8D_BTI.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 268562,
+   "tex_ext": ".png",
+   "note": "BTI DH8D; airBaltic retired type"
+  },
+  "BB_Props/DH8D/DH8D_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 496723,
+   "tex_ext": ".png",
+   "note": "FFT DH8D; Frontier grey-title scheme"
+  },
+  "BB_Props/DH8D/DH8D_JJA.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 335346,
+   "tex_ext": ".png",
+   "note": "JJA DH8D; Jeju Air Dash 8 (retired)"
+  },
+  "BB_Props/DH8D/DH8D_JZA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 387306,
+   "tex_ext": ".png",
+   "note": "JZA DH8D; Air Canada Express 2004 teal scheme"
+  },
+  "BB_Props/DH8D/DH8D_LOT.obj": {
+   "status": "defunct",
+   "tex_bytes": 296299,
+   "tex_ext": ".png",
+   "note": "LOT DH8D; EuroLOT (ceased 2015)"
+  },
+  "BB_Props/DH8D/DH8D_QXE.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 321540,
+   "tex_ext": ".png",
+   "note": "QXE DH8D; Horizon's own scheme"
+  },
+  "BB_Props/DH8D/DH8D_WIF.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 330411,
+   "tex_ext": ".png",
+   "note": "WIF DH8D; Widerøe pre-2017 scheme"
+  },
+  "BB_Props/F50/F50_AVA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 335719,
+   "tex_ext": ".png",
+   "note": "AVA F50; Avianca retired type"
+  },
+  "BB_Props/F50/F50_BTI.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 388943,
+   "tex_ext": ".png",
+   "note": "BTI F50; airBaltic retired type"
+  },
+  "BB_Props/F50/F50_MAS.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 391789,
+   "tex_ext": ".png",
+   "note": "MAS F50; Malaysia Fokker 50 (retired)"
+  },
+  "BB_Props/JS41/JS41_AAL.obj": {
+   "status": "defunct",
+   "tex_bytes": 292202,
+   "tex_ext": ".png",
+   "note": "AAL JS41; American Connection Jetstream"
+  },
+  "BB_Props/JS41/JS41_SEH.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 229035,
+   "tex_ext": ".png",
+   "note": "SEH JS41; Sky Express early scheme"
+  },
+  "BB_Props/SB20/SB20_LOG.obj": {
+   "status": "defunct",
+   "tex_bytes": 359123,
+   "tex_ext": ".png",
+   "note": "LOG SB20; Loganair in Flybe franchise paint (Flybe ceased)"
+  },
+  "BB_Props/SF34/SF34_LOG.obj": {
+   "status": "defunct",
+   "tex_bytes": 319315,
+   "tex_ext": ".png",
+   "note": "LOG SF34; Loganair in Flybe franchise paint (Flybe ceased)"
+  },
+  "BB_Props/SF34/SF34_UAL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 330731,
+   "tex_ext": ".png",
+   "note": "UAL SF34; United Express Saab 340 (retired)"
+  },
+  "X-CSL/A20N/A20NCFM_BAW.obj": {
+   "status": "current",
+   "brand": "BAW",
+   "special": true,
+   "tex_bytes": 1690631,
+   "tex_ext": ".png",
+   "note": "'BA Better World' scheme (G-TTNA), filed as the plain AIRLINE entry"
+  },
+  "X-CSL/A20N/A20NCFM_BAW2.obj": {
+   "status": "current",
+   "brand": "BAW",
+   "special": false,
+   "tex_bytes": 1306837,
+   "tex_ext": ".png",
+   "note": "standard Chatham Dockyard livery, filed as LIVERY 2"
+  },
+  "X-CSL/A20N/A20NCFM_DLH2.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 383792,
+   "tex_ext": ".png",
+   "note": "DLH A20N 2; Lufthansa yellow-circle tail (replaced 2018, a few still flying)"
+  },
+  "X-CSL/A20N/A20NPW_HKE.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 393630,
+   "tex_ext": ".png",
+   "note": "HKE A20N; HK Express 2013 purple cityscape scheme (rebranded 2019)"
+  },
+  "X-CSL/A20N/A20NPW_VIV.obj": {
+   "status": "legacy",
+   "year": 2018,
+   "tex_bytes": 1511530,
+   "tex_ext": ".png",
+   "note": "VIV A20N; VivaAerobus red-and-green scheme (2023 rebrand rolling out)"
+  },
+  "X-CSL/A21N/A21NPW_FFT.obj": {
+   "status": "current",
+   "special": true,
+   "tex_bytes": 1482930,
+   "tex_ext": ".png",
+   "note": "Frontier 'America's Greenest Airline' dark-green special, filed as the plain A21N entry"
+  },
+  "X-CSL/A21N/A21NPW_THY2.obj": {
+   "status": "defunct",
+   "tex_bytes": 1284180,
+   "tex_ext": ".png",
+   "note": "THY A21N 2; AnadoluJet, rebranded AJet in 2024"
+  },
+  "X-CSL/A306/A306GE_AAL.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 2046960,
+   "tex_ext": ".png",
+   "note": "AAL A306; American polished-silver scheme (replaced 2013)"
+  },
+  "X-CSL/A306/A306GE_AAL2.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 1879843,
+   "tex_ext": ".png",
+   "note": "AAL A306 2; American polished-silver scheme (replaced 2013)"
+  },
+  "X-CSL/A306/A306GE_CES.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 419260,
+   "tex_ext": ".png",
+   "note": "CES A306; China Eastern pre-2014 striped scheme"
+  },
+  "X-CSL/A306/A306GE_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 624885,
+   "tex_ext": ".png",
+   "note": "DLH A306; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A306/A306GE_DLH2.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 459850,
+   "tex_ext": ".png",
+   "note": "DLH A306 2; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A306/A306GE_MASCRG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 299274,
+   "tex_ext": ".png",
+   "note": "MAS A306 CRG; MASkargo A300 (retired)"
+  },
+  "X-CSL/A306/A306GE_UAE.obj": {
+   "status": "outdated",
+   "year": 1985,
+   "tex_bytes": 578909,
+   "tex_ext": ".png",
+   "note": "UAE A306; Emirates A300 (retired)"
+  },
+  "X-CSL/A306/A306PW_CSN.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 415824,
+   "tex_ext": ".png",
+   "note": "CSN A306; China Southern A300 (retired)"
+  },
+  "X-CSL/A306/A306PW_CSNCRG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 321798,
+   "tex_ext": ".png",
+   "note": "CSN A306 CRG; China Southern A300 (retired)"
+  },
+  "X-CSL/A306/A306PW_ETDCRG.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 424436,
+   "tex_ext": ".png",
+   "note": "ETD A306 CRG; Etihad 2003 flag-tail scheme (whole fleet repainted)"
+  },
+  "X-CSL/A306/A306PW_GIA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 1866355,
+   "tex_ext": ".png",
+   "note": "GIA A306; Garuda A300 (retired)"
+  },
+  "X-CSL/A306/A306PW_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 1319807,
+   "tex_ext": ".png",
+   "note": "JAL A306; JAL 'arc of the sun' scheme (replaced 2011)"
+  },
+  "X-CSL/A306/A306PW_KAL.obj": {
+   "status": "outdated",
+   "year": 1984,
+   "tex_bytes": 332479,
+   "tex_ext": ".png",
+   "note": "KAL A306; Korean Air A300 (retired)"
+  },
+  "X-CSL/A306/A306PW_KALCRG.obj": {
+   "status": "outdated",
+   "year": 1984,
+   "tex_bytes": 323465,
+   "tex_ext": ".png",
+   "note": "KAL A306 CRG; Korean Air A300 (retired)"
+  },
+  "X-CSL/A306/A306PW_THA.obj": {
+   "status": "outdated",
+   "year": 1985,
+   "tex_bytes": 1609088,
+   "tex_ext": ".png",
+   "note": "THA A306; Thai A300 (retired)"
+  },
+  "X-CSL/A306/A306PW_THA2.obj": {
+   "status": "outdated",
+   "year": 1985,
+   "tex_bytes": 1196943,
+   "tex_ext": ".png",
+   "note": "THA A306 2; Thai A300 (retired)"
+  },
+  "X-CSL/A306/A306PW_THA3.obj": {
+   "status": "outdated",
+   "year": 1985,
+   "tex_bytes": 1668805,
+   "tex_ext": ".png",
+   "note": "THA A306 3; Thai A300 (retired)"
+  },
+  "X-CSL/A318/A318fCFM_AVA.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 1715954,
+   "tex_ext": ".png",
+   "note": "AVA A318; Avianca 2013 red-belly scheme"
+  },
+  "X-CSL/A319/A319fCFM_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 521327,
+   "tex_ext": ".png",
+   "note": "ACA A319; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/A319/A319fCFM_ACA2.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1437667,
+   "tex_ext": ".png",
+   "note": "ACA A319 2; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/A319/A319fCFM_AIC.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 2170129,
+   "tex_ext": ".png",
+   "note": "AIC A319; Air India Konark-wheel scheme (2023 'Vista' scheme rolling out)"
+  },
+  "X-CSL/A319/A319fCFM_AVA.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 1907011,
+   "tex_ext": ".png",
+   "note": "AVA A319; Avianca 2013 red-belly scheme"
+  },
+  "X-CSL/A319/A319fCFM_BEL.obj": {
+   "status": "legacy",
+   "year": 2017,
+   "tex_bytes": 1731128,
+   "tex_ext": ".png",
+   "note": "BEL A319; Brussels Airlines pre-2021 scheme"
+  },
+  "X-CSL/A319/A319fCFM_BEL2.obj": {
+   "status": "legacy",
+   "year": 2017,
+   "tex_bytes": 1353358,
+   "tex_ext": ".png",
+   "note": "BEL A319 2; Brussels Airlines pre-2021 scheme"
+  },
+  "X-CSL/A319/A319fCFM_DLH3.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 1293328,
+   "tex_ext": ".png",
+   "note": "DLH A319 3; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A319/A319fCFM_DLH4.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 345695,
+   "tex_ext": ".png",
+   "note": "DLH A319 4; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A319/A319fCFM_DLH5.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 358116,
+   "tex_ext": ".png",
+   "note": "DLH A319 5; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A319/A319fCFM_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 383229,
+   "tex_ext": ".png",
+   "note": "EIN A319; Aer Lingus green-roof scheme (fleet repainted to the 2019 scheme)"
+  },
+  "X-CSL/A319/A319fCFM_EZS.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 449839,
+   "tex_ext": ".png",
+   "note": "EZS A319; easyJet Switzerland '.com' scheme"
+  },
+  "X-CSL/A319/A319fCFM_EZY.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 1395190,
+   "tex_ext": ".png",
+   "note": "EZY A319; easyJet '.com' scheme (replaced 2015)"
+  },
+  "X-CSL/A319/A319fCFM_EZY2.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 464374,
+   "tex_ext": ".png",
+   "note": "EZY A319 2; easyJet '.com' scheme (replaced 2015)"
+  },
+  "X-CSL/A319/A319fCFM_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 428732,
+   "tex_ext": ".png",
+   "note": "FFT A319; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/A319/A319fCFM_FFT5.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 437636,
+   "tex_ext": ".png",
+   "note": "FFT A319 5; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/A319/A319fCFM_FFT6.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 431008,
+   "tex_ext": ".png",
+   "note": "FFT A319 6; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/A319/A319fIAE_AEE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 1764627,
+   "tex_ext": ".png",
+   "note": "AEE A319; Aegean white-tail scheme, still on the A320ceo fleet"
+  },
+  "X-CSL/A319/A319fIAE_BAW2.obj": {
+   "status": "current",
+   "tex_bytes": 1605811,
+   "tex_ext": ".png",
+   "note": "BAW A319 2; BA BEA retro special (one aircraft) — kept as a special"
+  },
+  "X-CSL/A319/A319fIAE_CSN.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 1792975,
+   "tex_ext": ".png",
+   "note": "CSN A319; China Southern A319 with a broken all-dark texture"
+  },
+  "X-CSL/A319/A319fIAE_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 400840,
+   "tex_ext": ".png",
+   "note": "SAS A319; SAS 1998 scheme (white tail, red engines), still on part of the fleet"
+  },
+  "X-CSL/A319/A319fIAE_TAM3.obj": {
+   "status": "defunct",
+   "tex_bytes": 1385253,
+   "tex_ext": ".png",
+   "note": "TAM A319 3; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A319/A319fIAE_TAM6.obj": {
+   "status": "defunct",
+   "tex_bytes": 1247887,
+   "tex_ext": ".png",
+   "note": "TAM A319 6; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A319/A319fIAE_UAL2.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 1339619,
+   "tex_ext": ".png",
+   "note": "UAL A319 2; United 2010 'globe' scheme, still on part of the fleet"
+  },
+  "X-CSL/A320/A320SfCFM_AICWL.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 2100591,
+   "tex_ext": ".png",
+   "note": "AIC A320 WL; Air India Konark-wheel scheme (2023 'Vista' scheme rolling out)"
+  },
+  "X-CSL/A320/A320SfCFM_AUAWL.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 1275377,
+   "tex_ext": ".png",
+   "note": "AUA A320 WL; Austrian pre-2018 scheme, still on part of the fleet"
+  },
+  "X-CSL/A320/A320SfCFM_AXMWL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 639786,
+   "tex_ext": ".png",
+   "note": "AXM A320 WL; AirAsia Malaysia 'Now Everyone Can Fly' titles"
+  },
+  "X-CSL/A320/A320SfCFM_CEBWL.obj": {
+   "status": "outdated",
+   "year": 2008,
+   "tex_bytes": 1442540,
+   "tex_ext": ".png",
+   "note": "CEB A320 WL; Cebu Pacific 'AIR.COM' scheme"
+  },
+  "X-CSL/A320/A320SfCFM_DLHWL.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 393686,
+   "tex_ext": ".png",
+   "note": "DLH A320 WL; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A320/A320SfCFM_DLHWL5.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 358323,
+   "tex_ext": ".png",
+   "note": "DLH A320 WL5; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A320/A320SfCFM_EJUWL2.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 1339970,
+   "tex_ext": ".png",
+   "note": "EJU A320 WL2; easyJet '.com' era scheme"
+  },
+  "X-CSL/A320/A320SfCFM_EZSWL2.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 1348549,
+   "tex_ext": ".png",
+   "note": "EZS A320 WL2; easyJet Switzerland '.com' scheme"
+  },
+  "X-CSL/A320/A320SfCFM_EZYWL.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 752211,
+   "tex_ext": ".png",
+   "note": "EZY A320 WL; easyJet '.com' era scheme"
+  },
+  "X-CSL/A320/A320SfCFM_FFTWL2.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 443889,
+   "tex_ext": ".png",
+   "note": "FFT A320 WL2; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/A320/A320SfCFM_TAMWL2.obj": {
+   "status": "defunct",
+   "tex_bytes": 1149594,
+   "tex_ext": ".png",
+   "note": "TAM A320 WL2; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A320/A320SfIAE_AEEWL.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 1270759,
+   "tex_ext": ".png",
+   "note": "AEE A320 WL; Aegean white-tail scheme, still on the A320ceo fleet"
+  },
+  "X-CSL/A320/A320SfIAE_HKEWL.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 414409,
+   "tex_ext": ".png",
+   "note": "HKE A320 WL; HK Express 2013 purple cityscape scheme (rebranded 2019)"
+  },
+  "X-CSL/A320/A320SfIAE_VIVWL2.obj": {
+   "status": "legacy",
+   "year": 2018,
+   "tex_bytes": 1144853,
+   "tex_ext": ".png",
+   "note": "VIV A320 WL2; VivaAerobus red-and-green scheme"
+  },
+  "X-CSL/A320/A320SfIAE_WMTWL2.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 1377970,
+   "tex_ext": ".png",
+   "note": "WMT A320 WL2; Wizz Air pre-2015 heavy-purple scheme"
+  },
+  "X-CSL/A320/A320SfIAE_WZZWL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 959090,
+   "tex_ext": ".png",
+   "note": "WZZ A320 WL; Wizz Air pre-2015 heavy-purple scheme"
+  },
+  "X-CSL/A320/A320fCFM_ACA2.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1585569,
+   "tex_ext": ".png",
+   "note": "ACA A320 2; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/A320/A320fCFM_AIC.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 2371340,
+   "tex_ext": ".png",
+   "note": "AIC A320; Air India Konark-wheel scheme (2023 'Vista' scheme rolling out)"
+  },
+  "X-CSL/A320/A320fCFM_AIQ2.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 430268,
+   "tex_ext": ".png",
+   "note": "AIQ A320 2; Thai AirAsia 'Now Everyone Can Fly' titles"
+  },
+  "X-CSL/A320/A320fCFM_AIQ5.obj": {
+   "status": "outdated",
+   "year": 2015,
+   "tex_bytes": 458210,
+   "tex_ext": ".png",
+   "note": "AIQ A320 5; Thai AirAsia King Power / Leicester City special, no longer flying"
+  },
+  "X-CSL/A320/A320fCFM_AIQ7.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 420518,
+   "tex_ext": ".png",
+   "note": "AIQ A320 7; Thai AirAsia 'Now Everyone Can Fly' titles"
+  },
+  "X-CSL/A320/A320fCFM_AIQ8.obj": {
+   "status": "outdated",
+   "year": 2015,
+   "tex_bytes": 403907,
+   "tex_ext": ".png",
+   "note": "AIQ A320 8; Thai AirAsia King Power / Leicester City special, no longer flying"
+  },
+  "X-CSL/A320/A320fCFM_AIQ9.obj": {
+   "status": "outdated",
+   "year": 2015,
+   "tex_bytes": 425899,
+   "tex_ext": ".png",
+   "note": "AIQ A320 9; Thai AirAsia King Power / Leicester City special, no longer flying"
+  },
+  "X-CSL/A320/A320fCFM_ARG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 327655,
+   "tex_ext": ".png",
+   "note": "ARG A320; Aerolíneas Argentinas pre-2010 dark-blue scheme"
+  },
+  "X-CSL/A320/A320fCFM_AUA.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 1350053,
+   "tex_ext": ".png",
+   "note": "AUA A320; Austrian pre-2018 scheme, still on part of the fleet"
+  },
+  "X-CSL/A320/A320fCFM_AUA2.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 377803,
+   "tex_ext": ".png",
+   "note": "AUA A320 2; Austrian 1990s 'AUSTRIAN' scheme"
+  },
+  "X-CSL/A320/A320fCFM_AUA3.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 381160,
+   "tex_ext": ".png",
+   "note": "AUA A320 3; Austrian pre-2018 scheme, still on part of the fleet"
+  },
+  "X-CSL/A320/A320fCFM_AVA2.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 2047799,
+   "tex_ext": ".png",
+   "note": "AVA A320 2; Avianca 2013 red-belly scheme"
+  },
+  "X-CSL/A320/A320fCFM_AXM.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 646186,
+   "tex_ext": ".png",
+   "note": "AXM A320; AirAsia Malaysia 'Now Everyone Can Fly' titles"
+  },
+  "X-CSL/A320/A320fCFM_BAW2.obj": {
+   "status": "outdated",
+   "year": 1984,
+   "tex_bytes": 1328148,
+   "tex_ext": ".png",
+   "note": "BAW A320 2; BA Landor scheme"
+  },
+  "X-CSL/A320/A320fCFM_BEL.obj": {
+   "status": "legacy",
+   "year": 2017,
+   "tex_bytes": 1159345,
+   "tex_ext": ".png",
+   "note": "BEL A320; Brussels Airlines pre-2021 scheme"
+  },
+  "X-CSL/A320/A320fCFM_BEL5.obj": {
+   "status": "legacy",
+   "year": 2017,
+   "tex_bytes": 992708,
+   "tex_ext": ".png",
+   "note": "BEL A320 5; Brussels Airlines pre-2021 scheme"
+  },
+  "X-CSL/A320/A320fCFM_BTK6.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 1760646,
+   "tex_ext": ".png",
+   "note": "BTK A320 6; Batik Air early plain-tail scheme"
+  },
+  "X-CSL/A320/A320fCFM_CEB.obj": {
+   "status": "outdated",
+   "year": 2008,
+   "tex_bytes": 1442540,
+   "tex_ext": ".png",
+   "note": "CEB A320; Cebu Pacific 'AIR.COM' scheme"
+  },
+  "X-CSL/A320/A320fCFM_CFG.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 1870931,
+   "tex_ext": ".png",
+   "note": "CFG A320; Condor grey-tail scheme"
+  },
+  "X-CSL/A320/A320fCFM_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 393686,
+   "tex_ext": ".png",
+   "note": "DLH A320; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A320/A320fCFM_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 1551928,
+   "tex_ext": ".png",
+   "note": "EIN A320; Aer Lingus green-roof scheme (fleet repainted to the 2019 scheme)"
+  },
+  "X-CSL/A320/A320fCFM_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 377628,
+   "tex_ext": ".png",
+   "note": "ETD A320; Etihad 2003 flag-tail scheme (whole fleet repainted)"
+  },
+  "X-CSL/A320/A320fCFM_EZY.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 1417743,
+   "tex_ext": ".png",
+   "note": "EZY A320; easyJet '.com' era scheme"
+  },
+  "X-CSL/A320/A320fCFM_EZY2.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 570030,
+   "tex_ext": ".png",
+   "note": "EZY A320 2; easyJet '.com' era scheme"
+  },
+  "X-CSL/A320/A320fCFM_EZY4.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 1534423,
+   "tex_ext": ".png",
+   "note": "EZY A320 4; easyJet early scheme, blank tail"
+  },
+  "X-CSL/A320/A320fCFM_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 595217,
+   "tex_ext": ".png",
+   "note": "FFT A320; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/A320/A320fCFM_FFT2.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 575863,
+   "tex_ext": ".png",
+   "note": "FFT A320 2; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/A320/A320fCFM_FFT3.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 555210,
+   "tex_ext": ".png",
+   "note": "FFT A320 3; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/A320/A320fCFM_FFT4.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 562353,
+   "tex_ext": ".png",
+   "note": "FFT A320 4; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/A320/A320fCFM_GFA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 712809,
+   "tex_ext": ".png",
+   "note": "GFA A320; Gulf Air pre-2023 gold-belly scheme"
+  },
+  "X-CSL/A320/A320fCFM_RJA2.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 1445865,
+   "tex_ext": ".png",
+   "note": "RJA A320 2; Royal Jordanian white-roof scheme"
+  },
+  "X-CSL/A320/A320fCFM_SEH.obj": {
+   "status": "outdated",
+   "year": 2017,
+   "tex_bytes": 1777290,
+   "tex_ext": ".png",
+   "note": "SEH A320; Sky Express early plain-tail A320"
+  },
+  "X-CSL/A320/A320fCFM_SXS.obj": {
+   "status": "legacy",
+   "year": 2009,
+   "tex_bytes": 1703729,
+   "tex_ext": ".png",
+   "note": "SXS A320; SunExpress blue sunburst scheme (2022 rebrand rolling out)"
+  },
+  "X-CSL/A320/A320fCFM_TAM3.obj": {
+   "status": "defunct",
+   "tex_bytes": 1141296,
+   "tex_ext": ".png",
+   "note": "TAM A320 3; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A320/A320fCFM_THY3.obj": {
+   "status": "defunct",
+   "tex_bytes": 1183879,
+   "tex_ext": ".png",
+   "note": "THY A320 3; AnadoluJet, rebranded AJet in 2024"
+  },
+  "X-CSL/A320/A320fCFM_TVF.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 1706792,
+   "tex_ext": ".png",
+   "note": "TVF A320; transavia.com pre-2015 scheme"
+  },
+  "X-CSL/A320/A320fIAE_AEE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 1913940,
+   "tex_ext": ".png",
+   "note": "AEE A320; Aegean white-tail scheme, still on the A320ceo fleet"
+  },
+  "X-CSL/A320/A320fIAE_AEE2.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 846903,
+   "tex_ext": ".png",
+   "note": "AEE A320 2; Aegean white-tail scheme, still on the A320ceo fleet"
+  },
+  "X-CSL/A320/A320fIAE_ANZ.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 310871,
+   "tex_ext": ".png",
+   "note": "ANZ A320; Air New Zealand teal-tail scheme (replaced by the black fern scheme)"
+  },
+  "X-CSL/A320/A320fIAE_BTK2.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 1689513,
+   "tex_ext": ".png",
+   "note": "BTK A320 2; Batik Air early plain-tail scheme"
+  },
+  "X-CSL/A320/A320fIAE_CFG5.obj": {
+   "status": "outdated",
+   "year": 2010,
+   "tex_bytes": 949117,
+   "tex_ext": ".png",
+   "note": "CFG A320 5; Condor red half-moon A320"
+  },
+  "X-CSL/A320/A320fIAE_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 506629,
+   "tex_ext": ".png",
+   "note": "SAS A320; SAS 1998 scheme (white tail, red engines), still on part of the fleet"
+  },
+  "X-CSL/A320/A320fIAE_TAM4.obj": {
+   "status": "defunct",
+   "tex_bytes": 2450540,
+   "tex_ext": ".png",
+   "note": "TAM A320 4; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A320/A320fIAE_TAM5.obj": {
+   "status": "defunct",
+   "tex_bytes": 1230350,
+   "tex_ext": ".png",
+   "note": "TAM A320 5; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A320/A320fIAE_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 1522364,
+   "tex_ext": ".png",
+   "note": "UAL A320; United 2010 'globe' scheme, still on part of the fleet"
+  },
+  "X-CSL/A320/A320fIAE_VIV.obj": {
+   "status": "legacy",
+   "year": 2018,
+   "tex_bytes": 1131572,
+   "tex_ext": ".png",
+   "note": "VIV A320; VivaAerobus red-and-green scheme"
+  },
+  "X-CSL/A321/A321SfCFM_CFGWL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 1413927,
+   "tex_ext": ".png",
+   "note": "CFG A321 WL; Condor grey-tail scheme"
+  },
+  "X-CSL/A321/A321SfIAE_AALWL.obj": {
+   "status": "defunct",
+   "tex_bytes": 2414004,
+   "tex_ext": ".png",
+   "note": "AAL A321 WL; near-black fuselage, a broken texture of the 2013 scheme"
+  },
+  "X-CSL/A321/A321SfIAE_HKEWL.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 1583920,
+   "tex_ext": ".png",
+   "note": "HKE A321 WL; HK Express 2013 purple cityscape scheme (rebranded 2019)"
+  },
+  "X-CSL/A321/A321SfIAE_JSTWL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 2297750,
+   "tex_ext": ".png",
+   "note": "JST A321 WL; Jetstar '.com' titles"
+  },
+  "X-CSL/A321/A321SfIAE_TAMWL3.obj": {
+   "status": "defunct",
+   "tex_bytes": 1187055,
+   "tex_ext": ".png",
+   "note": "TAM A321 WL3; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A321/A321SfIAE_VIVWL.obj": {
+   "status": "legacy",
+   "year": 2018,
+   "tex_bytes": 1104039,
+   "tex_ext": ".png",
+   "note": "VIV A321 WL; VivaAerobus red-and-green scheme"
+  },
+  "X-CSL/A321/A321fCFM_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 517328,
+   "tex_ext": ".png",
+   "note": "ACA A321; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/A321/A321fCFM_AIC.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 618335,
+   "tex_ext": ".png",
+   "note": "AIC A321; Air India Konark-wheel scheme (2023 'Vista' scheme rolling out)"
+  },
+  "X-CSL/A321/A321fCFM_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 423284,
+   "tex_ext": ".png",
+   "note": "EIN A321; Aer Lingus green-roof scheme (fleet repainted to the 2019 scheme)"
+  },
+  "X-CSL/A321/A321fCFM_RJA3.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 2115039,
+   "tex_ext": ".png",
+   "note": "RJA A321 3; Royal Jordanian white-roof scheme"
+  },
+  "X-CSL/A321/A321fIAE_AEE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 469384,
+   "tex_ext": ".png",
+   "note": "AEE A321; Aegean white-tail scheme, still on the A320ceo fleet"
+  },
+  "X-CSL/A321/A321fIAE_AUA.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 1393611,
+   "tex_ext": ".png",
+   "note": "AUA A321; Austrian pre-2018 scheme, still on part of the fleet"
+  },
+  "X-CSL/A321/A321fIAE_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 437435,
+   "tex_ext": ".png",
+   "note": "DLH A321; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A321/A321fIAE_DLH4.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 440345,
+   "tex_ext": ".png",
+   "note": "DLH A321 4; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A321/A321fIAE_JST.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 2297750,
+   "tex_ext": ".png",
+   "note": "JST A321; Jetstar '.com' titles"
+  },
+  "X-CSL/A321/A321fIAE_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 1303071,
+   "tex_ext": ".png",
+   "note": "SAS A321; SAS 1998 scheme (white tail, red engines), still on part of the fleet"
+  },
+  "X-CSL/A321/A321fIAE_TAM2.obj": {
+   "status": "defunct",
+   "tex_bytes": 1877781,
+   "tex_ext": ".png",
+   "note": "TAM A321 2; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A332/A332GE_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 275955,
+   "tex_ext": ".png",
+   "note": "EIN A332; Aer Lingus green-roof scheme (fleet repainted to the 2019 scheme)"
+  },
+  "X-CSL/A332/A332GE_IBE2.obj": {
+   "status": "current",
+   "brand": "LVL",
+   "tex_bytes": 1141277,
+   "tex_ext": ".png",
+   "note": "IBE A332 2; LEVEL paint filed under Iberia"
+  },
+  "X-CSL/A332/A332GE_QFA.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 329127,
+   "tex_ext": ".png",
+   "note": "QFA A332; Qantas 2007 kangaroo, still on part of the fleet"
+  },
+  "X-CSL/A332/A332PW_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 724140,
+   "tex_ext": ".png",
+   "note": "DLH A332; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A332/A332PW_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 823127,
+   "tex_ext": ".png",
+   "note": "TAM A332; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A332/A332RR_CFG.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 327642,
+   "tex_ext": ".png",
+   "note": "CFG A332; Condor Thomas Cook-era A330"
+  },
+  "X-CSL/A332/A332RR_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 451143,
+   "tex_ext": ".png",
+   "note": "ETD A332; Etihad 2003 flag-tail scheme (whole fleet repainted)"
+  },
+  "X-CSL/A332/A332RR_GLO.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 632396,
+   "tex_ext": ".png",
+   "note": "GLO A332; GOL '%' tail scheme"
+  },
+  "X-CSL/A332/A332RR_UAE.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 466777,
+   "tex_ext": ".png",
+   "note": "UAE A332; Emirates A330 (retired)"
+  },
+  "X-CSL/A333/A333GE_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 278338,
+   "tex_ext": ".png",
+   "note": "EIN A333; Aer Lingus green-roof scheme (fleet repainted to the 2019 scheme)"
+  },
+  "X-CSL/A333/A333GE_QFA.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 294077,
+   "tex_ext": ".png",
+   "note": "QFA A333; Qantas 2007 kangaroo"
+  },
+  "X-CSL/A333/A333PW_THA3.obj": {
+   "status": "outdated",
+   "year": 1975,
+   "tex_bytes": 864974,
+   "tex_ext": ".png",
+   "note": "THA A333 3; Thai 1975 scheme A330"
+  },
+  "X-CSL/A333/A333RR_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 435332,
+   "tex_ext": ".png",
+   "note": "ACA A333; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/A333/A333RR_ACA2.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 383335,
+   "tex_ext": ".png",
+   "note": "ACA A333 2; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/A333/A333RR_BEL.obj": {
+   "status": "legacy",
+   "year": 2017,
+   "tex_bytes": 417786,
+   "tex_ext": ".png",
+   "note": "BEL A333; Brussels Airlines pre-2021 scheme"
+  },
+  "X-CSL/A333/A333RR_BEL2.obj": {
+   "status": "legacy",
+   "year": 2017,
+   "tex_bytes": 417144,
+   "tex_ext": ".png",
+   "note": "BEL A333 2; Brussels Airlines pre-2021 scheme"
+  },
+  "X-CSL/A333/A333RR_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 313526,
+   "tex_ext": ".png",
+   "note": "DLH A333; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A333/A333RR_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 446183,
+   "tex_ext": ".png",
+   "note": "ETD A333; Etihad 2003 flag-tail scheme (whole fleet repainted)"
+  },
+  "X-CSL/A346/A346_DLH2.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 1221017,
+   "tex_ext": ".png",
+   "note": "DLH A346 2; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/A346/A346_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 1599109,
+   "tex_ext": ".png",
+   "note": "ETD A346; Etihad 2003 flag-tail scheme (whole fleet repainted)"
+  },
+  "X-CSL/A346/A346_IBE2.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 415776,
+   "tex_ext": ".png",
+   "note": "IBE A346 2; Iberia 1977 scheme"
+  },
+  "X-CSL/A346/A346_THA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 1240711,
+   "tex_ext": ".png",
+   "note": "THA A346; Thai A340 (retired)"
+  },
+  "X-CSL/A346/A346_THA2.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 1732067,
+   "tex_ext": ".png",
+   "note": "THA A346 2; Thai A340 (retired)"
+  },
+  "X-CSL/A359/A359_TAM2.obj": {
+   "status": "defunct",
+   "tex_bytes": 1404645,
+   "tex_ext": ".png",
+   "note": "TAM A359 2; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A359/A359_TAM3.obj": {
+   "status": "defunct",
+   "tex_bytes": 1418862,
+   "tex_ext": ".png",
+   "note": "TAM A359 3; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/A388/A388fuse_CSNfuse.obj": {
+   "status": "outdated",
+   "year": 2011,
+   "tex_bytes": 240511,
+   "tex_ext": ".png",
+   "note": "CSN A388; China Southern A380 (retired 2022)"
+  },
+  "X-CSL/A388/A388fuse_MASfuse.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 324063,
+   "tex_ext": ".png",
+   "note": "MAS A388; Malaysia Airlines A380 (retired)"
+  },
+  "X-CSL/A388/A388fuse_THAfuse.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 199494,
+   "tex_ext": ".png",
+   "note": "THA A388; Thai A380 (retired)"
+  },
+  "X-CSL/A388/A388fuse_UAEfuse.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 271323,
+   "tex_ext": ".png",
+   "note": "UAE A388; Emirates pre-2023 scheme, still on most of the fleet"
+  },
+  "X-CSL/AN24/AN24_LOT.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 725323,
+   "tex_ext": ".png",
+   "note": "LOT AN24; LOT An-24 (retired)"
+  },
+  "X-CSL/AN24/AN24_LOT2.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 723280,
+   "tex_ext": ".png",
+   "note": "LOT AN24 2; LOT An-24 (retired)"
+  },
+  "X-CSL/AT72/AT72_AEE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 477567,
+   "tex_ext": ".png",
+   "note": "AEE AT72; Aegean white-tail scheme, still on the A320ceo fleet"
+  },
+  "X-CSL/AT72/AT72_EWG.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 558408,
+   "tex_ext": ".png",
+   "note": "EWG AT72; Eurowings pre-2015 regional scheme"
+  },
+  "X-CSL/AT72/AT72_LOT.obj": {
+   "status": "outdated",
+   "year": 1997,
+   "tex_bytes": 523176,
+   "tex_ext": ".png",
+   "note": "LOT AT72; EuroLOT ATR (EuroLOT ceased 2015)"
+  },
+  "X-CSL/AT72/AT72_LOT2.obj": {
+   "status": "outdated",
+   "year": 1997,
+   "tex_bytes": 796958,
+   "tex_ext": ".png",
+   "note": "LOT AT72 2; EuroLOT ATR (EuroLOT ceased 2015)"
+  },
+  "X-CSL/AT75/AT75_AEE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 457382,
+   "tex_ext": ".png",
+   "note": "AEE AT75; Aegean white-tail scheme, still on the A320ceo fleet"
+  },
+  "X-CSL/AT75/AT75_CSN.obj": {
+   "status": "outdated",
+   "year": 2008,
+   "tex_bytes": 538601,
+   "tex_ext": ".png",
+   "note": "CSN AT75; China Southern ATR (retired)"
+  },
+  "X-CSL/AT75/AT75_EGF.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "brand": "AAL",
+   "tex_bytes": 722111,
+   "tex_ext": ".png",
+   "note": "1990s American Eagle ATR"
+  },
+  "X-CSL/AT75/AT75_ENY.obj": {
+   "status": "current",
+   "brand": "AAL",
+   "tex_bytes": 418781,
+   "tex_ext": ".png",
+   "note": "American Eagle"
+  },
+  "X-CSL/AT75/AT75_EWG.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 557807,
+   "tex_ext": ".png",
+   "note": "EWG AT75; Eurowings pre-2015 regional scheme"
+  },
+  "X-CSL/AT75/AT75_FIN.obj": {
+   "status": "outdated",
+   "year": 2015,
+   "tex_bytes": 317882,
+   "tex_ext": ".png",
+   "note": "FIN AT75; NoRRA ATR (Norra now flies in Finnair paint)"
+  },
+  "X-CSL/AT76/AT76_ANE.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 704514,
+   "tex_ext": ".png",
+   "note": "ANE AT76; Iberia Regional 1977-scheme ATR"
+  },
+  "X-CSL/AT76/AT76_AZU5.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 779482,
+   "tex_ext": ".png",
+   "note": "AZU AT76 5; Azul/Trip merger squares tail"
+  },
+  "X-CSL/AT76/AT76_CTV.obj": {
+   "status": "outdated",
+   "year": 2014,
+   "tex_bytes": 951320,
+   "tex_ext": ".png",
+   "note": "CTV AT76; Citilink old green ATR"
+  },
+  "X-CSL/AT76/AT76_GIA.obj": {
+   "status": "outdated",
+   "year": 2014,
+   "tex_bytes": 978827,
+   "tex_ext": ".png",
+   "note": "GIA AT76; Garuda ATR (retired)"
+  },
+  "X-CSL/AT76/AT76_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 944151,
+   "tex_ext": ".png",
+   "note": "SAS AT76; SAS 1998 scheme ATR"
+  },
+  "X-CSL/AT76/AT76_SAS2.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 955797,
+   "tex_ext": ".png",
+   "note": "SAS AT76 2; SAS 1998 scheme ATR"
+  },
+  "X-CSL/B733/B733Wfa_BELWL.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 1350446,
+   "tex_ext": ".png",
+   "note": "BEL B733 WL; Brussels Airlines 737-300 (retired)"
+  },
+  "X-CSL/B733/B733Wfa_BTIWL.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 1592292,
+   "tex_ext": ".png",
+   "note": "BTI B733 WL; airBaltic 737 (all-A220 fleet since 2020)"
+  },
+  "X-CSL/B733/B733Wfa_BTIWL2.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 488295,
+   "tex_ext": ".png",
+   "note": "BTI B733 WL2; airBaltic 737 (all-A220 fleet since 2020)"
+  },
+  "X-CSL/B733/B733Wfa_NOZWL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 1395958,
+   "tex_ext": ".png",
+   "note": "NOZ B733 WL; Norwegian 737-300 (retired)"
+  },
+  "X-CSL/B733/B733fa_AAL.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 1416078,
+   "tex_ext": ".png",
+   "note": "AAL B733; American polished-silver scheme (replaced 2013)"
+  },
+  "X-CSL/B733/B733fa_AFR.obj": {
+   "status": "outdated",
+   "year": 1976,
+   "tex_bytes": 1582862,
+   "tex_ext": ".png",
+   "note": "AFR B733; Air France pre-2009 scheme, 737 retired"
+  },
+  "X-CSL/B733/B733fa_ARG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 1922791,
+   "tex_ext": ".png",
+   "note": "ARG B733; Aerolíneas Argentinas pre-2010 dark-blue scheme"
+  },
+  "X-CSL/B733/B733fa_BEL.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 1350446,
+   "tex_ext": ".png",
+   "note": "BEL B733; Brussels Airlines 737-300 (retired)"
+  },
+  "X-CSL/B733/B733fa_BTI.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 488308,
+   "tex_ext": ".png",
+   "note": "BTI B733; airBaltic 737 (all-A220 fleet since 2020)"
+  },
+  "X-CSL/B733/B733fa_CES.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 2548024,
+   "tex_ext": ".png",
+   "note": "CES B733; China Eastern pre-2014 striped scheme"
+  },
+  "X-CSL/B733/B733fa_CFG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 484094,
+   "tex_ext": ".png",
+   "note": "CFG B733; Condor yellow-tail 737-300 (retired)"
+  },
+  "X-CSL/B733/B733fa_CSN.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 2329648,
+   "tex_ext": ".png",
+   "note": "CSN B733; China Southern 737-300/500 (retired)"
+  },
+  "X-CSL/B733/B733fa_DAL.obj": {
+   "status": "outdated",
+   "year": 1987,
+   "tex_bytes": 543047,
+   "tex_ext": ".png",
+   "note": "DAL B733; Delta 'widget' scheme"
+  },
+  "X-CSL/B733/B733fa_DAL2.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 559373,
+   "tex_ext": ".png",
+   "note": "DAL B733 2; Delta 2000-2007 scheme"
+  },
+  "X-CSL/B733/B733fa_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 1092182,
+   "tex_ext": ".png",
+   "note": "DLH B733; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/B733/B733fa_EZY.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 1544755,
+   "tex_ext": ".png",
+   "note": "EZY B733; easyJet '.com' era scheme"
+  },
+  "X-CSL/B733/B733fa_FFT.obj": {
+   "status": "outdated",
+   "year": 1994,
+   "tex_bytes": 1268701,
+   "tex_ext": ".png",
+   "note": "FFT B733; Frontier original script scheme"
+  },
+  "X-CSL/B733/B733fa_GIA.obj": {
+   "status": "outdated",
+   "year": 2009,
+   "tex_bytes": 2102474,
+   "tex_ext": ".png",
+   "note": "GIA B733; Garuda 737-300/500 (retired)"
+  },
+  "X-CSL/B733/B733fa_GIA2.obj": {
+   "status": "outdated",
+   "year": 2009,
+   "tex_bytes": 1607810,
+   "tex_ext": ".png",
+   "note": "GIA B733 2; Garuda 737-300/500 (retired)"
+  },
+  "X-CSL/B733/B733fa_ICE.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 1996877,
+   "tex_ext": ".png",
+   "note": "ICE B733; Icelandair 737-300 (retired)"
+  },
+  "X-CSL/B733/B733fa_NOZ.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 1378535,
+   "tex_ext": ".png",
+   "note": "NOZ B733; Norwegian 737-300 (retired)"
+  },
+  "X-CSL/B733/B733fa_QFA.obj": {
+   "status": "outdated",
+   "year": 1984,
+   "tex_bytes": 1591560,
+   "tex_ext": ".png",
+   "note": "QFA B733; Qantas 1984 scheme 737-300"
+  },
+  "X-CSL/B733/B733fa_SWA.obj": {
+   "status": "outdated",
+   "year": 2001,
+   "tex_bytes": 443461,
+   "tex_ext": ".png",
+   "note": "SWA B733; Southwest Canyon Blue (2001-2014 scheme)"
+  },
+  "X-CSL/B733/B733fa_SWA2.obj": {
+   "status": "outdated",
+   "year": 1971,
+   "tex_bytes": 965631,
+   "tex_ext": ".png",
+   "note": "SWA B733 2; Southwest Desert Gold"
+  },
+  "X-CSL/B733/B733fa_TRA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 679223,
+   "tex_ext": ".png",
+   "note": "TRA B733; Transavia 737-300 (retired)"
+  },
+  "X-CSL/B733/B733fa_UAE.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 2053467,
+   "tex_ext": ".png",
+   "note": "UAE B733; Emirates 737 (never in passenger service; retired)"
+  },
+  "X-CSL/B733/B733fa_UAL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 1509780,
+   "tex_ext": ".png",
+   "note": "UAL B733; United 2004 blue/grey 'tulip' scheme"
+  },
+  "X-CSL/B733/B733fa_UAL2.obj": {
+   "status": "outdated",
+   "year": 1993,
+   "tex_bytes": 1652292,
+   "tex_ext": ".png",
+   "note": "UAL B733 2; United 'battleship grey' scheme"
+  },
+  "X-CSL/B733/B733fa_UAL3.obj": {
+   "status": "outdated",
+   "year": 1974,
+   "tex_bytes": 1699772,
+   "tex_ext": ".png",
+   "note": "UAL B733 3; United Saul Bass 'tulip' rainbow scheme"
+  },
+  "X-CSL/B733/B733fa_VIV.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 315812,
+   "tex_ext": ".png",
+   "note": "VIV B733; vivaaerobus.com 737-300 (retired)"
+  },
+  "X-CSL/B735/B735Wfa_UALWL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 961998,
+   "tex_ext": ".png",
+   "note": "UAL B735 WL; United 2010 'globe' scheme"
+  },
+  "X-CSL/B735/B735fa_AFR.obj": {
+   "status": "outdated",
+   "year": 1976,
+   "tex_bytes": 1561544,
+   "tex_ext": ".png",
+   "note": "AFR B735; Air France pre-2009 scheme, 737 retired"
+  },
+  "X-CSL/B735/B735fa_BTI.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 1820827,
+   "tex_ext": ".png",
+   "note": "BTI B735; airBaltic 737 (all-A220 fleet since 2020)"
+  },
+  "X-CSL/B735/B735fa_CSN.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 2298856,
+   "tex_ext": ".png",
+   "note": "CSN B735; China Southern 737-300/500 (retired)"
+  },
+  "X-CSL/B735/B735fa_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 998161,
+   "tex_ext": ".png",
+   "note": "DLH B735; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/B735/B735fa_EIN.obj": {
+   "status": "outdated",
+   "year": 1996,
+   "tex_bytes": 2142311,
+   "tex_ext": ".png",
+   "note": "EIN B735; Aer Lingus green-roof scheme (fleet repainted to the 2019 scheme)"
+  },
+  "X-CSL/B735/B735fa_GIA.obj": {
+   "status": "outdated",
+   "year": 2009,
+   "tex_bytes": 1508688,
+   "tex_ext": ".png",
+   "note": "GIA B735; Garuda 737-300/500 (retired)"
+  },
+  "X-CSL/B735/B735fa_MAS.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 1978827,
+   "tex_ext": ".png",
+   "note": "MAS B735; Malaysia Airlines 737-500 (retired)"
+  },
+  "X-CSL/B735/B735fa_SAS.obj": {
+   "status": "outdated",
+   "year": 1998,
+   "tex_bytes": 1306823,
+   "tex_ext": ".png",
+   "note": "SAS B735; SAS 737 (737s retired 2019)"
+  },
+  "X-CSL/B735/B735fa_SAS2.obj": {
+   "status": "outdated",
+   "year": 1998,
+   "tex_bytes": 1306823,
+   "tex_ext": ".png",
+   "note": "SAS B735 2; SAS 737 (737s retired 2019)"
+  },
+  "X-CSL/B735/B735fa_SAS3.obj": {
+   "status": "outdated",
+   "year": 1983,
+   "tex_bytes": 1415350,
+   "tex_ext": ".png",
+   "note": "SAS B735 3; SAS 1983 striped scheme"
+  },
+  "X-CSL/B735/B735fa_SWA.obj": {
+   "status": "outdated",
+   "year": 2001,
+   "tex_bytes": 431195,
+   "tex_ext": ".png",
+   "note": "SWA B735; Southwest Canyon Blue (2001-2014 scheme)"
+  },
+  "X-CSL/B735/B735fa_SWA2.obj": {
+   "status": "outdated",
+   "year": 1971,
+   "tex_bytes": 937456,
+   "tex_ext": ".png",
+   "note": "SWA B735 2; Southwest Desert Gold"
+  },
+  "X-CSL/B735/B735fa_TVS.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 1461969,
+   "tex_ext": ".png",
+   "note": "TVS B735; Smartwings 737-500 (retired)"
+  },
+  "X-CSL/B735/B735fa_UAL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 1530654,
+   "tex_ext": ".png",
+   "note": "UAL B735; United 2004 blue/grey 'tulip' scheme"
+  },
+  "X-CSL/B735/B735fa_UAL2.obj": {
+   "status": "outdated",
+   "year": 1993,
+   "tex_bytes": 1670945,
+   "tex_ext": ".png",
+   "note": "UAL B735 2; United 'battleship grey' scheme"
+  },
+  "X-CSL/B735/B735fa_UAL3.obj": {
+   "status": "outdated",
+   "year": 1974,
+   "tex_bytes": 1717975,
+   "tex_ext": ".png",
+   "note": "UAL B735 3; United Saul Bass 'tulip' rainbow scheme"
+  },
+  "X-CSL/B738/B738Sfa_ASAS4.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 582068,
+   "tex_ext": ".png",
+   "note": "ASA B738 S4; Alaska pre-2016 scheme"
+  },
+  "X-CSL/B738/B738Sfa_GLOS.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 2066541,
+   "tex_ext": ".png",
+   "note": "GLO B738 S; GOL '%' tail scheme"
+  },
+  "X-CSL/B738/B738Sfa_QFAS2.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 1600991,
+   "tex_ext": ".png",
+   "note": "QFA B738 S2; Qantas 2007 kangaroo"
+  },
+  "X-CSL/B738/B738Sfa_SCXS.obj": {
+   "status": "defunct",
+   "tex_bytes": 1963791,
+   "tex_ext": ".png",
+   "note": "SCX B738 S; Amazon Prime Air freighter filed under Sun Country"
+  },
+  "X-CSL/B738/B738Sfa_UALS2.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 2069709,
+   "tex_ext": ".png",
+   "note": "UAL B738 S2; United 2010 'globe' scheme"
+  },
+  "X-CSL/B738/B738Sfa_UALS5.obj": {
+   "status": "outdated",
+   "year": 2019,
+   "tex_bytes": 2041806,
+   "tex_ext": ".png",
+   "note": "UAL B738 S5; United Star Wars special, no longer flying"
+  },
+  "X-CSL/B738/B738Sfa_WJACRG2.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1673582,
+   "tex_ext": ".png",
+   "note": "WJA B738 CRG2; WestJet 2004 teal tail, still on part of the fleet"
+  },
+  "X-CSL/B738/B738Sfa_WJAS.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1620679,
+   "tex_ext": ".png",
+   "note": "WJA B738 S; WestJet 2004 teal tail, still on part of the fleet"
+  },
+  "X-CSL/B738/B738Sfa_WJAS2.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1620480,
+   "tex_ext": ".png",
+   "note": "WJA B738 S2; WestJet 2004 teal tail, still on part of the fleet"
+  },
+  "X-CSL/B738/B738Sfa_WJAS3.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1645521,
+   "tex_ext": ".png",
+   "note": "WJA B738 S3; WestJet 2004 teal tail, still on part of the fleet"
+  },
+  "X-CSL/B738/B738Sfa_WJAS4.obj": {
+   "status": "outdated",
+   "year": 2008,
+   "tex_bytes": 2582470,
+   "tex_ext": ".png",
+   "note": "WJA B738 S4; WestJet Disney 'Magic Plane' special, no longer flying"
+  },
+  "X-CSL/B738/B738Sfa_WJAS5.obj": {
+   "status": "defunct",
+   "tex_bytes": 1842366,
+   "tex_ext": ".png",
+   "note": "WJA B738 S5; Swoop, folded into WestJet in 2024"
+  },
+  "X-CSL/B738/B738Wfa_AALWL3.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 1769423,
+   "tex_ext": ".png",
+   "note": "AAL B738 WL3; American polished-silver scheme (replaced 2013)"
+  },
+  "X-CSL/B738/B738Wfa_AEAWL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 1982168,
+   "tex_ext": ".png",
+   "note": "AEA B738 WL; Air Europa pre-2015 red-titled scheme"
+  },
+  "X-CSL/B738/B738Wfa_ASAWL2.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 581941,
+   "tex_ext": ".png",
+   "note": "ASA B738 WL2; Alaska pre-2016 scheme"
+  },
+  "X-CSL/B738/B738Wfa_AUAWL.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 1982179,
+   "tex_ext": ".png",
+   "note": "AUA B738 WL; Austrian pre-2018 scheme, still on part of the fleet"
+  },
+  "X-CSL/B738/B738Wfa_AXBWL.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 2181010,
+   "tex_ext": ".png",
+   "note": "AXB B738 WL; Air India Express tail-art scheme (rebranded 2023)"
+  },
+  "X-CSL/B738/B738Wfa_GLOWL2.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 2066541,
+   "tex_ext": ".png",
+   "note": "GLO B738 WL2; GOL '%' tail scheme"
+  },
+  "X-CSL/B738/B738Wfa_MASWL4.obj": {
+   "status": "outdated",
+   "year": 1987,
+   "tex_bytes": 474754,
+   "tex_ext": ".png",
+   "note": "MAS B738 WL4; Malaysian Airline System 1987 scheme"
+  },
+  "X-CSL/B738/B738Wfa_MASWL5.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 482146,
+   "tex_ext": ".png",
+   "note": "MAS B738 WL5; Malaysia Airlines pre-2012 scheme"
+  },
+  "X-CSL/B738/B738Wfa_QFAWL.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 1683295,
+   "tex_ext": ".png",
+   "note": "QFA B738 WL; Qantas 2007 kangaroo"
+  },
+  "X-CSL/B738/B738Wfa_QFAWL2.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 1586456,
+   "tex_ext": ".png",
+   "note": "QFA B738 WL2; Qantas 2007 kangaroo"
+  },
+  "X-CSL/B738/B738Wfa_SASWL.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 1579566,
+   "tex_ext": ".png",
+   "note": "SAS B738 WL; SAS 1998 scheme"
+  },
+  "X-CSL/B738/B738Wfa_SIAWL.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 1784259,
+   "tex_ext": ".png",
+   "note": "SIA B738 WL; 737 filed under Singapore Airlines (SilkAir paint; SilkAir merged 2021)"
+  },
+  "X-CSL/B738/B738Wfa_SWAWL.obj": {
+   "status": "outdated",
+   "year": 2001,
+   "tex_bytes": 1800488,
+   "tex_ext": ".png",
+   "note": "SWA B738 WL; Southwest Canyon Blue (2001-2014 scheme)"
+  },
+  "X-CSL/B738/B738Wfa_SXSWL.obj": {
+   "status": "legacy",
+   "year": 2009,
+   "tex_bytes": 1624174,
+   "tex_ext": ".png",
+   "note": "SXS B738 WL; SunExpress blue sunburst scheme (2022 rebrand rolling out)"
+  },
+  "X-CSL/B738/B738Wfa_THYWL3.obj": {
+   "status": "defunct",
+   "tex_bytes": 1547201,
+   "tex_ext": ".png",
+   "note": "THY B738 WL3; AnadoluJet, rebranded AJet in 2024"
+  },
+  "X-CSL/B738/B738Wfa_TVFWL.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 1469109,
+   "tex_ext": ".png",
+   "note": "TVF B738 WL; transavia.com pre-2015 scheme"
+  },
+  "X-CSL/B738/B738Wfa_TVSWL3.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 1906623,
+   "tex_ext": ".png",
+   "note": "TVS B738 WL3; Travel Service pre-2018 scheme (now Smartwings)"
+  },
+  "X-CSL/B738/B738Wfa_UALWL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 1461059,
+   "tex_ext": ".png",
+   "note": "UAL B738 WL; United 2010 'globe' scheme"
+  },
+  "X-CSL/B738/B738Wfa_WJACRG.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1673964,
+   "tex_ext": ".png",
+   "note": "WJA B738 CRG; WestJet 2004 teal tail, still on part of the fleet"
+  },
+  "X-CSL/B738/B738Wfa_WJAWL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 2874148,
+   "tex_ext": ".png",
+   "note": "WJA B738 WL; WestJet early scheme"
+  },
+  "X-CSL/B738/B738Wfa_WJAWL2.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1621618,
+   "tex_ext": ".png",
+   "note": "WJA B738 WL2; WestJet 2004 teal tail, still on part of the fleet"
+  },
+  "X-CSL/B738/B738fa_AAL.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 1516229,
+   "tex_ext": ".png",
+   "note": "AAL B738; American polished-silver scheme (replaced 2013)"
+  },
+  "X-CSL/B738/B738fa_DAL2.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 549522,
+   "tex_ext": ".png",
+   "note": "DAL B738 2; Delta 2000-2007 scheme"
+  },
+  "X-CSL/B738/B738fa_JJA.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 361793,
+   "tex_ext": ".png",
+   "note": "JJA B738; Jeju Air pre-2014 scheme"
+  },
+  "X-CSL/B738/B738fa_JJA2.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 2099791,
+   "tex_ext": ".png",
+   "note": "JJA B738 2; Jeju Air pre-2014 scheme"
+  },
+  "X-CSL/B738/B738fa_SAS.obj": {
+   "status": "legacy",
+   "year": 1998,
+   "tex_bytes": 449735,
+   "tex_ext": ".png",
+   "note": "SAS B738; SAS 1998 scheme"
+  },
+  "X-CSL/B739/B739Sfa_ASAS2.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 504934,
+   "tex_ext": ".png",
+   "note": "ASA B739 S2; Alaska pre-2016 scheme"
+  },
+  "X-CSL/B739/B739Sfa_ASAS3.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 548442,
+   "tex_ext": ".png",
+   "note": "ASA B739 S3; Alaska pre-2016 scheme"
+  },
+  "X-CSL/B739/B739Sfa_UALS.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 452115,
+   "tex_ext": ".png",
+   "note": "UAL B739 S; United 2010 'globe' scheme"
+  },
+  "X-CSL/B739/B739Wfa_ASAWL.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 544464,
+   "tex_ext": ".png",
+   "note": "ASA B739 WL; Alaska pre-2016 scheme"
+  },
+  "X-CSL/B739/B739Wfa_ASAWL2.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 485604,
+   "tex_ext": ".png",
+   "note": "ASA B739 WL2; Alaska pre-2016 scheme"
+  },
+  "X-CSL/B739/B739Wfa_SCXWL.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 1834128,
+   "tex_ext": ".png",
+   "note": "SCX B739 WL; EVA 747 (retired)"
+  },
+  "X-CSL/B739/B739Wfa_TVSWL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 1879490,
+   "tex_ext": ".png",
+   "note": "TVS B739 WL; Travel Service pre-2018 scheme (now Smartwings)"
+  },
+  "X-CSL/B739/B739Wfa_UALWL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 490733,
+   "tex_ext": ".png",
+   "note": "UAL B739 WL; United 2010 'globe' scheme"
+  },
+  "X-CSL/B739/B739fa_ASA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 544731,
+   "tex_ext": ".png",
+   "note": "ASA B739; Alaska pre-2016 scheme"
+  },
+  "X-CSL/B739/B739fa_ASA2.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 485305,
+   "tex_ext": ".png",
+   "note": "ASA B739 2; Alaska pre-2016 scheme"
+  },
+  "X-CSL/B744/B744ge.obj": {
+   "status": "defunct",
+   "tex_bytes": 320994,
+   "tex_ext": ".png",
+   "note": "B744 with no airline code: Boeing house demonstrator scheme, not an airline (2026-10-27) (same texture as B744ge_BOE.obj)"
+  },
+  "X-CSL/B744/B744ge_AAR.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 378696,
+   "tex_ext": ".png",
+   "note": "AAR B744; Asiana 747 (retired)"
+  },
+  "X-CSL/B744/B744ge_AFR.obj": {
+   "status": "outdated",
+   "year": 1976,
+   "tex_bytes": 357554,
+   "tex_ext": ".png",
+   "note": "AFR B744; Air France 747 (passenger 747s retired 2016)"
+  },
+  "X-CSL/B744/B744ge_AFRBCF.obj": {
+   "status": "outdated",
+   "year": 1976,
+   "tex_bytes": 333644,
+   "tex_ext": ".png",
+   "note": "AFR B744 BCF; Air France 747 (passenger 747s retired 2016)"
+  },
+  "X-CSL/B744/B744ge_ARG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 629095,
+   "tex_ext": ".png",
+   "note": "ARG B744; Aerolíneas Argentinas pre-2010 dark-blue scheme"
+  },
+  "X-CSL/B744/B744ge_BOE.obj": {
+   "status": "defunct",
+   "tex_bytes": 320994,
+   "tex_ext": ".png",
+   "note": "B744 with no airline code: Boeing house demonstrator scheme, not an airline (2026-10-27)"
+  },
+  "X-CSL/B744/B744ge_CFGOLD.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 394743,
+   "tex_ext": ".png",
+   "note": "CFG B744 OLD; Condor yellow-tail 747 (retired)"
+  },
+  "X-CSL/B744/B744ge_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 375463,
+   "tex_ext": ".png",
+   "note": "DLH B744; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/B744/B744ge_GIA.obj": {
+   "status": "outdated",
+   "year": 2009,
+   "tex_bytes": 372165,
+   "tex_ext": ".png",
+   "note": "GIA B744; Garuda 747 (retired)"
+  },
+  "X-CSL/B744/B744ge_GIA2.obj": {
+   "status": "outdated",
+   "year": 2009,
+   "tex_bytes": 377288,
+   "tex_ext": ".png",
+   "note": "GIA B744 2; Garuda 747 (retired)"
+  },
+  "X-CSL/B744/B744ge_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 586855,
+   "tex_ext": ".png",
+   "note": "JAL B744; JAL 'arc of the sun' scheme (replaced 2011)"
+  },
+  "X-CSL/B744/B744ge_KLM2.obj": {
+   "status": "legacy",
+   "year": 2014,
+   "tex_bytes": 336706,
+   "tex_ext": ".png",
+   "note": "KLM B744 2; KLM 'asia' titles"
+  },
+  "X-CSL/B744/B744ge_QFA.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 353078,
+   "tex_ext": ".png",
+   "note": "QFA B744; Qantas 2007 kangaroo"
+  },
+  "X-CSL/B744/B744ge_THA.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 514158,
+   "tex_ext": ".png",
+   "note": "THA B744; Thai 747 (retired)"
+  },
+  "X-CSL/B744/B744ge_THA2.obj": {
+   "status": "outdated",
+   "year": 1975,
+   "tex_bytes": 317289,
+   "tex_ext": ".png",
+   "note": "THA B744 2; Thai International 747"
+  },
+  "X-CSL/B744/B744ge_THACRG.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 401643,
+   "tex_ext": ".png",
+   "note": "THA B744 CRG; Thai 747 (retired)"
+  },
+  "X-CSL/B744/B744pw_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 392521,
+   "tex_ext": ".png",
+   "note": "ACA B744; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/B744/B744pw_AIC.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 442064,
+   "tex_ext": ".png",
+   "note": "AIC B744; Air India 747 (retired)"
+  },
+  "X-CSL/B744/B744pw_CCA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 401593,
+   "tex_ext": ".png",
+   "note": "CCA B744; Air China 747-400 (retired)"
+  },
+  "X-CSL/B744/B744pw_ELY.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 298048,
+   "tex_ext": ".png",
+   "note": "ELY B744; El Al 747 (retired)"
+  },
+  "X-CSL/B744/B744pw_ELY2.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 337791,
+   "tex_ext": ".png",
+   "note": "ELY B744 2; El Al 747 (retired)"
+  },
+  "X-CSL/B744/B744pw_MAS.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 395363,
+   "tex_ext": ".png",
+   "note": "MAS B744; Malaysia Airlines 747 (retired)"
+  },
+  "X-CSL/B744/B744pw_SIA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 664865,
+   "tex_ext": ".png",
+   "note": "SIA B744; Singapore Airlines 747 (retired 2012)"
+  },
+  "X-CSL/B744/B744pw_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 323441,
+   "tex_ext": ".png",
+   "note": "UAL B744; United 2010 'globe' scheme"
+  },
+  "X-CSL/B744/B744rr_CPA.obj": {
+   "status": "outdated",
+   "year": 1994,
+   "tex_bytes": 405297,
+   "tex_ext": ".png",
+   "note": "CPA B744; Cathay passenger 747 (retired 2016)"
+  },
+  "X-CSL/B744/B744rr_CPA2.obj": {
+   "status": "outdated",
+   "year": 2010,
+   "tex_bytes": 446436,
+   "tex_ext": ".png",
+   "note": "CPA B744 2; Cathay 'Asia's world city' 747 special (747s retired)"
+  },
+  "X-CSL/B744F/B744Fge_AARCRG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 333390,
+   "tex_ext": ".png",
+   "note": "AAR B744 CRG; Asiana 747 (retired)"
+  },
+  "X-CSL/B744F/B744Fge_AFRCRG.obj": {
+   "status": "outdated",
+   "year": 1976,
+   "tex_bytes": 344365,
+   "tex_ext": ".png",
+   "note": "AFR B744 CRG; Air France 747 (passenger 747s retired 2016)"
+  },
+  "X-CSL/B744F/B744Fge_JALCRG.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 434700,
+   "tex_ext": ".png",
+   "note": "JAL B744 CRG; JAL 'arc of the sun' scheme (replaced 2011)"
+  },
+  "X-CSL/B744F/B744Fge_UAECRG.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 367405,
+   "tex_ext": ".png",
+   "note": "UAE B744 CRG; Emirates SkyCargo 747 (retired)"
+  },
+  "X-CSL/B744F/B744Fpw_ELYCRG.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 314181,
+   "tex_ext": ".png",
+   "note": "ELY B744 CRG; El Al 747 (retired)"
+  },
+  "X-CSL/B748/B748fa_DLH.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 1096732,
+   "tex_ext": ".png",
+   "note": "DLH B748; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/B748/B748fa_DLH2.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 1695864,
+   "tex_ext": ".png",
+   "note": "DLH B748 2; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/B748/B748fa_DLH3.obj": {
+   "status": "legacy",
+   "year": 1988,
+   "tex_bytes": 1005730,
+   "tex_ext": ".png",
+   "note": "DLH B748 3; Lufthansa yellow-circle tail"
+  },
+  "X-CSL/B752/B752PW_DAL3.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 408581,
+   "tex_ext": ".png",
+   "note": "DAL B752 3; Delta 2000-2007 scheme"
+  },
+  "X-CSL/B752/B752PW_DAL4.obj": {
+   "status": "outdated",
+   "year": 1987,
+   "tex_bytes": 409081,
+   "tex_ext": ".png",
+   "note": "DAL B752 4; Delta 'widget' scheme"
+  },
+  "X-CSL/B752/B752PW_SIA.obj": {
+   "status": "defunct",
+   "tex_bytes": 292516,
+   "tex_ext": ".png",
+   "note": "SIA B752; Air Macau 757 filed under Singapore Airlines"
+  },
+  "X-CSL/B752/B752PW_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 325214,
+   "tex_ext": ".png",
+   "note": "UAL B752; United 2010 'globe' scheme"
+  },
+  "X-CSL/B752/B752RR_AAL.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 1638796,
+   "tex_ext": ".png",
+   "note": "AAL B752; American polished-silver scheme (replaced 2013)"
+  },
+  "X-CSL/B752/B752RR_ELY.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 334090,
+   "tex_ext": ".png",
+   "note": "ELY B752; El Al 757 (retired)"
+  },
+  "X-CSL/B752/B752RR_IBE.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 1002350,
+   "tex_ext": ".png",
+   "note": "IBE B752; Iberia 1977 scheme"
+  },
+  "X-CSL/B752/B752RR_ICE.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 987723,
+   "tex_ext": ".png",
+   "note": "ICE B752; Icelandair pre-2021 757 scheme"
+  },
+  "X-CSL/B752/B752RR_ICE2.obj": {
+   "status": "defunct",
+   "tex_bytes": 291063,
+   "tex_ext": ".png",
+   "note": "ICE B752 2; Hapag-Lloyd 'Albert Ballin' 757 filed under Icelandair"
+  },
+  "X-CSL/B752/B752WPW_FINWL.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 334750,
+   "tex_ext": ".png",
+   "note": "FIN B752 WL; Finnair blue-stripe 757 (retired)"
+  },
+  "X-CSL/B752/B752WRR_AALWL.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 1831037,
+   "tex_ext": ".png",
+   "note": "AAL B752 WL; American polished-silver scheme (replaced 2013)"
+  },
+  "X-CSL/B752/B752WRR_AALWL2.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 1634543,
+   "tex_ext": ".png",
+   "note": "AAL 757 (retired 2023)"
+  },
+  "X-CSL/B752/B752WRR_AALWL3.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 1722767,
+   "tex_ext": ".png",
+   "note": "AAL 757 oneworld (retired 2023)"
+  },
+  "X-CSL/B752/B752WRR_AAYWL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 304870,
+   "tex_ext": ".png",
+   "note": "AAY B752 WL; Allegiant pre-sunset scheme"
+  },
+  "X-CSL/B752/B752WRR_UALWL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 432799,
+   "tex_ext": ".png",
+   "note": "UAL B752 WL; United 2010 'globe' scheme"
+  },
+  "X-CSL/B753/B753WRR_CFGWL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 1232189,
+   "tex_ext": ".png",
+   "note": "CFG B753 WL; Condor blue/grey-tail 757"
+  },
+  "X-CSL/B753/B753WRR_CFGWL2.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 962835,
+   "tex_ext": ".png",
+   "note": "CFG B753 WL2; Condor blue/grey-tail 757"
+  },
+  "X-CSL/B753/B753WRR_CFGWL3.obj": {
+   "status": "outdated",
+   "year": 2014,
+   "tex_bytes": 1375054,
+   "tex_ext": ".png",
+   "note": "CFG B753 WL3; Condor 'Wir lieben Fliegen' 757 special, no longer flying"
+  },
+  "X-CSL/B753/B753WRR_ICEWL.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 286135,
+   "tex_ext": ".png",
+   "note": "ICE B753 WL; Icelandair pre-2021 757 scheme"
+  },
+  "X-CSL/B753/B753WRR_UALWL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 1655301,
+   "tex_ext": ".png",
+   "note": "UAL B753 WL; United 2010 'globe' scheme"
+  },
+  "X-CSL/B763/B763aiGE_AAL.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 308652,
+   "tex_ext": ".png",
+   "note": "AAL 767 (retired 2021)"
+  },
+  "X-CSL/B763/B763aiGE_AAL2.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 363508,
+   "tex_ext": ".png",
+   "note": "AAL B763 2; American polished-silver scheme (replaced 2013)"
+  },
+  "X-CSL/B763/B763aiGE_AARCRG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 310790,
+   "tex_ext": ".png",
+   "note": "AAR B763 CRG; Asiana 767 (retired)"
+  },
+  "X-CSL/B763/B763aiGE_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 360185,
+   "tex_ext": ".png",
+   "note": "ACA B763; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/B763/B763aiGE_AEA.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 433195,
+   "tex_ext": ".png",
+   "note": "AEA B763; Air Europa pre-2015 red-titled scheme"
+  },
+  "X-CSL/B763/B763aiGE_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 345868,
+   "tex_ext": ".png",
+   "note": "ETD B763; Etihad 2003 flag-tail scheme (whole fleet repainted)"
+  },
+  "X-CSL/B763/B763aiGE_IBE.obj": {
+   "status": "outdated",
+   "year": 1977,
+   "tex_bytes": 296759,
+   "tex_ext": ".png",
+   "note": "IBE B763; Iberia 1977 scheme"
+  },
+  "X-CSL/B763/B763aiGE_KLMOLD.obj": {
+   "status": "outdated",
+   "year": 1970,
+   "tex_bytes": 281582,
+   "tex_ext": ".png",
+   "note": "KLM B763 OLD; KLM 1970s scheme"
+  },
+  "X-CSL/B763/B763aiGE_QFA.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 309994,
+   "tex_ext": ".png",
+   "note": "QFA B763; Qantas 2007 kangaroo"
+  },
+  "X-CSL/B763/B763aiGE_ZZZ.obj": {
+   "status": "defunct",
+   "tex_bytes": 336931,
+   "tex_ext": ".png",
+   "note": "B763 with no airline code: unidentified blue scheme, not an airline in service (2026-10-27)"
+  },
+  "X-CSL/B763/B763aiPW_AAR.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 346748,
+   "tex_ext": ".png",
+   "note": "AAR B763; Asiana 767 (retired)"
+  },
+  "X-CSL/B763/B763aiPW_ELY.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 286629,
+   "tex_ext": ".png",
+   "note": "ELY B763; El Al 767 (retired)"
+  },
+  "X-CSL/B763/B763aiPW_ELY2.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 301011,
+   "tex_ext": ".png",
+   "note": "ELY B763 2; El Al 767 (retired)"
+  },
+  "X-CSL/B763/B763aiPW_GIA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 285704,
+   "tex_ext": ".png",
+   "note": "GIA B763; Garuda 767 (retired)"
+  },
+  "X-CSL/B763/B763aiPW_SAS.obj": {
+   "status": "outdated",
+   "year": 1998,
+   "tex_bytes": 334429,
+   "tex_ext": ".png",
+   "note": "SAS B763; SAS 767 (retired)"
+  },
+  "X-CSL/B763/B763aiPW_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 332815,
+   "tex_ext": ".png",
+   "note": "UAL B763; United 2010 'globe' scheme"
+  },
+  "X-CSL/B763w/B763aiGEw_AALWL.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 317603,
+   "tex_ext": ".png",
+   "note": "AAL 767 (retired 2021)"
+  },
+  "X-CSL/B763w/B763aiGEw_AALWL2.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 330164,
+   "tex_ext": ".png",
+   "note": "AAL 767 oneworld (retired 2021)"
+  },
+  "X-CSL/B763w/B763aiGEw_CFGWL2.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 345312,
+   "tex_ext": ".png",
+   "note": "CFG B763 WL2; Condor blue/grey/yellow-tail 767"
+  },
+  "X-CSL/B763w/B763aiGEw_CFGWL3.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 366588,
+   "tex_ext": ".png",
+   "note": "CFG B763 WL3; Condor blue/grey/yellow-tail 767"
+  },
+  "X-CSL/B763w/B763aiGEw_CFGWL5.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 392408,
+   "tex_ext": ".png",
+   "note": "CFG B763 WL5; Condor blue/grey/yellow-tail 767"
+  },
+  "X-CSL/B763w/B763aiGEw_WJAWL.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 347314,
+   "tex_ext": ".png",
+   "note": "WJA B763 WL; WestJet 2004 teal tail, still on part of the fleet"
+  },
+  "X-CSL/B763w/B763aiPWw_AMXWL2.obj": {
+   "status": "outdated",
+   "year": 1999,
+   "tex_bytes": 331963,
+   "tex_ext": ".png",
+   "note": "AMX B763 WL2; Aeromexico silver 767 scheme"
+  },
+  "X-CSL/B763w/B763aiPWw_AUAWL.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 283542,
+   "tex_ext": ".png",
+   "note": "AUA B763 WL; Austrian pre-2018 scheme, still on part of the fleet"
+  },
+  "X-CSL/B763w/B763aiPWw_AUAWL3.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 334596,
+   "tex_ext": ".png",
+   "note": "AUA B763 WL3; Austrian pre-2018 scheme, still on part of the fleet"
+  },
+  "X-CSL/B763w/B763aiPWw_AUAWL4.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 337527,
+   "tex_ext": ".png",
+   "note": "AUA B763 WL4; Austrian pre-2018 scheme, still on part of the fleet"
+  },
+  "X-CSL/B763w/B763aiPWw_CFGWL.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 347882,
+   "tex_ext": ".png",
+   "note": "CFG B763 WL; Condor blue/grey/yellow-tail 767"
+  },
+  "X-CSL/B763w/B763aiPWw_CFGWL4.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 363765,
+   "tex_ext": ".png",
+   "note": "CFG B763 WL4; Condor blue-tail 767"
+  },
+  "X-CSL/B763w/B763aiPWw_ROUWL.obj": {
+   "status": "outdated",
+   "year": 2014,
+   "tex_bytes": 331293,
+   "tex_ext": ".png",
+   "note": "ROU B763 WL; Air Canada Rouge 767 (retired 2020)"
+  },
+  "X-CSL/B763w/B763aiPWw_UALWL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 299638,
+   "tex_ext": ".png",
+   "note": "UAL B763 WL; United 2010 'globe' scheme"
+  },
+  "X-CSL/B764/B764aiGE_BOE.obj": {
+   "status": "defunct",
+   "tex_bytes": 292323,
+   "tex_ext": ".png",
+   "note": "B764 with no airline code: Boeing house demonstrator scheme, not an airline (2026-10-27)"
+  },
+  "X-CSL/B764/B764aiGE_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 276246,
+   "tex_ext": ".png",
+   "note": "UAL B764; United 2010 'globe' scheme"
+  },
+  "X-CSL/B772/B772GE_BAW2.obj": {
+   "status": "outdated",
+   "year": 1984,
+   "tex_bytes": 1056285,
+   "tex_ext": ".png",
+   "note": "BAW B772 2; BA Landor scheme"
+  },
+  "X-CSL/B772/B772GE_CSN.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 430493,
+   "tex_ext": ".png",
+   "note": "CSN B772; China Southern 777-200 (retired)"
+  },
+  "X-CSL/B772/B772GE_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 1470702,
+   "tex_ext": ".png",
+   "note": "UAL B772; United 2010 'globe' scheme"
+  },
+  "X-CSL/B77L/B77L_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1461837,
+   "tex_ext": ".png",
+   "note": "ACA B77L; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/B77L/B77L_AIC.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 405821,
+   "tex_ext": ".png",
+   "note": "AIC B77L; Air India 777-200LR (retired)"
+  },
+  "X-CSL/B77L/B77L_AIC2.obj": {
+   "status": "outdated",
+   "year": 2007,
+   "tex_bytes": 1267655,
+   "tex_ext": ".png",
+   "note": "AIC B77L 2; Air India 777-200LR (retired)"
+  },
+  "X-CSL/B77L/B77L_ETD.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 481630,
+   "tex_ext": ".png",
+   "note": "ETD B77L; Etihad 2003 flag-tail scheme (whole fleet repainted)"
+  },
+  "X-CSL/B77L/B77L_ETDCRG.obj": {
+   "status": "outdated",
+   "year": 2003,
+   "tex_bytes": 407575,
+   "tex_ext": ".png",
+   "note": "ETD B77L CRG; Etihad 2003 flag-tail scheme"
+  },
+  "X-CSL/B77L/B77L_SIA.obj": {
+   "status": "defunct",
+   "tex_bytes": 1331176,
+   "tex_ext": ".png",
+   "note": "SIA B77L; DHL freighter filed under Singapore Airlines"
+  },
+  "X-CSL/B77L/B77L_UAE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 1338080,
+   "tex_ext": ".png",
+   "note": "UAE B77L; Emirates pre-2023 scheme, still on most of the fleet"
+  },
+  "X-CSL/B77L/B77L_UAE2.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 1238128,
+   "tex_ext": ".png",
+   "note": "UAE B77L 2; Emirates pre-2023 scheme, still on most of the fleet"
+  },
+  "X-CSL/B77W/B77W_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 563303,
+   "tex_ext": ".png",
+   "note": "ACA B77W; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/B77W/B77W_ACA2.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 383531,
+   "tex_ext": ".png",
+   "note": "ACA B77W 2; Air Canada 2004 teal scheme, still on part of the fleet"
+  },
+  "X-CSL/B77W/B77W_AIC.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 426455,
+   "tex_ext": ".png",
+   "note": "AIC B77W; Air India Konark-wheel scheme (2023 'Vista' scheme rolling out)"
+  },
+  "X-CSL/B77W/B77W_AIC2.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 1154458,
+   "tex_ext": ".png",
+   "note": "AIC B77W 2; Air India Konark-wheel scheme (2023 'Vista' scheme rolling out)"
+  },
+  "X-CSL/B77W/B77W_ANZ.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 918451,
+   "tex_ext": ".png",
+   "note": "ANZ B77W; Air New Zealand teal-tail scheme (replaced by the black fern scheme)"
+  },
+  "X-CSL/B77W/B77W_GFA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 451793,
+   "tex_ext": ".png",
+   "note": "GFA B77W; Gulf Air pre-2023 gold-belly scheme"
+  },
+  "X-CSL/B77W/B77W_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 1368164,
+   "tex_ext": ".png",
+   "note": "TAM B77W; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/B77W/B77W_TAM2.obj": {
+   "status": "outdated",
+   "year": 2015,
+   "tex_bytes": 1532685,
+   "tex_ext": ".png",
+   "note": "TAM B77W 2; LATAM Star Wars special, no longer flying"
+  },
+  "X-CSL/B77W/B77W_UAE.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 521113,
+   "tex_ext": ".png",
+   "note": "UAE B77W; Emirates pre-2023 scheme, still on most of the fleet"
+  },
+  "X-CSL/B77W/B77W_UAE2.obj": {
+   "status": "legacy",
+   "year": 1999,
+   "tex_bytes": 1074236,
+   "tex_ext": ".png",
+   "note": "UAE B77W 2; Emirates pre-2023 scheme, still on most of the fleet"
+  },
+  "X-CSL/B77W/B77W_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 416898,
+   "tex_ext": ".png",
+   "note": "UAL B77W; United 2010 'globe' scheme"
+  },
+  "X-CSL/B788/B788_AIC.obj": {
+   "status": "legacy",
+   "year": 2007,
+   "tex_bytes": 2131639,
+   "tex_ext": ".png",
+   "note": "AIC B788; Air India Konark-wheel scheme (2023 'Vista' scheme rolling out)"
+  },
+  "X-CSL/B788/B788_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 417494,
+   "tex_ext": ".png",
+   "note": "UAL B788; United 2010 'globe' scheme"
+  },
+  "X-CSL/B789/B789_anim_ACA2.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1518650,
+   "tex_ext": ".png",
+   "note": "ACA B789 2; Air Canada 2004 teal scheme (same texture as B789_fuse_ACA2.obj)"
+  },
+  "X-CSL/B789/B789_anim_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 405392,
+   "tex_ext": ".png",
+   "note": "UAL B789; United 2010 'globe' scheme (same texture as B789_fuse_UAL.obj)"
+  },
+  "X-CSL/B789/B789_fuse_ACA2.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 1518650,
+   "tex_ext": ".png",
+   "note": "ACA B789 2; Air Canada 2004 teal scheme"
+  },
+  "X-CSL/B789/B789_fuse_UAL.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "tex_bytes": 405392,
+   "tex_ext": ".png",
+   "note": "UAL B789; United 2010 'globe' scheme"
+  },
+  "X-CSL/CONC/CONC.obj": {
+   "status": "defunct",
+   "tex_bytes": 231208,
+   "tex_ext": ".png",
+   "note": "BAW CONC; BA Concorde (retired 2003) (same texture as CONC_BAW.obj)"
+  },
+  "X-CSL/CONC/CONC_AFR.obj": {
+   "status": "defunct",
+   "tex_bytes": 248360,
+   "tex_ext": ".png",
+   "note": "AFR CONC; Air France Concorde (retired 2003)"
+  },
+  "X-CSL/CONC/CONC_BAW.obj": {
+   "status": "defunct",
+   "tex_bytes": 231208,
+   "tex_ext": ".png",
+   "note": "BAW CONC; BA Concorde (retired 2003)"
+  },
+  "X-CSL/CRJ2/CRJ2_ASQ.obj": {
+   "status": "current",
+   "brand": "DAL",
+   "tex_bytes": 268827,
+   "tex_ext": ".png",
+   "note": "Delta Connection"
+  },
+  "X-CSL/CRJ2/CRJ2_ASQ2.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "brand": "UAL",
+   "special": false,
+   "tex_bytes": 298709,
+   "tex_ext": ".png",
+   "note": "United Express, 2010 globe scheme"
+  },
+  "X-CSL/CRJ2/CRJ2_ASQ3.obj": {
+   "status": "current",
+   "brand": "AAL",
+   "special": false,
+   "tex_bytes": 301871,
+   "tex_ext": ".png",
+   "note": "American Eagle"
+  },
+  "X-CSL/CRJ2/CRJ2_AWI.obj": {
+   "status": "current",
+   "brand": "AAL",
+   "tex_bytes": 302205,
+   "tex_ext": ".png",
+   "note": "American Eagle"
+  },
+  "X-CSL/CRJ2/CRJ2_EGF.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "brand": "AAL",
+   "tex_bytes": 205391,
+   "tex_ext": ".png",
+   "note": "1990s American Eagle cheatline"
+  },
+  "X-CSL/CRJ2/CRJ2_EWG.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 215129,
+   "tex_ext": ".png",
+   "note": "EWG CRJ2; Lufthansa Regional CRJ (brand dropped)"
+  },
+  "X-CSL/CRJ2/CRJ2_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 164224,
+   "tex_ext": ".png",
+   "note": "JAL CRJ2; JAL 'arc of the sun' scheme"
+  },
+  "X-CSL/CRJ2/CRJ2_JIA.obj": {
+   "status": "defunct",
+   "tex_bytes": 286875,
+   "tex_ext": ".png",
+   "note": "PSA CRJ200 in US Airways Express paint (seen at KPIT)"
+  },
+  "X-CSL/CRJ2/CRJ2_QXE.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 229711,
+   "tex_ext": ".png",
+   "note": "Horizon's own scheme (now flies Alaska paint)"
+  },
+  "X-CSL/CRJ2/CRJ2_SKW.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 281757,
+   "tex_ext": ".png",
+   "note": "SkyWest's own 2000s scheme"
+  },
+  "X-CSL/CRJ2/CRJ2_SKW2.obj": {
+   "status": "current",
+   "brand": "DAL",
+   "special": false,
+   "tex_bytes": 268867,
+   "tex_ext": ".png",
+   "note": "SkyWest CRJ200, Delta Connection"
+  },
+  "X-CSL/CRJ2/CRJ2_SKW3.obj": {
+   "status": "defunct",
+   "tex_bytes": 287186,
+   "tex_ext": ".png",
+   "note": "SkyWest CRJ200 in US Airways Express paint"
+  },
+  "X-CSL/CRJ2/CRJ2_SKW5.obj": {
+   "status": "current",
+   "brand": "AAL",
+   "special": false,
+   "tex_bytes": 302390,
+   "tex_ext": ".png",
+   "note": "SkyWest CRJ200, American Eagle"
+  },
+  "X-CSL/DC3/DC3_AFR.obj": {
+   "status": "defunct",
+   "tex_bytes": 1256829,
+   "tex_ext": ".png",
+   "note": "AFR DC3; Air France DC-3 museum aircraft"
+  },
+  "X-CSL/DC3/DC3_AMX.obj": {
+   "status": "defunct",
+   "tex_bytes": 872561,
+   "tex_ext": ".png",
+   "note": "AMX DC3; Aeromexico DC-3 museum aircraft"
+  },
+  "X-CSL/DC3/DC3_DAL.obj": {
+   "status": "defunct",
+   "tex_bytes": 993497,
+   "tex_ext": ".png",
+   "note": "DAL DC3; Delta DC-3 museum aircraft"
+  },
+  "X-CSL/DC3/DC3_QFA.obj": {
+   "status": "defunct",
+   "tex_bytes": 1057453,
+   "tex_ext": ".png",
+   "note": "QFA DC3; Qantas DC-3 museum aircraft"
+  },
+  "X-CSL/DH8D/DH8D_ASA.obj": {
+   "status": "outdated",
+   "year": 2011,
+   "tex_bytes": 1338387,
+   "tex_ext": ".png",
+   "note": "ASA DH8D; Alaska Horizon pre-2016 scheme"
+  },
+  "X-CSL/DH8D/DH8D_ASA2.obj": {
+   "status": "outdated",
+   "year": 2011,
+   "tex_bytes": 343853,
+   "tex_ext": ".png",
+   "note": "ASA DH8D 2; Alaska Horizon pre-2016 scheme"
+  },
+  "X-CSL/DH8D/DH8D_AUA.obj": {
+   "status": "legacy",
+   "year": 2003,
+   "tex_bytes": 269477,
+   "tex_ext": ".png",
+   "note": "AUA DH8D; Austrian pre-2018 scheme, still on part of the fleet"
+  },
+  "X-CSL/DH8D/DH8D_BEL2.obj": {
+   "status": "outdated",
+   "year": 2008,
+   "tex_bytes": 328018,
+   "tex_ext": ".png",
+   "note": "BEL DH8D 2; Dash 8 in Austrian/LGW paint, not a Brussels livery"
+  },
+  "X-CSL/DH8D/DH8D_BTI.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 253001,
+   "tex_ext": ".png",
+   "note": "BTI DH8D; airBaltic Dash 8 (retired)"
+  },
+  "X-CSL/DH8D/DH8D_BTI2.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 235634,
+   "tex_ext": ".png",
+   "note": "BTI DH8D 2; airBaltic Dash 8 (retired)"
+  },
+  "X-CSL/DH8D/DH8D_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 374615,
+   "tex_ext": ".png",
+   "note": "FFT DH8D; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/DH8D/DH8D_JJA.obj": {
+   "status": "outdated",
+   "year": 2006,
+   "tex_bytes": 252669,
+   "tex_ext": ".png",
+   "note": "JJA DH8D; Jeju Air Dash 8 (retired)"
+  },
+  "X-CSL/DH8D/DH8D_JZA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 319041,
+   "tex_ext": ".png",
+   "note": "JZA DH8D; Air Canada Express 2004 teal tail Dash 8"
+  },
+  "X-CSL/DH8D/DH8D_PTR.obj": {
+   "status": "current",
+   "brand": "POE",
+   "tex_bytes": 277486,
+   "tex_ext": ".png",
+   "note": "Porter Airlines paint filed under PTR"
+  },
+  "X-CSL/DH8D/DH8D_QXE.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 247193,
+   "tex_ext": ".png",
+   "note": "Horizon's own scheme (now flies Alaska paint)"
+  },
+  "X-CSL/DH8D/DH8D_RPA.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "brand": "UAL",
+   "tex_bytes": 237764,
+   "tex_ext": ".png",
+   "note": "United Express, 2010 globe scheme"
+  },
+  "X-CSL/DH8D/DH8D_TCF.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "brand": "UAL",
+   "tex_bytes": 226483,
+   "tex_ext": ".png",
+   "note": "United Express, 2010 globe scheme"
+  },
+  "X-CSL/DH8D/DH8D_WEN.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 231150,
+   "tex_ext": ".png",
+   "note": "WEN DH8D; WestJet Encore 2013 teal-tail Dash 8"
+  },
+  "X-CSL/DH8D/DH8D_WEN2.obj": {
+   "status": "outdated",
+   "year": 2013,
+   "tex_bytes": 660056,
+   "tex_ext": ".png",
+   "note": "WEN DH8D 2; WestJet Encore 2013 teal-tail Dash 8"
+  },
+  "X-CSL/DH8D/DH8D_WIF.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 273421,
+   "tex_ext": ".png",
+   "note": "WIF DH8D; Widerøe pre-2017 scheme"
+  },
+  "X-CSL/DH8D/DH8D_WIF2.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 502014,
+   "tex_ext": ".png",
+   "note": "WIF DH8D 2; Widerøe pre-2017 scheme"
+  },
+  "X-CSL/E120/E120_AFR.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 260252,
+   "tex_ext": ".png",
+   "note": "AFR E120; Air France Brasilia (regional retired)"
+  },
+  "X-CSL/E120/E120_SKW2.obj": {
+   "status": "outdated",
+   "year": 1997,
+   "brand": "UAL",
+   "tex_bytes": 307114,
+   "tex_ext": ".png",
+   "note": "1990s United Express Brasilia"
+  },
+  "X-CSL/E120/E120_SKW4.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "brand": "DAL",
+   "tex_bytes": 326715,
+   "tex_ext": ".png",
+   "note": "1990s Delta Connection Brasilia"
+  },
+  "X-CSL/E145/E145p1_ASQp1.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "brand": "UAL",
+   "tex_bytes": 235042,
+   "tex_ext": ".png",
+   "note": "United Express, 2010 globe scheme"
+  },
+  "X-CSL/E145/E145p1_BAWp1.obj": {
+   "status": "outdated",
+   "year": 1997,
+   "tex_bytes": 344076,
+   "tex_ext": ".png",
+   "note": "BAW E145; BA world-tails ERJ-145"
+  },
+  "X-CSL/E145/E145p1_CHQ2p1.obj": {
+   "status": "defunct",
+   "tex_bytes": 241940,
+   "tex_ext": ".png",
+   "note": "Chautauqua ERJ-145 in US Airways Express paint"
+  },
+  "X-CSL/E145/E145p1_CHQOLDp1.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "brand": "DAL",
+   "tex_bytes": 263929,
+   "tex_ext": ".png",
+   "note": "pre-2007 Delta Connection"
+  },
+  "X-CSL/E145/E145p1_CHQp1.obj": {
+   "status": "current",
+   "brand": "DAL",
+   "tex_bytes": 246844,
+   "tex_ext": ".png",
+   "note": "Delta Connection"
+  },
+  "X-CSL/E145/E145p1_CSNp1.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 231780,
+   "tex_ext": ".png",
+   "note": "CSN E145; China Southern ERJ-145 (retired)"
+  },
+  "X-CSL/E145/E145p1_EGF2p1.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "brand": "AAL",
+   "tex_bytes": 270624,
+   "tex_ext": ".png",
+   "note": "1990s American Eagle '2000th' cheatline"
+  },
+  "X-CSL/E145/E145p1_EGFp1.obj": {
+   "status": "current",
+   "brand": "AAL",
+   "tex_bytes": 243571,
+   "tex_ext": ".png",
+   "note": "American Eagle"
+  },
+  "X-CSL/E145/E145p1_FFTp1.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 267686,
+   "tex_ext": ".png",
+   "note": "FFT E145; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/E145/E145p1_LOF2p1.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "brand": "UAL",
+   "tex_bytes": 239115,
+   "tex_ext": ".png",
+   "note": "2000s grey United Express"
+  },
+  "X-CSL/E145/E145p1_LOFp1.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "brand": "UAL",
+   "tex_bytes": 329895,
+   "tex_ext": ".png",
+   "note": "United Express, 2010 globe scheme"
+  },
+  "X-CSL/E145/E145p1_SWRp1.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 229819,
+   "tex_ext": ".png",
+   "note": "SWR E145; Swiss ERJ-145 (retired)"
+  },
+  "X-CSL/E170/E170_CPZ.obj": {
+   "status": "current",
+   "brand": "DAL",
+   "tex_bytes": 321292,
+   "tex_ext": ".png",
+   "note": "Delta Connection"
+  },
+  "X-CSL/E170/E170_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 376844,
+   "tex_ext": ".png",
+   "note": "FFT E170; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/E170/E170_GFA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 356052,
+   "tex_ext": ".png",
+   "note": "GFA E170; Gulf Air E-Jet (retired)"
+  },
+  "X-CSL/E170/E170_RPA.obj": {
+   "status": "current",
+   "brand": "AAL",
+   "tex_bytes": 304918,
+   "tex_ext": ".png",
+   "note": "American Eagle"
+  },
+  "X-CSL/E170/E170_SKW.obj": {
+   "status": "current",
+   "brand": "ASA",
+   "tex_bytes": 2132129,
+   "tex_ext": ".png",
+   "note": "Alaska (SkyWest)"
+  },
+  "X-CSL/E170/E170_TCF.obj": {
+   "status": "current",
+   "brand": "DAL",
+   "tex_bytes": 309378,
+   "tex_ext": ".png",
+   "note": "Delta Connection"
+  },
+  "X-CSL/E170/E170_TCF2.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "brand": "UAL",
+   "special": false,
+   "tex_bytes": 314519,
+   "tex_ext": ".png",
+   "note": "United Express, 2010 globe scheme"
+  },
+  "X-CSL/E175/E175_AZU.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 1006262,
+   "tex_ext": ".png",
+   "note": "AZU E175; Azul/Trip merger squares tail"
+  },
+  "X-CSL/E175/E175_CPZ.obj": {
+   "status": "current",
+   "brand": "DAL",
+   "tex_bytes": 278736,
+   "tex_ext": ".png",
+   "note": "Delta Connection"
+  },
+  "X-CSL/E175/E175_DAL.obj": {
+   "status": "current",
+   "brand": "DAL",
+   "tex_bytes": 2097224,
+   "tex_ext": ".png",
+   "note": "Delta Connection"
+  },
+  "X-CSL/E175/E175_LOT2.obj": {
+   "status": "defunct",
+   "tex_bytes": 296827,
+   "tex_ext": ".png",
+   "note": "LOT E175 2; Polish government VIP E175, not an airline aircraft"
+  },
+  "X-CSL/E175/E175_RPA.obj": {
+   "status": "legacy",
+   "year": 2010,
+   "brand": "UAL",
+   "tex_bytes": 1117879,
+   "tex_ext": ".png",
+   "note": "United Express, 2010 globe scheme"
+  },
+  "X-CSL/E175/E175_TCF.obj": {
+   "status": "current",
+   "brand": "DAL",
+   "tex_bytes": 279057,
+   "tex_ext": ".png",
+   "note": "Delta Connection"
+  },
+  "X-CSL/E190/E190_ACA.obj": {
+   "status": "legacy",
+   "year": 2004,
+   "tex_bytes": 405767,
+   "tex_ext": ".png",
+   "note": "ACA E190; Air Canada 2004 teal scheme"
+  },
+  "X-CSL/E190/E190_ARG.obj": {
+   "status": "outdated",
+   "year": 2010,
+   "tex_bytes": 489298,
+   "tex_ext": ".png",
+   "note": "ARG E190; Aerolíneas Argentinas E190 (retired)"
+  },
+  "X-CSL/E190/E190_CMP.obj": {
+   "status": "outdated",
+   "year": 2010,
+   "tex_bytes": 1062067,
+   "tex_ext": ".png",
+   "note": "CMP E190; Copa E190 (retired 2023)"
+  },
+  "X-CSL/E190/E190_CSN.obj": {
+   "status": "outdated",
+   "year": 2010,
+   "tex_bytes": 1198943,
+   "tex_ext": ".png",
+   "note": "CSN E190; China Southern E190 (retired)"
+  },
+  "X-CSL/E190/E190_FFT.obj": {
+   "status": "outdated",
+   "year": 2005,
+   "tex_bytes": 366268,
+   "tex_ext": ".png",
+   "note": "FFT E190; Frontier grey-title scheme (replaced 2014)"
+  },
+  "X-CSL/E190/E190_GFA.obj": {
+   "status": "outdated",
+   "year": 2012,
+   "tex_bytes": 574510,
+   "tex_ext": ".png",
+   "note": "GFA E190; Gulf Air E-Jet (retired)"
+  },
+  "X-CSL/E190/E190_JBU.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 277747,
+   "tex_ext": ".png",
+   "note": "JBU E190; JetBlue original small-title scheme"
+  },
+  "X-CSL/E190/E190_JBU2.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 307078,
+   "tex_ext": ".png",
+   "note": "JBU E190 2; JetBlue original small-title scheme"
+  },
+  "X-CSL/E190/E190_JBU3.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 307078,
+   "tex_ext": ".png",
+   "note": "JBU E190 3; JetBlue original small-title scheme"
+  },
+  "X-CSL/E190/E190_JBU5.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 331208,
+   "tex_ext": ".png",
+   "note": "JBU E190 5; JetBlue original small-title scheme"
+  },
+  "X-CSL/E190/E190_JBU6.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 329793,
+   "tex_ext": ".png",
+   "note": "JBU E190 6; JetBlue original small-title scheme"
+  },
+  "X-CSL/E190/E190_JBU7.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 308833,
+   "tex_ext": ".png",
+   "note": "JBU E190 7; JetBlue original small-title scheme"
+  },
+  "X-CSL/E190/E190_JBU8.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 354205,
+   "tex_ext": ".png",
+   "note": "JBU E190 8; JetBlue original small-title scheme"
+  },
+  "X-CSL/E190/E190_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 1023102,
+   "tex_ext": ".png",
+   "note": "TAM E190; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/E190/E190_WIF.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 309676,
+   "tex_ext": ".png",
+   "note": "WIF E190; Widerøe pre-2017 scheme"
+  },
+  "X-CSL/E195/E195_AEA2.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 493012,
+   "tex_ext": ".png",
+   "note": "AEA E195 2; Air Europa red-titled E195"
+  },
+  "X-CSL/E195/E195_PTR.obj": {
+   "status": "current",
+   "brand": "POE",
+   "tex_bytes": 955139,
+   "tex_ext": ".png",
+   "note": "Porter Airlines paint filed under PTR"
+  },
+  "X-CSL/MD11/MD11_CAL.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 269472,
+   "tex_ext": ".png",
+   "note": "CAL MD11; China Airlines MD-11 (retired)"
+  },
+  "X-CSL/MD11/MD11_CES.obj": {
+   "status": "outdated",
+   "year": 1988,
+   "tex_bytes": 264357,
+   "tex_ext": ".png",
+   "note": "CES MD11; China Eastern MD-11 (retired)"
+  },
+  "X-CSL/MD11/MD11_DAL.obj": {
+   "status": "outdated",
+   "year": 2000,
+   "tex_bytes": 346342,
+   "tex_ext": ".png",
+   "note": "DAL MD11; Delta 2000-2007 scheme"
+  },
+  "X-CSL/MD11/MD11_EVA.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 319315,
+   "tex_ext": ".png",
+   "note": "EVA MD11; EVA MD-11 freighter (retired)"
+  },
+  "X-CSL/MD11/MD11_FDX.obj": {
+   "status": "defunct",
+   "tex_bytes": 444711,
+   "tex_ext": ".png",
+   "note": "MD11 with no airline code: FedEx freighter paint (2026-10-27)"
+  },
+  "X-CSL/MD11/MD11_FIN.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 337753,
+   "tex_ext": ".png",
+   "note": "FIN MD11; Finnair MD-11 (retired)"
+  },
+  "X-CSL/MD11/MD11_FINCRG.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 341995,
+   "tex_ext": ".png",
+   "note": "FIN MD11 CRG; Finnair MD-11 (retired)"
+  },
+  "X-CSL/MD11/MD11_GIA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 380460,
+   "tex_ext": ".png",
+   "note": "GIA MD11; Garuda MD-11 (retired)"
+  },
+  "X-CSL/MD11/MD11_JAL.obj": {
+   "status": "outdated",
+   "year": 1989,
+   "tex_bytes": 332176,
+   "tex_ext": ".png",
+   "note": "JAL MD11; JAL 'J-Bird' MD-11 (retired 2004)"
+  },
+  "X-CSL/MD11/MD11_KLM.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 330667,
+   "tex_ext": ".png",
+   "note": "KLM MD11; KLM MD-11 (retired 2014)"
+  },
+  "X-CSL/MD11/MD11_SWR.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 323043,
+   "tex_ext": ".png",
+   "note": "SWR MD11; Swiss MD-11 (retired 2004)"
+  },
+  "X-CSL/MD11/MD11_TAM.obj": {
+   "status": "defunct",
+   "tex_bytes": 330820,
+   "tex_ext": ".png",
+   "note": "TAM MD11; TAM, rebranded LATAM in 2016"
+  },
+  "X-CSL/MD11/MD11_THA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 325482,
+   "tex_ext": ".png",
+   "note": "THA MD11; Thai MD-11 (retired)"
+  },
+  "X-CSL/MD81/MD81.obj": {
+   "status": "defunct",
+   "tex_bytes": 421352,
+   "tex_ext": ".png",
+   "note": "MD81 with no airline code: Alitalia (ceased 2021) (2026-10-27) (same texture as MD81_AZA.obj)"
+  },
+  "X-CSL/MD81/MD81_AAL.obj": {
+   "status": "outdated",
+   "year": 1968,
+   "tex_bytes": 304888,
+   "tex_ext": ".png",
+   "note": "AAL MD81; American polished-silver scheme (replaced 2013)"
+  },
+  "X-CSL/MD81/MD81_AAY.obj": {
+   "status": "outdated",
+   "year": 2004,
+   "tex_bytes": 377282,
+   "tex_ext": ".png",
+   "note": "AAY MD81; Allegiant pre-sunset scheme"
+  },
+  "X-CSL/MD81/MD81_AMX.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 432754,
+   "tex_ext": ".png",
+   "note": "AMX MD81; Aeromexico MD-80 (retired)"
+  },
+  "X-CSL/MD81/MD81_AMX2.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 249737,
+   "tex_ext": ".png",
+   "note": "AMX MD81 2; Aeromexico MD-80 (retired)"
+  },
+  "X-CSL/MD81/MD81_AMX3.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 539566,
+   "tex_ext": ".png",
+   "note": "AMX MD81 3; Aeromexico MD-80 (retired)"
+  },
+  "X-CSL/MD81/MD81_AMX4.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 543589,
+   "tex_ext": ".png",
+   "note": "AMX MD81 4; Aeromexico MD-80 (retired)"
+  },
+  "X-CSL/MD81/MD81_AMX5.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 547128,
+   "tex_ext": ".png",
+   "note": "AMX MD81 5; Aeromexico MD-80 (retired)"
+  },
+  "X-CSL/MD81/MD81_ASA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 248694,
+   "tex_ext": ".png",
+   "note": "ASA MD81; Alaska pre-2016 scheme"
+  },
+  "X-CSL/MD81/MD81_AUA.obj": {
+   "status": "outdated",
+   "year": 1995,
+   "tex_bytes": 421911,
+   "tex_ext": ".png",
+   "note": "AUA MD81; Austrian Airlines 1990s MD-80"
+  },
+  "X-CSL/MD81/MD81_AVA.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 388097,
+   "tex_ext": ".png",
+   "note": "AVA MD81; Avianca MD-80 (retired)"
+  },
+  "X-CSL/MD81/MD81_AZA.obj": {
+   "status": "defunct",
+   "tex_bytes": 421352,
+   "tex_ext": ".png",
+   "note": "MD81 with no airline code: Alitalia (ceased 2021) (2026-10-27)"
+  },
+  "X-CSL/MD81/MD81_CSN.obj": {
+   "status": "outdated",
+   "year": 1990,
+   "tex_bytes": 474617,
+   "tex_ext": ".png",
+   "note": "CSN MD81; China Southern MD-80 (retired)"
+  },
+  "X-CSL/MD81/MD81_JAL.obj": {
+   "status": "outdated",
+   "year": 2002,
+   "tex_bytes": 359863,
+   "tex_ext": ".png",
+   "note": "JAL MD81; JAL 'arc of the sun' scheme"
+  },
+  "X-CSL/MD81/MD81_SAS.obj": {
+   "status": "outdated",
+   "year": 1998,
+   "tex_bytes": 421335,
+   "tex_ext": ".png",
+   "note": "SAS MD81; SAS MD-80 (retired 2013)"
+  }
+ }
+}

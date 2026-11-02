@@ -1,0 +1,123 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+
+jobs:
+  build:
+    name: Build (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            platform_dir: win_x64
+          - os: macos-latest
+            platform_dir: mac_x64
+          - os: ubuntu-latest
+            platform_dir: lin_x64
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      # ── Checkout ──────────────────────────────────────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ── X-Plane SDK ───────────────────────────────────────────────────────
+      # Download SDK 4.x from Laminar Research. URL verified from
+      # developer.x-plane.com/sdk/ — update XPSDK_VERSION if Laminar publishes
+      # a newer release.
+      - name: Download X-Plane SDK
+        shell: bash
+        env:
+          XPSDK_VERSION: "430"
+        run: |
+          mkdir -p vendor
+          curl -fsSL \
+            "https://developer.x-plane.com/wp-content/plugins/code-sample-generation/sdk_zip_files/XPSDK${XPSDK_VERSION}.zip" \
+            -o xpsdk.zip
+          unzip -q xpsdk.zip -d vendor/xpsdk_extract
+          # The zip extracts to an "SDK" subdirectory — locate CHeaders robustly
+          CHDR=$(find vendor/xpsdk_extract -maxdepth 3 -name "CHeaders" -type d | head -1)
+          if [ -z "$CHDR" ]; then
+            echo "ERROR: CHeaders not found in SDK zip. Check XPSDK_VERSION."
+            ls -R vendor/xpsdk_extract
+            exit 1
+          fi
+          XPSDK_ROOT=$(dirname "$CHDR")
+          echo "XPSDK_DIR=$XPSDK_ROOT" >> "$GITHUB_ENV"
+          rm -f xpsdk.zip
+
+      # ── Windows: MSVC environment ─────────────────────────────────────────
+      - name: Set up MSVC (Windows)
+        if: runner.os == 'Windows'
+        uses: ilammy/msvc-dev-cmd@v1
+        with:
+          arch: x64
+
+      # ── Linux: install Ninja and GCC ──────────────────────────────────────
+      - name: Install build tools (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y ninja-build
+
+      # ── macOS: install Ninja ──────────────────────────────────────────────
+      - name: Install build tools (macOS)
+        if: runner.os == 'macOS'
+        run: brew install ninja
+
+      # ── Configure ─────────────────────────────────────────────────────────
+      - name: Configure CMake
+        shell: bash
+        run: |
+          cmake -S plugin -B build \
+            -G Ninja \
+            -DCMAKE_BUILD_TYPE=Release \
+            "-DXPSDK_DIR=$XPSDK_DIR"
+
+      # ── Build ─────────────────────────────────────────────────────────────
+      - name: Build
+        run: cmake --build build --config Release
+
+      # ── Tests ─────────────────────────────────────────────────────────────
+      - name: Run unit tests
+        working-directory: build
+        run: ctest --output-on-failure -C Release
+
+      # ── Windows: runtime dependency guard ─────────────────────────────────
+      # The .xpl must load on a PC without the VC++ redistributable: only
+      # system DLLs and XPLM_64.dll are allowed (CRT is linked statically).
+      - name: Check DLL dependencies (Windows)
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $deps = dumpbin /nologo /dependents build/XP-GSI/win_x64/XP-GSI.xpl |
+                  Select-String '^\s+\S+\.dll\s*$' | ForEach-Object { $_.Line.Trim() }
+          $deps
+          $bad = $deps | Where-Object { $_ -match '^(msvcp|vcruntime|ucrtbase|api-ms-win-crt|libcurl)' }
+          if ($bad) { throw "Unexpected runtime DLL dependencies: $($bad -join ', ')" }
+
+      # ── Stage artifact ────────────────────────────────────────────────────
+      # The platform binary only; scripts/package_release.py assembles the
+      # release (data, LICENSES, README.txt) from the three artifacts.
+      - name: Stage artifact
+        shell: bash
+        run: |
+          STAGE="artifact/XP-GSI/${{ matrix.platform_dir }}"
+          mkdir -p "$STAGE"
+          cp build/XP-GSI/${{ matrix.platform_dir }}/XP-GSI.xpl "$STAGE/"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: XP-GSI-${{ matrix.os }}
+          path: artifact/
+
+  # ── Release zip (only on tag) ─────────────────────────────────────────────
+  # Release zip: download the three artifacts and run
+  #   python scripts/package_release.py --build build --mac <mac_x64 dir> --lin <lin_x64 dir>

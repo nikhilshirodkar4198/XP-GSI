@@ -1,0 +1,5 @@
+{
+  "conflict_radius_m": 80.0,
+  "restore_cooldown_sec": 300.0,
+  "enabled": true
+}
