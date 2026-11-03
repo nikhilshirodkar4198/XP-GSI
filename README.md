@@ -101,8 +101,10 @@ neighbours free for you. In the Zibo / LevelUp 737 you can also type
 
 - **About 900 airports with recorded traffic** (most large and medium
   airports in Europe, North America, Asia and Oceania): airlines, aircraft
-  types and their terminals follow what really parks there. Expect a good
-  match, but not a copy of any particular day.
+  types and their terminals follow what really parks there. Long-haul
+  international airlines appear only at the terminals they mainly use (at
+  O'Hare, Terminal 5). Expect a good match, but not a copy of any particular
+  day.
 - **Airports with only a Wikipedia airline list:** the right airlines in
   roughly the right proportions, with types from each airline's fleet. Where
   terminals are known they are used; otherwise airlines can appear at any
@@ -111,7 +113,9 @@ neighbours free for you. In the Zibo / LevelUp 737 you can also type
 - How good it looks depends on your **CSL library**: an airline or type it
   lacks is replaced by the closest match, or the stand is left empty.
 - Stand names, sizes and positions come from your **scenery**: a scenery with
-  few or badly sized stands gives fewer or smaller aircraft.
+  few or badly sized stands gives fewer or smaller aircraft. Only where a
+  scenery has under half the stands its traffic needs are OpenStreetMap
+  parking positions added; those have no ground markings.
 
 ## Troubleshooting
 
