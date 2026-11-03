@@ -130,6 +130,7 @@ def main():
 
     copy_data(os.path.join(ROOT, "plugin", "data"), os.path.join(pkg, "data"))
     shutil.copytree(os.path.join(ROOT, "packaging", "LICENSES"), os.path.join(pkg, "LICENSES"))
+    shutil.copyfile(os.path.join(ROOT, "LICENSE"), os.path.join(pkg, "LICENSES", "XP-GSI-LICENSE.txt"))
     with open(os.path.join(ROOT, "packaging", "README.txt"), encoding="utf-8") as f:
         readme = f.read().replace("@VERSION@", ver)
     with open(os.path.join(pkg, "README.txt"), "w", encoding="utf-8", newline="\r\n") as f:

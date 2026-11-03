@@ -2,7 +2,8 @@
 
 ## v0.9.0-beta — first public beta
 
-First public release for X-Plane 11.50+ and X-Plane 12.
+First public release for X-Plane 11.50+ and X-Plane 12. Code under the MIT
+License; derived data under ODbL 1.0 / CC BY-SA 4.0 (see LICENSES).
 
 - Parked airliners on the gates and stands of the airport you are at, in
   airline liveries from your CSL library, on the stands of your installed

@@ -60,7 +60,7 @@ Our own data
   data/csl_livery_overrides.json, data/regional_brands.json,
   data/related_types.json, data/retired_types.json,
   data/stand_overrides.json, data/cdu_adapters.json: hand-written by the
-  XP-GSI authors. No CSL model, texture or text is included in XP-GSI.
+  XP-GSI authors, MIT License (XP-GSI-LICENSE.txt). No CSL model, texture or text is included in XP-GSI.
 
 Airport stand positions are never shipped: XP-GSI reads them from the
 scenery installed in your X-Plane.

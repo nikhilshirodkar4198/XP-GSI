@@ -28,4 +28,8 @@ Full documentation: https://github.com/nikhilshirodkar4198/XP-GSI
 
 XP-GSI is an independent X-Plane project. It is not affiliated with
 GateStaticInjector for MSFS, Laminar Research / X-Plane, VATSIM, xPilot or
-any CSL library. Third-party notices and data attribution: LICENSES/
+any CSL library.
+
+XP-GSI is released under the MIT License (LICENSES/XP-GSI-LICENSE.txt); data
+derived from third-party sources keeps its own license. Third-party notices
+and data attribution: LICENSES/

@@ -133,7 +133,11 @@ neighbours free for you. In the Zibo / LevelUp 737 you can also type
   attach `XP-GSI.log` and X-Plane's `Log.txt`, with the airport, the scenery
   you use and what you expected.
 
-## Credits and data
+## License, credits and data
+
+XP-GSI's code is released under the [MIT License](LICENSE). The data files
+derived from the sources below keep those sources' licenses.
+
 
 XP-GSI is built with [Dear ImGui](https://github.com/ocornut/imgui) and
 [JSON for Modern C++](https://github.com/nlohmann/json) (both MIT); its CSL
