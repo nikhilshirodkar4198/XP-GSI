@@ -17,7 +17,8 @@ jobs:
             platform_dir: win_x64
           - os: macos-latest
             platform_dir: mac_x64
-          - os: ubuntu-latest
+          # 22.04, not latest: its glibc 2.35 lets the plugin load on older distros
+          - os: ubuntu-22.04
             platform_dir: lin_x64
 
     runs-on: ${{ matrix.os }}
@@ -104,6 +105,16 @@ jobs:
           $deps
           $bad = $deps | Where-Object { $_ -match '^(msvcp|vcruntime|ucrtbase|api-ms-win-crt|libcurl)' }
           if ($bad) { throw "Unexpected runtime DLL dependencies: $($bad -join ', ')" }
+
+      # ── macOS: universal binary guard ─────────────────────────────────────
+      # X-Plane 11 (Rosetta) and Intel Macs need x86_64, X-Plane 12 on Apple
+      # Silicon needs arm64: the .xpl must carry both.
+      - name: Check architectures (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          ARCHS=$(lipo -archs build/XP-GSI/mac_x64/XP-GSI.xpl)
+          echo "$ARCHS"
+          case "$ARCHS" in *arm64*x86_64*|*x86_64*arm64*) ;; *) echo "not universal"; exit 1;; esac
 
       # ── Stage artifact ────────────────────────────────────────────────────
       # The platform binary only; scripts/package_release.py assembles the

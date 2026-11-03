@@ -1,5 +1,14 @@
 cmake_minimum_required(VERSION 3.20)
 
+# ── macOS universal binary (arm64 + x86_64) ───────────────────────────────────
+# Deployment target 10.15 covers XP11 current user base and is XP12's minimum.
+# Must come before project(): the target architectures are fixed there, and a
+# value set later is ignored (CI built an arm64-only .xpl).
+if(CMAKE_HOST_APPLE)
+    set(CMAKE_OSX_ARCHITECTURES   "arm64;x86_64" CACHE STRING "")
+    set(CMAKE_OSX_DEPLOYMENT_TARGET "10.15"        CACHE STRING "")
+endif()
+
 project(XP-GSI
     VERSION 0.9.0
     DESCRIPTION "Gate Static Injector for X-Plane"
@@ -18,13 +27,6 @@ if(MSVC)
     set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
     # Sources are UTF-8 without BOM (em dashes in comments and strings).
     add_compile_options(/utf-8)
-endif()
-
-# ── macOS universal binary (arm64 + x86_64) ───────────────────────────────────
-# Deployment target 10.15 covers XP11 current user base and is XP12's minimum.
-if(APPLE)
-    set(CMAKE_OSX_ARCHITECTURES   "arm64;x86_64" CACHE STRING "")
-    set(CMAKE_OSX_DEPLOYMENT_TARGET "10.15"        CACHE STRING "")
 endif()
 
 # ── X-Plane SDK ───────────────────────────────────────────────────────────────
