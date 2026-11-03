@@ -66,7 +66,8 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           sudo apt-get update -q
-          sudo apt-get install -y ninja-build
+          # GL headers + libraries for find_package(OpenGL): not on the runner image
+          sudo apt-get install -y ninja-build libgl-dev libopengl-dev libglx-dev
 
       # ── macOS: install Ninja ──────────────────────────────────────────────
       - name: Install build tools (macOS)

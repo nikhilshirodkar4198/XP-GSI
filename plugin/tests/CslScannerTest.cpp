@@ -204,8 +204,10 @@ TEST_CASE("shipped csl_livery_overrides.json is valid schema 2") {
     REQUIRE_FALSE(j.is_discarded());
     CHECK(j.value("schema", 0) == 2);
     REQUIRE(j.contains("entries"));
-    for (const auto& [path, e] : j.at("entries").items()) {
-        const std::string s = e.value("status", std::string{});
+    for (const auto& item : j.at("entries").items()) {
+        // No structured binding: CHECK_MESSAGE captures `path` in a lambda (C++20).
+        const std::string path = item.key();
+        const std::string s = item.value().value("status", std::string{});
         CHECK_MESSAGE((s == "current" || s == "legacy" || s == "outdated" || s == "defunct"), path);
     }
 }

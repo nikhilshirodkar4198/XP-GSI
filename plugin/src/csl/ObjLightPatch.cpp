@@ -138,7 +138,8 @@ fs::path patchedCopy(const fs::path& obj, const fs::path& cacheDir) {
     static bool cleaned = false;
     // "v2": logo lights on xpgsi/controls/logo_lites_on (v1 used nav_lites_on).
     const std::string key = obj.generic_u8string() + '|' + std::to_string(size) + '|' +
-                            std::to_string(mtime.time_since_epoch().count()) + "|v2";
+                            // libc++'s file clock counts in __int128: no to_string for it
+                            std::to_string(static_cast<long long>(mtime.time_since_epoch().count())) + "|v2";
     {
         std::lock_guard<std::mutex> lk(mux);
         auto it = done.find(key);
