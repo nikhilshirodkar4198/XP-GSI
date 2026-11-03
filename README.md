@@ -22,7 +22,8 @@ stands of the scenery you have loaded.
 ## Requirements
 
 - X-Plane 11.50 or newer, or X-Plane 12.
-- Windows 10/11 (64-bit), macOS, or Linux (64-bit).
+- Windows 10/11 (64-bit), macOS 10.15 or newer (Intel or Apple Silicon), or
+  64-bit Linux with glibc 2.35 or newer (Ubuntu 22.04, Debian 12, Mint 21 or later).
 - A CSL model library. The easiest way is to install
   [xPilot](https://xpilot-project.org), which downloads one. CSL libraries
   under `Resources/plugins`, `Custom Data` or `Custom Scenery` are found
