@@ -168,4 +168,58 @@ TEST_CASE("without OpenStreetMap terminals, neighbouring stands form the zones")
     CHECK(TerminalZones::Zones::build(t, {}).empty());
 }
 
+// KORD-like: United's T1 with a Lufthansa stay or two, the international T2
+// where Lufthansa is a real share, T3 with nothing parked.
+AirportTable ohareLike() {
+    AirportTable t = heathrowLike();
+    t.airlines = {{"UAL", 0.9f}, {"DLH", 0.1f}};
+    t.types = {};
+    t.types["UAL"]["B738"] = 1.0f;
+    t.types["DLH"]["B738"] = 1.0f;
+    t.clusters = {cluster(-0.4990, "UAL", 100), cluster(-0.4950, "DLH", 2), cluster(-0.4650, "DLH", 10),
+                  cluster(-0.4640, "UAL", 10)};
+    return t;
+}
+
+TEST_CASE("long-haul visitors only at the terminals where they are a real share") {
+    const auto t = ohareLike();
+    const auto z = TerminalZones::Zones::build(t, {});
+    const std::map<std::string, float> visitors{{"DLH", 0.1f}};
+    CHECK_FALSE(z.visitorsWelcome(0, visitors));   // T1: 2 of 102
+    CHECK(z.visitorsWelcome(1, visitors));         // T2: 10 of 20
+    CHECK(z.visitorsWelcome(2, visitors));         // T3: no data to judge
+    CHECK(z.visitorsWelcome(-1, visitors));        // outside every terminal
+    CHECK(z.visitorsWelcome(0, {}));
+
+    // Visitors thin everywhere: no terminal stands out, none is closed.
+    auto thin = t;
+    thin.clusters = {cluster(-0.4990, "UAL", 100), cluster(-0.4950, "DLH", 2), cluster(-0.4650, "UAL", 100),
+                     cluster(-0.4640, "DLH", 2)};
+    const auto zt = TerminalZones::Zones::build(thin, {});
+    CHECK(zt.visitorsWelcome(0, visitors));
+    CHECK(zt.visitorsWelcome(1, visitors));
+
+    // A T1 gate the scenery lists for Lufthansa still never gets one; T2 does.
+    CslDb d;
+    for (const char* a : {"UAL", "DLH"}) {
+        CslVariant v;
+        v.objPaths = {std::string("/") + a + ".obj"};
+        v.airlineCode = a;
+        d["B738"].push_back(v);
+    }
+    auto ex = withZones(z);
+    ex.visitors = &visitors;
+    Stand t1 = standAt(kLat + 0.0003, -0.4950);
+    t1.airlines = {"DLH", "UAL"};
+    Stand t2 = standAt(kLat + 0.0003, -0.4650);
+    t2.airlines = {"DLH", "UAL"};
+    int t1Dlh = 0, t2Dlh = 0;
+    for (std::uint32_t seed = 1; seed <= 100; ++seed) {
+        t1Dlh += ModelSelector::selectWithTable(t1, d, t, seed * 7919u, nullptr, &ex).airline == "DLH";
+        t2Dlh += ModelSelector::selectWithTable(t2, d, t, seed * 7919u, nullptr, &ex).airline == "DLH";
+    }
+    CHECK(t1Dlh == 0);
+    CHECK(t2Dlh > 0);
+}
+
 } // TEST_SUITE

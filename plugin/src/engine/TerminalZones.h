@@ -35,6 +35,13 @@ constexpr float  kMinZoneEvidence = 5.0f;
 // not placed at that stand from the airport-wide mix.
 constexpr float  kMinAirlineStays = 5.0f;
 constexpr float  kElsewhereShare  = 0.10f;
+// Long-haul visitors (ModelSelector::longHaulVisitors) only at a terminal
+// group where they make up at least kVisitorZoneShare of the parked stays,
+// if any group does: at KORD Terminal 5 (~40 %), never United's Terminal 1
+// or American's Terminal 3 (~2 %), though Lufthansa, ANA, JAL and Iberia
+// are seen parked there now and then (towed for departure) and the scenery
+// lists ANA / BA on some of their gates.
+constexpr float  kVisitorZoneShare = 0.10f;
 
 struct Mix {
     float                                               n = 0;   // parked stays
@@ -64,6 +71,9 @@ public:
     const Mix* mixFor(int zone) const;
     // See kElsewhereShare.
     bool basedElsewhere(const std::string& airline, int zone) const;
+    // See kVisitorZoneShare. True outside every zone (-1) and when no group
+    // reaches the share (visitors spread over the airport).
+    bool visitorsWelcome(int zone, const std::map<std::string, float>& visitors) const;
 
 private:
     struct Anchor { double x, y; int zone; };   // metres east / north of ref

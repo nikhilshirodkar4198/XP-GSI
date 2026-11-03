@@ -170,9 +170,13 @@ static std::string readDataVersion(const std::filesystem::path& file) {
 // OpenStreetMap is used only if it has at least twice as many. An OSM stand
 // within kOsmDedupeM of any scenery stand is the same stand. The floor was 6;
 // at 3 a small field with 3–5 marked stands keeps only those (2026-10-27:
-// X-Plane 12's defaults, 69 → 33 airports still filled in).
+// X-Plane 12's defaults, 69 → 33 airports still filled in). kArrivalsPerStand
+// was 6: KFAT's default scenery (5 airline gates, 37 arrivals a day) got
+// OpenStreetMap positions up to 160 m from any marked stand, aircraft on bare
+// ramp; only a scenery with under half the stands it needs is filled in
+// (VABB's 9 for ~300 arrivals still is).
 constexpr double kSparseMinStands  = 3.0;
-constexpr double kArrivalsPerStand = 6.0;
+constexpr double kArrivalsPerStand = 12.0;
 constexpr double kOsmDedupeM       = 30.0;
 
 // Widebody (code E / F) share of the table's airline mix (Density::groundHours).
@@ -1177,7 +1181,8 @@ static void placeAirport() {
             for (std::size_t i = 0; i < ranked.size(); ++i) {
                 const Stand& s = ranked[i];
                 if (s.op != OpType::Airline || s.widthCode < 'E' || s.widthCode > 'F' ||
-                    !s.allowedTypes.empty() || !s.brand.empty() || s.airlinesOverridden)
+                    !s.allowedTypes.empty() || !s.brand.empty() || s.airlinesOverridden ||
+                    !zones.visitorsWelcome(zones.zoneOf(s.lat, s.lon), visitors))
                     continue;
                 float seen = 0.0f;
                 for (const auto& [a, n] : ModelSelector::areaMix(s, *table, &zones).airlines)

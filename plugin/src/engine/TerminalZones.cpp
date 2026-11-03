@@ -128,4 +128,24 @@ bool Zones::basedElsewhere(const std::string& airline, int zone) const {
     return here < kElsewhereShare * total;
 }
 
+bool Zones::visitorsWelcome(int zone, const std::map<std::string, float>& visitors) const {
+    if (visitors.empty() || zone < 0 || zone >= static_cast<int>(groupOf_.size())) return true;
+    // Visitors' share of the group's airline weights.
+    auto share = [&](const Mix& m) {
+        float v = 0.0f, all = 0.0f;
+        for (const auto& [a, n] : m.airlines) {
+            all += n;
+            if (visitors.count(a)) v += n;
+        }
+        return all > 0.0f ? v / all : 0.0f;
+    };
+    bool any = false;
+    for (const auto& g : groupMix_)
+        if (g.n >= kMinZoneEvidence && share(g) >= kVisitorZoneShare) { any = true; break; }
+    if (!any) return true;
+    // A group with too little data to say is not judged (KMIA's J concourse).
+    const Mix& mine = groupMix_[groupOf_[zone]];
+    return mine.n < kMinZoneEvidence || share(mine) >= kVisitorZoneShare;
+}
+
 } // namespace TerminalZones

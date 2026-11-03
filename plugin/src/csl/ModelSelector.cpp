@@ -421,10 +421,16 @@ Choice selectWithTable(const Stand&        stand,
                 if (allowed(v, usedSpecials) && (paintsFor(v) || (!fixedBrand && isGenericLivery(v)))) return true;
         return false;
     };
+    // Long-haul visitors only at their terminals (TerminalZones::
+    // kVisitorZoneShare), whatever the scenery lists or the area shows; a
+    // stand override's list still stands.
+    const bool visitorsBarred = extras && extras->visitors && zones && !stand.airlinesOverridden &&
+                                !zones->visitorsWelcome(zone, *extras->visitors);
     auto onlyFitting = [&](std::vector<std::pair<std::string, float>> v) {
         v.erase(std::remove_if(v.begin(), v.end(),
                                [&](const auto& kv) {
-                                   return (extras && extras->capped && extras->capped->count(kv.first)) ||
+                                   return (visitorsBarred && extras->visitors->count(kv.first)) ||
+                                          (extras && extras->capped && extras->capped->count(kv.first)) ||
                                           fittingTypes(kv.first).empty() || !drawable(kv.first);
                                }),
                 v.end());
